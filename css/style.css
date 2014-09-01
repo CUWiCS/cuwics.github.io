@@ -1,0 +1,16 @@
+html {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.tile {
+	background-attachment: fixed;
+	position: relative;
+	width: 100%;
+	min-height: 100px;
+	height: auto;
+	padding: 30px 230px; /* 230 = container padding [215] + text padding [15] */
+}
+
+#content {
+	padding-top: 50px; /* offset from top by height of navbar */
+}
