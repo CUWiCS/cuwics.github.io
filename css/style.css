@@ -14,3 +14,7 @@ html {
 #content {
 	padding-top: 50px; /* offset from top by height of navbar */
 }
+
+h1 {
+	font-weight: bold;
+}
