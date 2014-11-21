@@ -1,92 +1,68 @@
-<html>
-<head>
-	<title>Columbia University Women in Computer Science (CU WiCS)</title>
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-</head>
-<body> <!-- structure of page: navbar followed by tiles -->
-	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">CU WiCS</a>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#top">Home</a></li>
-            <li><a href="#events">Events</a></li>
-            <li><a href="#mentoring">Mentoring</a></li>
-			<li><a href="#corporate">Corporate</a></li>
-			<li><a href="#Contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+<!DOCTYPE html>
+<!-- saved from url=(0046)http://razorfish.github.io/Parallax-JS/#header -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	
+
+	<title>Parallax Demo</title>
+
+	<link href="./css/reset.css" rel="stylesheet" type="text/css">
+	<link href="./css/chrome.css" rel="stylesheet" type="text/css">
+	<link href="./css/demo1.css" rel="stylesheet" type="text/css">
+
+	<!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+	<![endif]-->
+
+	<script type="text/javascript" src="./js/jquery-1.7.1.js"></script>
+	<script type="text/javascript" src="./js/side-nav.js"></script>
+	<script type="text/javascript" src="./js/backgrounds.js"></script>
+	<script type="text/javascript" src="./js/kinetics.js"></script>
+
+	<!-- parallax.js really screws with the DOM, so make sure it's included last so other things don't notice :) -->
+	<script type="text/javascript" src="./js/parallax.js"></script>
+<style>body.section-header #nav li.header a, body.section-intel #nav li.intel a, body.section-william #nav li.william a, body.section-bing #nav li.bing a, body.section-nike #nav li.nike a, body.section-foo #nav li.foo a{ background : url( images/grey-pink-dot.png ) 0 100% no-repeat; }</style></head>
+<body class="section-header">
+	<!-- this is to make the page's vertical scrollbar appear the correct height -->
+	<div id="mock-scroller" style="height: 4949px;"></div>
+	<ul id="nav"><li class="header"><h1 style="display: none; opacity: 0; left: 15px;"><span>First Pane</span></h1><a href="./Parallax Demo_files/Parallax Demo.html">header</a></li><li class="intel"><h1 style="display: none; opacity: 0; left: 15px;"><span>Background parallax + Pause</span></h1><a href="http://razorfish.github.io/Parallax-JS/#intel">intel</a></li><li class="william"><h1 style="display: none; opacity: 0; left: 15px;"><span>Background parallax</span></h1><a href="http://razorfish.github.io/Parallax-JS/#william">william</a></li><li class="bing"><h1 style="display: none; opacity: 0; left: 15px;"><span>Background parallax</span></h1><a href="http://razorfish.github.io/Parallax-JS/#bing">bing</a></li><li class="nike"><h1><span>Nike</span></h1><a href="http://razorfish.github.io/Parallax-JS/#nike">nike</a></li><li class="foo"><h1><span>Misc. Stuff</span></h1><a href="http://razorfish.github.io/Parallax-JS/#foo">foo</a></li></ul>
+
 	<div id="content">
-	<table class="table table-striped">
-	  <tr>
-		<td>
-		  <div id="top" class="tile">
-			<h1>Columbia Women in Computer Science Club</h1>
-			
-			<h2>Mission</h2>
+		
 
-			<p>Our goal is to bring together the women of computer science in the Columbia University community. We seek to expand the opportunities and successes of women in CS. We hope to encourage prospective computer science majors, and provide direction and assistance to current computer science students. As a network for women undergraduates, graduate students, postdocs, faculty, and staff, the group promotes interaction on academic, social and professional issues.</p>
 
-			</br>
-			<a class="btn btn-default" href="https://lists.cs.columbia.edu/mailman/listinfo/cu-wics" target="_blank"> Subscribe to our mailing list</a>
-			
-			<h2>More text</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tortor nisl, viverra at nisi nec, ullamcorper bibendum mi. Maecenas massa ex, rhoncus non ultrices a, auctor a velit. Cras et dapibus mi. Ut tristique mi in purus lobortis, in efficitur odio vulputate. Nulla rhoncus tortor lorem, posuere gravida libero facilisis sit amet. </p>
+		
 
-			<p>Aenean auctor consequat justo eget ultricies. Praesent fringilla urna non risus ullamcorper viverra sit amet nec dui. Pellentesque iaculis sodales odio. Donec ut ex erat. Nulla rutrum orci lacus, quis lobortis arcu condimentum non.</p>
 
-			<p>Nulla sed lorem urna. Integer sollicitudin urna quis erat volutpat, ut maximus lorem cursus. Phasellus a ultrices quam. Nunc in augue facilisis, commodo odio vitae, commodo magna. Etiam fringilla lectus ipsum, eget hendrerit ante convallis nec. </p>
+		
 
-			<p>Ut aliquam suscipit nibh, suscipit finibus justo molestie in. Vivamus dapibus, ipsum a bibendum semper, lorem dolor ultrices sapien, sed hendrerit nisl nibh nec magna. Praesent faucibus nisl at lacinia porta. Morbi in odio felis. Vivamus scelerisque, leo eu dignissim blandit, mauris nulla gravida mauris, sit amet lobortis lorem risus ut ex. Pellentesque auctor eros ut consequat placerat. Duis turpis libero, vehicula et ullamcorper eget, imperdiet ac ex. Vivamus aliquam aliquam magna vitae vulputate.</p>
-			
-			<p>Praesent vel eleifend odio, nec tempus lorem. Praesent efficitur blandit sem id semper. Praesent malesuada risus eu sem consectetur posuere. Vivamus vel vulputate leo. Nam ornare consectetur eros, ut hendrerit magna consectetur non. Proin efficitur augue non dolor iaculis venenatis. Sed ut nulla odio. Aenean interdum, eros vitae aliquam tempor, lacus magna iaculis augue, id accumsan felis nisl ut dui. Nullam vitae ante nisl. Sed lobortis dolor turpis, in laoreet tortor scelerisque a. Maecenas faucibus vestibulum massa vitae varius.</p>
-		  </div>
-		</td>
-	  </tr>
-	  <tr>
-		<td>
-		  <div id="events" class="tile">
-		    <h1>Events</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tortor nisl, viverra at nisi nec, ullamcorper bibendum mi. Maecenas massa ex, rhoncus non ultrices a, auctor a velit. Cras et dapibus mi. Ut tristique mi in purus lobortis, in efficitur odio vulputate. Nulla rhoncus tortor lorem, posuere gravida libero facilisis sit amet. </p>
 
-			<p>Aenean auctor consequat justo eget ultricies. Praesent fringilla urna non risus ullamcorper viverra sit amet nec dui. Pellentesque iaculis sodales odio. Donec ut ex erat. Nulla rutrum orci lacus, quis lobortis arcu condimentum non.</p>
+		
 
-			<p>Nulla sed lorem urna. Integer sollicitudin urna quis erat volutpat, ut maximus lorem cursus. Phasellus a ultrices quam. Nunc in augue facilisis, commodo odio vitae, commodo magna. Etiam fringilla lectus ipsum, eget hendrerit ante convallis nec. </p>
 
-			<p>Ut aliquam suscipit nibh, suscipit finibus justo molestie in. Vivamus dapibus, ipsum a bibendum semper, lorem dolor ultrices sapien, sed hendrerit nisl nibh nec magna. Praesent faucibus nisl at lacinia porta. Morbi in odio felis. Vivamus scelerisque, leo eu dignissim blandit, mauris nulla gravida mauris, sit amet lobortis lorem risus ut ex. Pellentesque auctor eros ut consequat placerat. Duis turpis libero, vehicula et ullamcorper eget, imperdiet ac ex. Vivamus aliquam aliquam magna vitae vulputate.</p>
-			
-			<p>Praesent vel eleifend odio, nec tempus lorem. Praesent efficitur blandit sem id semper. Praesent malesuada risus eu sem consectetur posuere. Vivamus vel vulputate leo. Nam ornare consectetur eros, ut hendrerit magna consectetur non. Proin efficitur augue non dolor iaculis venenatis. Sed ut nulla odio. Aenean interdum, eros vitae aliquam tempor, lacus magna iaculis augue, id accumsan felis nisl ut dui. Nullam vitae ante nisl. Sed lobortis dolor turpis, in laoreet tortor scelerisque a. Maecenas faucibus vestibulum massa vitae varius.</p>
-		  </div>
-		</td>
-	  </tr>
-	  <tr>
-		<td>
-		  <div id="mentoring" class="tile">
-			<h1>Mentoring</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tortor nisl, viverra at nisi nec, ullamcorper bibendum mi. Maecenas massa ex, rhoncus non ultrices a, auctor a velit. Cras et dapibus mi. Ut tristique mi in purus lobortis, in efficitur odio vulputate. Nulla rhoncus tortor lorem, posuere gravida libero facilisis sit amet. </p>
+		
 
-			<p>Aenean auctor consequat justo eget ultricies. Praesent fringilla urna non risus ullamcorper viverra sit amet nec dui. Pellentesque iaculis sodales odio. Donec ut ex erat. Nulla rutrum orci lacus, quis lobortis arcu condimentum non.</p>
 
-			<p>Nulla sed lorem urna. Integer sollicitudin urna quis erat volutpat, ut maximus lorem cursus. Phasellus a ultrices quam. Nunc in augue facilisis, commodo odio vitae, commodo magna. Etiam fringilla lectus ipsum, eget hendrerit ante convallis nec. </p>
+		
+	<section id="story-header" class="" style="visibility: visible; top: 0px; -webkit-transform: translate3d(0px, 0px, 0px);">
+			<div class="story">
+				<div id="logo">
+					<img src="./images/razorfish-logo.png" width="184" height="32">
+				</div>
 
-			<p>Ut aliquam suscipit nibh, suscipit finibus justo molestie in. Vivamus dapibus, ipsum a bibendum semper, lorem dolor ultrices sapien, sed hendrerit nisl nibh nec magna. Praesent faucibus nisl at lacinia porta. Morbi in odio felis. Vivamus scelerisque, leo eu dignissim blandit, mauris nulla gravida mauris, sit amet lobortis lorem risus ut ex. Pellentesque auctor eros ut consequat placerat. Duis turpis libero, vehicula et ullamcorper eget, imperdiet ac ex. Vivamus aliquam aliquam magna vitae vulputate.</p>
-			
-			<p>Praesent vel eleifend odio, nec tempus lorem. Praesent efficitur blandit sem id semper. Praesent malesuada risus eu sem consectetur posuere. Vivamus vel vulputate leo. Nam ornare consectetur eros, ut hendrerit magna consectetur non. Proin efficitur augue non dolor iaculis venenatis. Sed ut nulla odio. Aenean interdum, eros vitae aliquam tempor, lacus magna iaculis augue, id accumsan felis nisl ut dui. Nullam vitae ante nisl. Sed lobortis dolor turpis, in laoreet tortor scelerisque a. Maecenas faucibus vestibulum massa vitae varius.</p>
-		  </div>
-		</td>
-	  </tr>
-	</table>
-	</div>
-	
-	<!-- scripts -->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-</body>
-</html>
+				<h2>First Pane</h2>
+				<p>This is the first slide.  Nothing much to see, just pointing it out.</p>
+				<p>Scroll Down</p>
+			</div>
+		</section><section id="story-intel" anim-pause="1000" class="" style="visibility: visible; top: 0px; -webkit-transform: translate3d(0px, 658px, 0px);">
+			<img class="bg animate" src="./images/intel-bg-01.jpg" anim-detached="true" style="width: 100%; height: auto; top: 0px; -webkit-transform: translate3d(0px, -329px, 0px);">
+			<div class="story">
+				<div>
+					<h2>Background parallax + Pause</h2>
+					<p>
+						You'll notice that this page "locks" for a while.  This feature is optional and the pause length can be controlled.
+					</p>
+				</div>
+			</div>
+		</section></div>
+
+</body></html>

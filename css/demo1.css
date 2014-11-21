@@ -1,0 +1,171 @@
+/***************
+ * Intro Panel *
+ ***************/
+#story-header {
+	color : #666;
+}
+
+#story-header #logo {
+	margin : 20px 0 50px 0;
+}
+
+#story-header h2 {
+	font-family: "Caecilia-Roman", Verdana, sans-serif;
+}
+
+#story-header .story {
+	width         : 850px;
+	padding-right : 0px;
+}
+
+#story-header p {
+	width     : 800px;
+	font-size : 16px;
+}
+
+#story-header ul li {
+	font-size : 16px;
+	margin    : 16px 0;
+}
+
+#story-header ul {
+	padding : 0px;
+}
+
+/***************
+ * Intel Panel *
+ ***************/
+#story-intel {
+	color      : #FFF;
+	background : #022639;
+}
+
+/*********************
+ * Ultrabook Project *
+ *********************/
+#story-william {
+	color      : #CCC;
+	background : #000;
+}
+
+#story-william .bg {
+	left  : auto;
+	right : 0px;
+}
+
+/**************
+ * Bing Panel *
+ **************/
+#story-bing {
+	color       : #FFF;
+	text-shadow : 1px 1px 1px #000;
+	background  : #C9BC33;
+}
+
+#story-bing .logo {
+	position : absolute;
+	right    : 20%;
+	bottom   : 50%;
+}
+
+#story-bing .logo.start {
+	bottom : 190%;
+}
+
+#story-bing .logo.end {
+	bottom : -90%;
+}
+
+/**************
+ * Nike Panel *
+ **************/
+#story-nike {
+	color      : #CCC;
+	background : #000;
+}
+
+#story-nike .logo {
+	position : absolute;
+	right    : 0%;
+	bottom   : 30%;
+}
+
+#story-nike .logo.start {
+	bottom : 170%;
+}
+
+#story-nike .logo.end {
+	bottom : -210%;
+}
+
+#story-nike .box {
+	background    : #000;
+	opacity       : .7;
+	border-radius : 10px;
+	position      : absolute;
+	top           : -10px;
+	right         : 440px;
+	bottom        : -10px;
+	left          : -10px;
+	z-index       : -1;
+}
+
+#story-nike ul.slide {
+	display     : block;
+	position    : absolute;
+	white-space : nowrap;
+	left        : -1426px;
+}
+
+#story-nike ul.slide.start {
+	left : -1425px;
+}
+
+#story-nike ul.slide li {
+	display : inline;
+}
+
+#story-nike ul.slide-1.start { opacity : 0; }
+#story-nike ul.slide-2.start { opacity : 0; }
+#story-nike ul.slide-3.start { opacity : 0; }
+
+#story-nike ul.slide-1 {
+	bottom : 0px;
+}
+
+#story-nike ul.slide-2, #story-nike ul.slide-2.to {
+	bottom : 176px;
+	left   : -1425px;
+}
+
+#story-nike ul.slide-2.start {
+	left : -1426px;
+}
+
+#story-nike ul.slide-3 {
+	bottom : 352px;
+}
+
+
+#story-nike ul.slide-1.to, #story-nike ul.slide-3.to {
+	left : -1425px;
+}
+
+#story-nike ul.slide-1.end {
+	right : 0px;
+	left  : auto;
+}
+
+#story-nike ul.slide-3.end {
+	right : 1200px;
+	left  : auto;
+}
+
+
+#story-nike ul.slide-2.to {
+	right : 0px;
+}
+
+#story-nike ul.slide-2.end {
+	left : 200px;
+}
