@@ -6,6 +6,8 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+	<link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	
 	<title>Classic parallax page</title>
 
 	<style type="text/css">
@@ -119,12 +121,20 @@
 </head>
 
 <body>
+	<ul>
+		<li><a href="#awesome">#awesome</a></li>
+		<li><a href="#wambo">150px before #wambo</a></li>
+		<li><a href="#section1" data-menu-top="1000">1000 pixels down</a></li>
+		<li><a href="#awesome" data-menu-top="75p">75% down</a></li>
+		<li><a href="#awesome" data-menu-duration="5000">#awesome over 5 seconds</a></li>
+	</ul>
 	<!--
 		We position the images fixed and therefore need to place them outside of #skrollr-body.
 		We will then use data-anchor-target to display the correct image matching the current section (.gap element).
 	-->
 
 	<div
+		id="awesome"
 		class="parallax-image-wrapper parallax-image-wrapper-100"
 		data-anchor-target="#dragons + .gap"
 		data-bottom-top="transform:translate3d(0px, 200%, 0px)"
@@ -170,7 +180,7 @@
 		></div>
 	</div>
 
-	<div id="skrollr-body">
+	<div id="skrollr-body wambo">
 		<div class="header" id="dragons">
 			Skrollr demo of classic parallax sections. Degrades without JavaScript (could be disabled on mobile without breaking everything).
 		</div>
@@ -180,7 +190,7 @@
 
 			<p>Landjaeger spare ribs chicken ball tip, filet mignon frankfurter ribeye tenderloin corned beef. Strip steak boudin pork loin, chicken turkey ball tip beef ribs ground round shank ham hock. Kevin capicola beef, chuck pork chop shoulder brisket doner meatloaf shank ham hock tenderloin. Chuck ham hock short ribs ground round sausage prosciutto shoulder bacon andouille tri-tip beef biltong filet mignon chicken. Pork belly andouille shank, bacon sausage meatloaf bresaola pork chop short ribs t-bone. Ham hock salami porchetta bacon beef turkey, strip steak kielbasa pancetta brisket meatball t-bone.</p>
 
-			<p>Chicken pancetta capicola chuck, turkey meatball jerky frankfurter kielbasa ball tip bacon ground round. Beef ribs brisket meatloaf short ribs landjaeger shankle spare ribs sausage, pancetta swine sirloin flank. Tail shank chuck pancetta, ham meatloaf short ribs sausage rump turkey kevin pork chop landjaeger. Doner boudin short ribs t-bone, jerky shankle bresaola drumstick. Strip steak shank spare ribs boudin doner short ribs. Boudin prosciutto jowl tenderloin tongue beef ribs, short ribs salami short loin strip steak ham jerky. Shank pancetta beef ribs, corned beef ham hock pork belly drumstick tail bresaola chuck.</p>
+			<p id="section1">Chicken pancetta capicola chuck, turkey meatball jerky frankfurter kielbasa ball tip bacon ground round. Beef ribs brisket meatloaf short ribs landjaeger shankle spare ribs sausage, pancetta swine sirloin flank. Tail shank chuck pancetta, ham meatloaf short ribs sausage rump turkey kevin pork chop landjaeger. Doner boudin short ribs t-bone, jerky shankle bresaola drumstick. Strip steak shank spare ribs boudin doner short ribs. Boudin prosciutto jowl tenderloin tongue beef ribs, short ribs salami short loin strip steak ham jerky. Shank pancetta beef ribs, corned beef ham hock pork belly drumstick tail bresaola chuck.</p>
 		</div>
 		<div class="gap gap-100" style="background-image:url(images/kitteh2.jpg);"></div>
 		<div class="content content-full" id="kittens">
@@ -192,12 +202,24 @@
 		</div>
 	</div>
 
-	<script type="text/javascript" src="../dist/skrollr.min.js"></script>
+	<script type="text/javascript" src="./js/skrollr.min.js"></script>
+	<script type="text/javascript" src="./js/skrollr.menu.min.js"></script>
 	<script type="text/javascript">
 	skrollr.init({
 		smoothScrolling: false,
 		mobileDeceleration: 0.004
 	});
+	</script>
+	
+	// from skrollr-menu
+	<script type="text/javascript">
+		setTimeout(function() {
+			var s = skrollr.init({
+				forceHeight: false
+			});
+
+			skrollr.menu.init(s);
+		}, 500);
 	</script>
 </body>
 
