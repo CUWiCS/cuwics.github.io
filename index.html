@@ -9,52 +9,63 @@
 	<link href="./css/chrome.css" rel="stylesheet" type="text/css">
 	<link href="./css/demo1.css" rel="stylesheet" type="text/css">
 
-	<!--[if lt IE 9]>
-		<script src="js/html5.js"></script>
-	<![endif]-->
-
 	<script type="text/javascript" src="./js/jquery-1.7.1.js"></script>
 	<script type="text/javascript" src="./js/side-nav.js"></script>
 	<script type="text/javascript" src="./js/backgrounds.js"></script>
 	<script type="text/javascript" src="./js/kinetics.js"></script>
-
 	<!-- parallax.js really screws with the DOM, so make sure it's included last so other things don't notice :) -->
 	<script type="text/javascript" src="./js/parallax.js"></script>
-<style>body.section-header #nav li.header a, body.section-intel #nav li.intel a, body.section-william #nav li.william a, body.section-bing #nav li.bing a, body.section-nike #nav li.nike a, body.section-foo #nav li.foo a{ background : url( images/grey-pink-dot.png ) 0 100% no-repeat; }</style></head>
+</head>
+
 <body class="section-header">
 	<!-- this is to make the page's vertical scrollbar appear the correct height -->
 	<div id="mock-scroller" style="height: 4949px;"></div>
-	<ul id="nav"><li class="header"><h1 style="display: none; opacity: 0; left: 15px;"><span>First Pane</span></h1><a href="./Parallax Demo_files/Parallax Demo.html">header</a></li><li class="intel"><h1 style="display: none; opacity: 0; left: 15px;"><span>Background parallax + Pause</span></h1><a href="http://razorfish.github.io/Parallax-JS/#intel">intel</a></li><li class="william"><h1 style="display: none; opacity: 0; left: 15px;"><span>Background parallax</span></h1><a href="http://razorfish.github.io/Parallax-JS/#william">william</a></li><li class="bing"><h1 style="display: none; opacity: 0; left: 15px;"><span>Background parallax</span></h1><a href="http://razorfish.github.io/Parallax-JS/#bing">bing</a></li><li class="nike"><h1><span>Nike</span></h1><a href="http://razorfish.github.io/Parallax-JS/#nike">nike</a></li><li class="foo"><h1><span>Misc. Stuff</span></h1><a href="http://razorfish.github.io/Parallax-JS/#foo">foo</a></li></ul>
-
-	<div id="content">
+	
+	<!-- this is the navbar styles -->
+	<ul id="nav">
+		<li class="top">
+			<h1>First Pane</h1>
+			<a href="./Parallax Demo_files/Parallax Demo.html">header</a>
+		</li>
 		
-
-
+		<li class="intel">
+			<h1>Background parallax + Pause</h1>
+			<a href="http://razorfish.github.io/Parallax-JS/#intel">intel</a>
+		</li>
 		
-
-
+		<li class="william">
+			<span>Background parallax</span>
+			<a href="http://razorfish.github.io/Parallax-JS/#william">william</a>
+		</li>
 		
-
-
+		<li class="bing">
+			<h1>Background parallax</h1>
+			<a href="http://razorfish.github.io/Parallax-JS/#bing">bing</a>
+		</li>
 		
-
-
+		<li class="nike"><h1>Nike</h1>
+			<a href="http://razorfish.github.io/Parallax-JS/#nike">nike</a>
+		</li>
 		
+		<li class="foo"><h1>Misc. Stuff</h1>
+		<a href="http://razorfish.github.io/Parallax-JS/#foo">foo</a>
+		</li>
+	</ul>
 
-
-		
-	<section id="story-header" class="" style="visibility: visible; top: 0px; -webkit-transform: translate3d(0px, 0px, 0px);">
+	<div id="content"> <!-- This is where the actual slides are -->	
+	<section id="story-top" class="" style="visibility: visible; top: 0px; -webkit-transform: translate3d(0px, 0px, 0px);">
 			<div class="story">
 				<div id="logo">
 					<img src="./images/razorfish-logo.png" width="184" height="32">
 				</div>
 
 				<h2>First Pane</h2>
-				<p>This is the first slide.  Nothing much to see, just pointing it out.</p>
+				<p>This is the first slide. Nothing much to see, just pointing it out.</p>
 				<p>Scroll Down</p>
 			</div>
-		</section><section id="story-intel" anim-pause="1000" class="" style="visibility: visible; top: 0px; -webkit-transform: translate3d(0px, 658px, 0px);">
-			<img class="bg animate" src="./images/intel-bg-01.jpg" anim-detached="true" style="width: 100%; height: auto; top: 0px; -webkit-transform: translate3d(0px, -329px, 0px);">
+		</section>
+		
+		<section id="story-intel" anim-pause="1000" class="" style="visibility: visible; top: 0px; -webkit-transform: translate3d(0px, 658px, 0px);">
 			<div class="story">
 				<div>
 					<h2>Background parallax + Pause</h2>
@@ -63,6 +74,7 @@
 					</p>
 				</div>
 			</div>
-		</section></div>
+		</section>'
+	</div> <!-- end content -->
 
 </body></html>

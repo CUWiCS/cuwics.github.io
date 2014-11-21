@@ -2,6 +2,23 @@ html {
   font-family: 'Ubuntu', sans-serif;
 }
 
+body.section-header #nav li.header a, 
+body.section-intel #nav li.intel a, 
+body.section-william #nav li.william a, 
+body.section-bing #nav li.bing a, 
+body.section-nike #nav li.nike a, 
+body.section-foo #nav li.foo 
+a
+{ 
+	background : url( images/grey-pink-dot.png ) 0 100% no-repeat; 
+}
+
+h1 {
+	display: none; 
+	opacity: 0; 
+	left: 15px;
+}
+
 .tile {
 	background-attachment: fixed;
 	position: relative;
