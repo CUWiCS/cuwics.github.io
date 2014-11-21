@@ -6,6 +6,7 @@ h1 {
 	font-weight: bold;
 }
 
+/** every section is a slide. i.e. events is a slide, contact is a slide, etc. **/
 .slide {
 	margin-top: 160px;
 	margin-bottom: 160px;
