@@ -6,6 +6,11 @@ h1 {
 	font-weight: bold;
 }
 
+#under-logo {
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
 /** every section is a slide. i.e. events is a slide, contact is a slide, etc. **/
 .slide {
 	margin-top: 160px;
