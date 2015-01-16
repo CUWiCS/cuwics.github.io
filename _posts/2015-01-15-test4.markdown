@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Test 4"
+date:   2015-01-11 00:39:30
+categories: test
+---
+
+Hi WiCS!!

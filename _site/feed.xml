@@ -6,9 +6,100 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 Jan 2015 00:41:33 -0500</pubDate>
-    <lastBuildDate>Sun, 11 Jan 2015 00:41:33 -0500</lastBuildDate>
+    <pubDate>Thu, 15 Jan 2015 23:42:30 -0500</pubDate>
+    <lastBuildDate>Thu, 15 Jan 2015 23:42:30 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Test 7</title>
+        <description>&lt;p&gt;Hi WiCS!!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Jan 2015 19:39:30 -0500</pubDate>
+        <link>http://yourdomain.com/test/2015/01/10/test7.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/test/2015/01/10/test7.html</guid>
+        
+        
+        <category>test</category>
+        
+      </item>
+    
+      <item>
+        <title>Test 6</title>
+        <description>&lt;p&gt;Hi WiCS!!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Jan 2015 19:39:30 -0500</pubDate>
+        <link>http://yourdomain.com/test/2015/01/10/test6.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/test/2015/01/10/test6.html</guid>
+        
+        
+        <category>test</category>
+        
+      </item>
+    
+      <item>
+        <title>Test 5</title>
+        <description>&lt;p&gt;Hi WiCS!!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Jan 2015 19:39:30 -0500</pubDate>
+        <link>http://yourdomain.com/test/2015/01/10/test5.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/test/2015/01/10/test5.html</guid>
+        
+        
+        <category>test</category>
+        
+      </item>
+    
+      <item>
+        <title>Test 4</title>
+        <description>&lt;p&gt;Hi WiCS!!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Jan 2015 19:39:30 -0500</pubDate>
+        <link>http://yourdomain.com/test/2015/01/10/test4.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/test/2015/01/10/test4.html</guid>
+        
+        
+        <category>test</category>
+        
+      </item>
+    
+      <item>
+        <title>Test 3</title>
+        <description>&lt;p&gt;Hi WiCS!!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Jan 2015 19:39:30 -0500</pubDate>
+        <link>http://yourdomain.com/test/2015/01/10/test3.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/test/2015/01/10/test3.html</guid>
+        
+        
+        <category>test</category>
+        
+      </item>
+    
+      <item>
+        <title>Test 2</title>
+        <description>&lt;p&gt;Hi WiCS!!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Jan 2015 19:39:30 -0500</pubDate>
+        <link>http://yourdomain.com/test/2015/01/10/test2.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/test/2015/01/10/test2.html</guid>
+        
+        
+        <category>test</category>
+        
+      </item>
+    
+      <item>
+        <title>Test 1</title>
+        <description>&lt;p&gt;Hi WiCS!!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Jan 2015 19:39:30 -0500</pubDate>
+        <link>http://yourdomain.com/test/2015/01/10/test1.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/test/2015/01/10/test1.html</guid>
+        
+        
+        <category>test</category>
+        
+      </item>
     
       <item>
         <title>Testing!!</title>
