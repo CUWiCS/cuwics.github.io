@@ -50,7 +50,7 @@ h1,h2,h3 {
 
 /** every section is a slide. i.e. events is a slide, contact is a slide, etc. **/
 .slide {
-	margin-left: 250px;
+	margin-left: 500px;
 	margin-right: 250px;
 	margin-top: 160px;
 	margin-bottom: 160px;

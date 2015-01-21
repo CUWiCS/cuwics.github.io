@@ -1,0 +1,190 @@
+a {
+	text-decoration: none !important;
+}
+
+.wics-logo {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 10px;
+}
+
+.board-class {
+	margin-top: -15px !important;
+}
+
+.btn-bottom {
+	margin-bottom: 35px; 
+}
+
+.btn-lg {
+	padding: 10px 20px;
+	border-color: #75B2DD;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #75B2DD;
+}
+
+.btn-lg:hover {
+	color: #fff;
+	background-color: #fec503;
+	border-color: #fec503;
+}
+
+.btn-primary {
+	border-color: #679FC7 !important;
+}
+
+.calendar-margin {
+	margin-top: -70px;
+}
+
+.calendarModal-margin {
+	margin-bottom: 0px;
+}
+
+.clients {
+	margin-top: -100px !important;
+}
+
+.circle-logo {
+	height:112px;
+	width:112px;
+	position: absolute;
+	left: 0;
+	/*width: 100%;*/
+	text-align: center;
+	display:inline-block;
+}
+
+ul.header-buttons {
+    margin-bottom: 0;
+}
+
+ul.header-buttons li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 30px;
+    line-height: 50px;
+    outline: 0;
+    color: #fff;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.header-buttons li a:hover,
+ul.header-buttons li a:focus,
+ul.header-buttons li a:active {
+    color: #75B2DD;
+}
+
+.events-box {
+	line-height: 1.2;
+	margin-top: 10px !important;
+}
+
+.events-header {
+	height:260px;
+	width:360px;
+}
+
+.outer{
+	width:100%;
+	text-align: center;
+}
+
+.inquiry{
+	float:left;
+    background-color: #fff;
+    padding:6px 12px;
+    font-size: 16px;
+    /*text-transform: uppercase;*/
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#999;
+}
+
+.inquiry-left{
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.inquiry-right{
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.intro-margin {
+	margin-top: -100px;
+}
+
+#loading-gif {
+	margin-bottom: 25px;
+/*	height: 50px;
+	width: 50px;*/
+}
+
+.mail-box {
+	background-color: #75B2DD;
+	border-radius: 4px;
+	padding:20px;
+	height: 236px;
+	text-align: left;
+}
+
+.mentorship-img {
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    margin-bottom: 0px !important;
+}
+
+.mentorship-pic {
+	text-align: center;
+	margin-bottom: 30px;
+	width:100%;
+}
+
+.modal-title {
+	color:#75B2DD;
+}
+
+.modal-title:hover{
+	color:#75B2DD;
+}
+
+.modal-vertical-centered {
+  transform: translate(0, 50%) !important;
+  -ms-transform: translate(0, 50%) !important; /* IE 9 */
+  -webkit-transform: translate(0, 50%) !important; /* Safari and Chrome */
+}
+
+.nonbullet {
+	list-style: none;
+}
+
+.panel-date {
+	color: #777;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-weight: 300;
+}
+
+.primary-inverted {
+	background-color: #fff !important;
+	color: #75B2DD !important;
+	border-color: #EFEFEF !important;
+}
+
+.primary-inverted:hover {
+	background-color: #EFEFEF !important;
+}
+
+
