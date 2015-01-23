@@ -11,7 +11,7 @@ textarea {
 
 @font-face {
 	font-family: choplin;
-	src: url(choplin_m_demo.otf);
+	src: url(../fonts/choplin_m_demo.otf);
 }
 html, body {
 	font-family: 'Roboto', sans-serif;
