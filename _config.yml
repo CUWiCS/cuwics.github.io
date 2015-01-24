@@ -2,11 +2,9 @@
 title: Women in Computer Science @ Columbia University
 email: cu.wics@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  WiCS aims to bring together women and men who support the advancement of women in computer science in academia and in industry. We support and encourage prospective computer science majors and provide direction and assistance to current computer science students. 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://cuwics.github.io" # the base hostname & protocol for your site
 twitter_username: cu_wics
 github_username:  cuwics
 
