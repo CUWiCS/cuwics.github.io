@@ -1,5 +1,14 @@
+@font-face {
+	font-family: choplin;
+	src: url(../fonts/choplin_m_demo.otf);
+}
+
 a {
 	text-decoration: none !important;
+}
+
+.header-cu {
+	font-family: choplin !important;
 }
 
 .wics-logo {
@@ -7,6 +16,17 @@ a {
 	height: 50px;
 	float: left;
 	margin-right: 10px;
+}
+
+.add-calendar {
+	text-transform: uppercase;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 700;
+	color:#75B2DD;
+}
+
+.add-calendar:hover {
+	color:#679FC7;
 }
 
 .board-class {
