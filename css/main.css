@@ -53,7 +53,7 @@ a:hover{
 	background-color: #75B2DD;
 }
 
-.btn-lg:hover {
+.btn-lg:hover, .btn-lg:active {
 	color: #fff !important;
 	background-color: #559AE8;
 	border-color: #559AE8;
@@ -68,7 +68,7 @@ a:hover{
 	border-color: #559AE8 !important;
 }
 
-.btn-xl:hover {
+.btn-xl:hover, .btn-xl:active {
 	color: #fff !important;
 	background-color: #559AE8 !important;
 	border-color: #559AE8 !important;
