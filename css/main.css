@@ -7,6 +7,10 @@ a {
 	text-decoration: none !important;
 }
 
+a:hover{
+	color:#559AE8 !important;
+}
+
 .header-cu {
 	font-family: choplin !important;
 }
@@ -26,7 +30,7 @@ a {
 }
 
 .add-calendar:hover {
-	color:#679FC7;
+	color:#559AE8;
 }
 
 .board-class {
@@ -50,13 +54,24 @@ a {
 }
 
 .btn-lg:hover {
-	color: #fff;
-	background-color: #fec503;
-	border-color: #fec503;
+	color: #fff !important;
+	background-color: #559AE8;
+	border-color: #559AE8;
 }
 
-.btn-primary {
-	border-color: #679FC7 !important;
+.btn-primary, {
+	border-color: #559AE8 !important;
+}
+
+.btn-primary.active, .btn-primary:hover {
+	background-color:#559AE8 !important;
+	border-color: #559AE8 !important;
+}
+
+.btn-xl:hover {
+	color: #fff !important;
+	background-color: #559AE8 !important;
+	border-color: #559AE8 !important;
 }
 
 .calendar-margin {
@@ -76,7 +91,6 @@ a {
 	width:112px;
 	position: absolute;
 	left: 0;
-	/*width: 100%;*/
 	text-align: center;
 	display:inline-block;
 }
@@ -115,6 +129,20 @@ ul.header-buttons li a:active {
 	width:360px;
 }
 
+li>a:hover{
+	color:#fff !important;
+}
+
+.fa:hover {
+	color:#fff !important;
+}
+
+td>a:hover {
+	color:#fff !important;
+	background-color: #75B2DD;
+	border-color:  #75B2DD; 
+}
+
 .outer{
 	width:100%;
 	text-align: center;
@@ -125,7 +153,6 @@ ul.header-buttons li a:active {
     background-color: #fff;
     padding:6px 12px;
     font-size: 16px;
-    /*text-transform: uppercase;*/
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color:#999;
 }
@@ -140,14 +167,16 @@ ul.header-buttons li a:active {
 	border-bottom-right-radius: 4px;
 }
 
+.inquiries {
+	border-color: #559AE8 !important;
+}
+
 .intro-margin {
 	margin-top: -100px;
 }
 
 #loading-gif {
 	margin-bottom: 25px;
-/*	height: 50px;
-	width: 50px;*/
 }
 
 .mail-box {
@@ -186,8 +215,21 @@ ul.header-buttons li a:active {
   -webkit-transform: translate(0, 50%) !important; /* Safari and Chrome */
 }
 
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
+	color:#559AE8 !important;
+}
+
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color: #559AE8 !important;
+	color:#fff !important;
+}
+
 .nonbullet {
 	list-style: none;
+}
+
+.page-scroll:hover{
+	color: #75B2DD !important;
 }
 
 .panel-date {
@@ -204,7 +246,9 @@ ul.header-buttons li a:active {
 }
 
 .primary-inverted:hover {
-	background-color: #EFEFEF !important;
+	background-color: #fff !important;
+	border-color: #fff !important;
+	color: #559AE8 !important;
 }
 
 
