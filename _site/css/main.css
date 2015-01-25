@@ -239,6 +239,10 @@ td>a:hover {
 	font-weight: 300;
 }
 
+.panel-title > a {
+	color:#75B2DD ;
+}
+
 .primary-inverted {
 	background-color: #fff !important;
 	color: #75B2DD !important;
