@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Women in Computer Science @ Columbia University</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>WiCS aims to bring together women and men who support the advancement of women in computer science in academia and in industry. We support and encourage prospective computer science majors and provide direction and assistance to current computer science students. 
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 24 Jan 2015 16:55:10 -0500</pubDate>
-    <lastBuildDate>Sat, 24 Jan 2015 16:55:10 -0500</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <link>http://cuwics.github.io/</link>
+    <atom:link href="http://cuwics.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 24 Jan 2015 19:38:21 -0500</pubDate>
+    <lastBuildDate>Sat, 24 Jan 2015 19:38:21 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Hello World WiCS!</title>
@@ -20,8 +20,8 @@
 
 </description>
         <pubDate>Wed, 21 Jan 2015 19:20:20 -0500</pubDate>
-        <link>http://yourdomain.com/news/2015/01/21/hello-world.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/news/2015/01/21/hello-world.html</guid>
+        <link>http://cuwics.github.io/news/2015/01/21/hello-world/</link>
+        <guid isPermaLink="true">http://cuwics.github.io/news/2015/01/21/hello-world/</guid>
         
         
         <category>news</category>
