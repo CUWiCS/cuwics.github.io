@@ -8,11 +8,10 @@ It features a smooth scrolling one page theme, with an external blogging section
 How to make a blog post:
 
 1. create a new file inside _posts/year named year-month-day-postTitle.markdown where year-month-day is the date you wish to publish, and postTitle is the title of the post.
-2. Every post should include YAML front matter and is written with Markdown.
-   http://jekyllrb.com/docs/frontmatter/
+2. Every post should include YAML front matter and is written with Markdown.  
+   http://jekyllrb.com/docs/frontmatter/  
    http://jekyllrb.com/docs/posts/
 3. The basic front matter to include (including the 3 dashes):
-
 ```
 ---
 layout: post
@@ -21,10 +20,9 @@ date: year-month-day
 categories: news
 ---
 ```
-
 4. You can continue typing anything below that. For formatting, links, and images look up how to do that with Markdown! Otherwise, browse around existing posts to see examples.
 5. To test how the post will look locally, run "jekyll serve" from root folder.
 
-How to style the blog:
+How to style the blog:  
 1. The homepage is in blog.html. This file only includes the posts section of the page. The rest of the page is in _layouts/blog.html. The blog.html in the root folder is included in the section marked {{ content }} inside _layouts/blog.html. This "layout" file includes head.html and footer.html which are located in the same folder. Head.html includes css files.
 2. Individual post pages use _layouts/post.html. It uses the same blog.html layout as the blog home page, but the post content area is styled differently in post.html
