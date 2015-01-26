@@ -13,12 +13,12 @@ How to make a blog post:
    http://jekyllrb.com/docs/frontmatter/
    http://jekyllrb.com/docs/posts/
 3. The basic front matter to include (including the 3 dashes):
----
-layout: post
-title: "Title of blog post"
-date: year-month-day
-categories: news
----
+	---
+	layout: post
+	title: "Title of blog post"
+	date: year-month-day
+	categories: news
+	---
 4. You can continue typing anything below that. For formatting, links, and
    images look up how to do that with Markdown! Otherwise, browse around
    existing posts to see examples.
