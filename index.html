@@ -1,20 +1,26 @@
 ---
 layout: home
 ---
-{% for post in site.posts limit:3 %}
-<div class="col-sm-4">
-	<div class="panel panel-info">
-		<div class="panel-heading">
-			<h3 class="panel-title">
-			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-			{{ post.title }}
-			</a>
-			<p class="panel-date">{{ post.date | date: "%b %-d, %Y" }}</p>
+{% for post in site.posts limit:1 %}
+<div class="col-sm-6 col-sm-offset-3">
+<!-- in future, change to: col-sm-4 and post limit:3 -->
+    <div class="panel panel-info" style="border:0px;">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+		{{ post.title }}
+		</a>
+		<p class="panel-date">{{ post.date | date: "%b %-d, %Y" }}</p>
             </h3>
         </div>
         <div class="panel-body">
-			{{ post.content | truncatehtml | truncatewords: 40 }}
-        </div>
+	    {{ post.content | truncatehtml | truncatewords: 40 }}
+        
+	    </br></br>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                read more...
+            </a>
 	</div>
+    </div>
 </div>
 {% endfor %}

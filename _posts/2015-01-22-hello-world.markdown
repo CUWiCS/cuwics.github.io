@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello World WiCS!"
-date:   2015-01-22 00:20:20
+date:   2015-01-21 00:20:20
 categories: news
 ---
 

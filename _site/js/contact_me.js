@@ -34,8 +34,8 @@ $(function() {
             }
 
             $.ajax({
-                // url: "//formspree.io/"+email_add,
-                url: "//formspree.io/mvthen@gmail.com",
+                url: "//formspree.io/"+email_add,
+                // url: "//formspree.io/mvthen@gmail.com",
                 type: "POST",
                 dataType: "json",
                 data: {
