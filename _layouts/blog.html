@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+    {% include head.html %}
 
-  <body>
+    <body>
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
         <div class="container">
@@ -38,20 +38,25 @@
         <!-- /.container-fluid -->
     </nav>
 
-<div id = "wrap">
-<div id="main" class="container clear-top">
+    <div id = "wrap">
+        <div id="main" class="container clear-top">
+            <div class="page-content">
+                <div class="wrapper">
+                    
+		{{ content }}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+                </div>
+    	    </div>
+	</div>
     </div>
 
-</div>
-</div>
-
     {% include footer.html %}
+    
+    <!-- jQuery -->
+    <script src="http://cuwics.github.io/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="http://cuwics.github.io/js/bootstrap.min.js"></script>
 
-  </body>
+    </body>
 
 </html>
