@@ -3,3 +3,7 @@
 
 Made using a template from the [Agency](http://startbootstrap.com/template-overviews/agency/) template at [Start Bootstrap](http://startbootstrap.com/).
 It features a smooth scrolling one page theme, with an external blogging section run by Jekyll. For more information about the site, please contact WiCS using the form on our official website.
+
+
+How to make a blog post:
+
