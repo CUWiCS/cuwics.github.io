@@ -6,6 +6,7 @@ It features a smooth scrolling one page theme, with an external blogging section
 
 
 How to make a blog post:
+
 1. create a new file inside _posts/year named year-month-day-postTitle.markdown where year-month-day is the date you wish to publish, and postTitle is the title of the post.
 2. Every post should include YAML front matter and is written with Markdown.
    http://jekyllrb.com/docs/frontmatter/
