@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Hello World WiCS!"
+title:  "Hello World, WiCS!"
 date:   2015-01-21 00:20:20
 categories: news
 ---
 
-Hello World!
+![Hello World!]({{ site.url }}/assets/blog2015/helloworldwics.png)
 
 Welcome to our blog. This is our new home on the web where we will be posting news, events, photos and more.
 

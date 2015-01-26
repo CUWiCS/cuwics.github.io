@@ -6,13 +6,13 @@
 </description>
     <link>http://cuwics.github.io/</link>
     <atom:link href="http://cuwics.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 25 Jan 2015 20:14:57 -0500</pubDate>
-    <lastBuildDate>Sun, 25 Jan 2015 20:14:57 -0500</lastBuildDate>
+    <pubDate>Sun, 25 Jan 2015 21:05:56 -0500</pubDate>
+    <lastBuildDate>Sun, 25 Jan 2015 21:05:56 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Hello World WiCS!</title>
-        <description>&lt;p&gt;Hello World!&lt;/p&gt;
+        <title>Hello World, WiCS!</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://cuwics.github.io/assets/blog2015/helloworldwics.png&quot; alt=&quot;Hello World!&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Welcome to our blog. This is our new home on the web where we will be posting news, events, photos and more.&lt;/p&gt;
 
