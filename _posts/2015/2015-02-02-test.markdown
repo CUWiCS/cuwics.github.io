@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Test"
+date:   2015-02-02 13:26:20
+categories: news
+---
+
+![Hello World!]({{ site.url }}/assets/blog2015/helloworldwics.png)
+
+Welcome to our blog.
+
+lorem ipsum [**Temboo is cool**][temboomainsite] lorem ipsum lorem ipsum lorem ipsum
+
+[temboomainsite]:	https://temboo.com/
