@@ -326,16 +326,16 @@ header .intro-text .intro-heading {
         line-height: 75px;
     }
 
-	.btn-xl {
-    padding: 20px 40px;
-    border-color: #75B2DD;
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    color: #fff;
-    background-color: #75B2DD;
+    .btn-xl {
+        padding: 20px 40px;
+        border-color: #75B2DD;
+        border-radius: 3px;
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+        background-color: #75B2DD;
     }
 }
 
