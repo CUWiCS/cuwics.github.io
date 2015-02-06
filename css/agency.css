@@ -277,7 +277,6 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: 100vh;
 }
 
 header .intro-text {
@@ -290,7 +289,6 @@ header .intro-text .intro-lead-in {
     text-transform: uppercase;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
-    /*font-style: italic;*/
     line-height: 22px;
 }
 
