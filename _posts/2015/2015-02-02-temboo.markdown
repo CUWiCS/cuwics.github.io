@@ -17,7 +17,7 @@ The Temboo platform executes the Choreo request, which usually involves formatti
 
 Trying It Out
 --------------
-Thanks to [**Hacker School**][hackerschool], WICS purchased its first hardware kit -- two Arduino Yuns, breadboards, USBs and jumper wires. The Temboo Team brought light sensors and additional devices for us to use and we programmed our Yuns to respond to dimming of the lights by emailing us reminders to turn on the light. It was really exciting to cover the light sensor and see the email pop up in our inbox accordingly. Here's the Choreo we followed; if you have access to a device, you can try it out for yourself: [**https://www.temboo.com/arduino/yun/send-an-email**]
+Thanks to [**Hacker School**][hackerschool], WICS purchased its first hardware kit -- two Arduino Yuns, breadboards, USBs and jumper wires. The Temboo Team brought light sensors and additional devices for us to use and we programmed our Yuns to respond to dimming of the lights by emailing us reminders to turn on the light. It was really exciting to cover the light sensor and see the email pop up in our inbox accordingly. Here's the Choreo we followed; if you have access to a device, you can try it out for yourself: https://www.temboo.com/arduino/yun/send-an-email
 
 Find Out More
 --------------
