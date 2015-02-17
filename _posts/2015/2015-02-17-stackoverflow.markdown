@@ -5,7 +5,7 @@ date:   2015-02-18 00:40:20
 categories: news
 ---
 
-<!---![StackOverflow]({{ site.url }}/assets/blog2015/20150213_stackexchange_group.jpg)-->
+![StackOverflow]({{ site.url }}/assets/blog2015/20150213_stackexchange_group.jpg)
 
 On Friday, WICS visited [**StackExchange**][stackexchange]'s office, home of the StackOverflow community. We toured their office which has amazing views of NYC's bridges and even got a chance to eat in their in-house cafeteria with engineers! Afterwards, we had a Q&A session with devs Roberta and Anna. Roberta works remotely in Brazil, so we were able to get a sense of what collaboration is like when everyone is all over the world. 
 
