@@ -7,7 +7,7 @@ categories: news
 
 ![Hello World!]({{ site.url }}/assets/blog2015/helloworldwics.png)
 
-Welcome to our blog.
+WICS recently got to try some physical computing on campus when members of the Temboo team came and led a workshop for us. Temboo is a platform that allows users to program Arduino Yun devices to connect with web services. For instance, Temboo makes it easier to use sensor input to trigger events like posting a Twitter update, uploading a file to Dropbox or posting data to a Google spreadsheet. Each of these capabilities can be invoked by running a Temboo Choreo.
 
 lorem ipsum [**Temboo is cool**][temboomainsite] lorem ipsum lorem ipsum lorem ipsum
 
