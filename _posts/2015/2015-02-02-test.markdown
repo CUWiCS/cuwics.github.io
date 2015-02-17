@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Test"
+title:  "Temboo and Hacker School Bring Physical Computing Intro to WICS"
 date:   2015-02-17 00:40:20
 categories: news
 ---
 
-![Hello World!]({{ site.url }}/assets/blog2015/helloworldwics.png)
+![Hello World!]({{ site.url }}/assets/blog2015/20150130_temboo_group.jpg)
 
 WICS recently got to try some physical computing on campus when members of the Temboo team came and led a workshop for us. Temboo is a platform that allows users to program Arduino Yun devices to connect with web services. For instance, Temboo makes it easier to use sensor input to trigger events like posting a Twitter update, uploading a file to Dropbox or posting data to a Google spreadsheet. Each of these capabilities can be invoked by running a Temboo Choreo.
 
@@ -23,7 +23,7 @@ Find Out More
 --------------
 If you’re a student or an educator who is thinking about using Temboo in your classroom, take a look at their [**Education**][tembooedu] page or email education@temboo.com to find out more about the free high-usage education plans and other useful resources.
 
-There may be another Internet of Things workshop this semester, so if you're on campus, stay tuned on our mailing list for an announcement. We can't thank Temboo and Hacker School enough for giving us the opportunity to host this first workshop and introduce the WICS community to the thrills of physical computing!
+There may be another Internet of Things workshop this semester, so if you're on campus, stay tuned on our mailing list for an announcement. We can't thank Temboo and Hacker School enough for giving us the opportunity to host this first workshop to introduce the WICS community to the possibilities of physical computing!
 
 [hackerschool]: https://www.hackerschool.com/
 [tembooedu]:	https://temboo.com/education
