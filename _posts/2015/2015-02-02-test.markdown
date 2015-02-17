@@ -17,14 +17,13 @@ The Temboo platform executes the Choreo request, which usually involves formatti
 
 Trying It Out
 --------------
-Thanks to Hacker School, WICS purchased its first hardware kit -- two Arduino Yuns, breadboards, USBs and jumper wires. The Temboo Team brought light sensors and additional devices for us to use and we programmed our Yuns to respond to dimming of the lights by emailing us reminders to turn on the light. It was really exciting to cover the light sensor and see the email pop up in our inbox accordingly. Here's the Choreo we followed; if you have access to a device, you can try it out for yourself: https://www.temboo.com/arduino/yun/send-an-email
+Thanks to [**Hacker School**][hackerschool], WICS purchased its first hardware kit -- two Arduino Yuns, breadboards, USBs and jumper wires. The Temboo Team brought light sensors and additional devices for us to use and we programmed our Yuns to respond to dimming of the lights by emailing us reminders to turn on the light. It was really exciting to cover the light sensor and see the email pop up in our inbox accordingly. Here's the Choreo we followed; if you have access to a device, you can try it out for yourself: https://www.temboo.com/arduino/yun/send-an-email
 
 Find Out More
 --------------
-If you’re a student or an educator who is thinking about using Temboo in your classroom, take a look at their Education page or email education@temboo.com to find out more about the free high-usage education plans and other useful resources.
+If you’re a student or an educator who is thinking about using Temboo in your classroom, take a look at their [**Education**][tembooedu] page or email education@temboo.com to find out more about the free high-usage education plans and other useful resources.
 
 There may be another Internet of Things workshop this semester, so if you're on campus, stay tuned on our mailing list for an announcement. We can't thank Temboo and Hacker School enough for giving us the opportunity to host this first workshop and introduce the WICS community to the thrills of physical computing!
 
-lorem ipsum [**Temboo is cool**][temboomainsite] lorem ipsum lorem ipsum lorem ipsum
-
-[temboomainsite]:	https://temboo.com/
+[hackerschool]: https://www.hackerschool.com/
+[tembooedu]:	https://temboo.com/education
