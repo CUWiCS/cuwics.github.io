@@ -1,13 +1,29 @@
 ---
 layout: post
 title:  "Test"
-date:   2015-02-02 13:26:20
+date:   2015-02-17 00:40:20
 categories: news
 ---
 
 ![Hello World!]({{ site.url }}/assets/blog2015/helloworldwics.png)
 
 WICS recently got to try some physical computing on campus when members of the Temboo team came and led a workshop for us. Temboo is a platform that allows users to program Arduino Yun devices to connect with web services. For instance, Temboo makes it easier to use sensor input to trigger events like posting a Twitter update, uploading a file to Dropbox or posting data to a Google spreadsheet. Each of these capabilities can be invoked by running a Temboo Choreo.
+
+How It Works
+-------------
+A C++ library called Temboo.cpp comes bundled with the Arduino IDE. This library streamlines syntax for invoking calls to run Temboo Choreos. Each of these calls is routed to a Temboo client, a Python program that comes packaged with the Yun's Linino base image (Linino is a customized version of OpenWRT, the most used Linux distribution for embedded devices). The Python client formats the Choreo execution request and forwards it to the Temboo platform via HTTPS.
+
+The Temboo platform executes the Choreo request, which usually involves formatting your inputs for the third party API, performing the API call, handling errors and dispatching results back to the Yun via HTTPs.
+
+Trying It Out
+--------------
+Thanks to Hacker School, WICS purchased its first hardware kit -- two Arduino Yuns, breadboards, USBs and jumper wires. The Temboo Team brought light sensors and additional devices for us to use and we programmed our Yuns to respond to dimming of the lights by emailing us reminders to turn on the light. It was really exciting to cover the light sensor and see the email pop up in our inbox accordingly. Here's the Choreo we followed; if you have access to a device, you can try it out for yourself: https://www.temboo.com/arduino/yun/send-an-email
+
+Find Out More
+--------------
+If you’re a student or an educator who is thinking about using Temboo in your classroom, take a look at their Education page or email education@temboo.com to find out more about the free high-usage education plans and other useful resources.
+
+There may be another Internet of Things workshop this semester, so if you're on campus, stay tuned on our mailing list for an announcement. We can't thank Temboo and Hacker School enough for giving us the opportunity to host this first workshop and introduce the WICS community to the thrills of physical computing!
 
 lorem ipsum [**Temboo is cool**][temboomainsite] lorem ipsum lorem ipsum lorem ipsum
 
