@@ -15,4 +15,7 @@ Thanks again to BCIT for hosting us as part of Love Your Computer Week, and of c
 
 Be sure to [**sign up**][mailinglist] for our mailing list to find out about other cool events like this!
 
+(P.S. If you couldn't make it out, feel free to check out our handy-dandy computer parts [**fact sheet**][factsheet]!)
+
 [mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+[factsheet]: https://docs.google.com/presentation/d/145BhVm89LCoy78JbSz3_HzyNpgRfpvh6q_72847LUJU/edit?usp=sharing
