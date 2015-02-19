@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "WICS Builds a PC"
-date:   2015-02-18 00:40:20
+date:   2015-02-19 00:40:20
 categories: news
 ---
 
