@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "WICS Builds a PC"
+date:   2015-02-20 00:12:00
+categories: news
+---
+
+On Thursday, WiCS held a lively panel discussion about how students can find their first Computer Science-related internship, even if they don't have a lot of coding experience. The panelists -- Emily Pakulski (CC '16), Samara Trilling (CC '15), and Miles Milton (CC '17) -- discussed their experiences as first time interns both in research and in industry. Other topics included resources available to Columbia and Barnard students, job search, interview, and even negotiation advice. 
+
+Check out the slideshow [here](https://docs.google.com/a/columbia.edu/presentation/d/1UIHbFHQasIlSWx3ttZKnTSqIVmVmaLuUy4ATadrHjug/edit?usp=sharing).
