@@ -5,6 +5,8 @@ date:   2015-02-20 00:12:00
 categories: news
 ---
 
+![Internships 1004]({{ site.url }}/assets/blog2015/internships1004.jpg)
+
 On Thursday, WiCS held a panel discussion for students looking for their first Computer Science-related internship, even if they don't have a lot of coding experience. It was a basic introduction to the ins and outs of the tech industry - with special attention paid to how those aspiring few could break into the field. 
 
 The panelists -- Emily Pakulski (CC '16), Samara Trilling (CC '15), and Miles Milton (CC '17) -- discussed their experiences as first time interns both in research and in industry. They gave pointers on where to find these internships, get these internships, and - the ever important - how to keep these internships. And of course, other topics included resources available to Columbia and Barnard students, job search, interview, and even negotiation advice!
