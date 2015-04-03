@@ -11,7 +11,7 @@ Today, WiCS took a trip down to [**Venmo**][venmo]'s headquarters and saw their 
 
 After the tour and lunch, we had a Q&A session with three devs who come from different backgrounds: Cassidy, Amanda S., and Amanda H. Cassidy taught us about technology evangelism and its importance to Venmo, whereas Amanda H. talked about the company's emphasis on learning. She recently made the transition to being an Android engineer and was able to take classes thanks to Venmo's support. Amanda S. shared her experiences with working at different tech companies and being able to integrate her interests with her work at Venmo. It was great to hear about their path to and at Venmo!
 
-Thank you for hosting us, Venmo! 
+Thank you for hosting us, Craig and Venmo! 
 
 [**Sign up**][mailing list] for our mailing list to find out about other upcoming events!
 
