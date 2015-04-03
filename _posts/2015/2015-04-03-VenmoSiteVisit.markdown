@@ -7,9 +7,9 @@ categories: news
 
 ![Venmo Site Visit]({{ site.url }}/assets/blog2015/20150403_venmo_group.JPG)
 
-Today, WiCS took a trip down to [**Venmo**][venmo]'s headquarters where we were able to see their new office! Katie gave us a tour, where we got a sense of their culture. They have an emphasis on well-being (with their standing desks and new studio!) and being able to easily switch projects.
+Today, WiCS took a trip down to [**Venmo**][venmo]'s headquarters and saw their new office! Katie gave us a tour, and we got a sense of their culture. They emphasize well-being (with their standing desks and new studio for yoga/kickboxing/etc!) and the ease of getting onboard with different projects.
 
-After the tour and lunch, we had a Q&A session with three devs: Cassidy, Amanda H., and Amanda S. They all come from such different backgrounds! Cassidy taught us about technology evangelism and its importance to Venmo, whereas Amanda S. talked about the company's emphasis on learning. She recently made the transition to being an Android engineer and was able to take classes thanks to Venmo's support. Amanda H. shared her experiences with working at different tech companies and being able to integrate her interests with her work at Venmo. It was great to hear about their path to and at Venmo!
+After the tour and lunch, we had a Q&A session with three devs who come from different backgrounds: Cassidy, Amanda S., and Amanda H. Cassidy taught us about technology evangelism and its importance to Venmo, whereas Amanda H. talked about the company's emphasis on learning. She recently made the transition to being an Android engineer and was able to take classes thanks to Venmo's support. Amanda S. shared her experiences with working at different tech companies and being able to integrate her interests with her work at Venmo. It was great to hear about their path to and at Venmo!
 
 Thank you for hosting us, Venmo! 
 
