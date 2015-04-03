@@ -5,7 +5,7 @@ date: 2015-04-03 05:12:00
 categories: news
 ---
 
-![Venmo Site Visit]({{ site.url }}/assets/blog2015/20150403_venmo_group.jpg)
+![Venmo Site Visit]({{ site.url }}/assets/blog2015/20150403_venmo_group.JPG)
 
 Today, WiCS took a trip down to [**Venmo**][venmo]'s headquarters where we were able to see their new office! Katie gave us a tour, where we got a sense of their culture. They have an emphasis on well-being (with their standing desks and new studio!) and being able to easily switch projects.
 
