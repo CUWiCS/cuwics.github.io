@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Google WiCS Symposium!"
+title:  "WiCS Spring Networking Dinner 2015"
 date:   2015-04-24 00:6:00
 categories: news
 ---
