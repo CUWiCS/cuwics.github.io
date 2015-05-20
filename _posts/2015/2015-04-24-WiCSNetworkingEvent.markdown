@@ -14,3 +14,8 @@ We had a completely full house with over 100 women in Computer Science joining u
 Be sure to [**sign up**][mailinglist] for our mailing list to find out about other cool events like this! 
 
 [mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+
+![Pasta!]({{ site.url }}/assets/blog2015/networking_event_2015_pasta.jpg)
+
+![Cupcakes!]({{ site.url }}/assets/blog2015/networking_event_2015_dessert.jpg)
+
