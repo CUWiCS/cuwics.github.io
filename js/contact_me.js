@@ -23,19 +23,18 @@ $(function() {
             var email_add;
             var cc;
             if (inquiry_type=="listserv") {
-                email_add = "cc3636@columbia.edu"; //Chaiwen
+                email_add = "cc3636@columbia.edu"; //Chaiwen (current publicity chair)
                 cc = "";
             } else if (inquiry_type=="company") {
-                email_add = "sat2160@columbia.edu"; //Samara & Emily C
-                cc="ec2805@columbia.edu";
+                email_add = "ec2805@columbia.edu"; //Emily C (current corporate chairs)
+                cc="cl3180@barnard.edu";
             } else if (inquiry_type=="anything_else") {
-                email_add = "enp2111@columbia.edu"; // Emily P
+                email_add = "ab3750@barnard.edu"; // Anfal (current president)
                 cc="";
             }
 
             $.ajax({
                 url: "//formspree.io/"+email_add,
-                // url: "//formspree.io/mvthen@gmail.com",
                 type: "POST",
                 dataType: "json",
                 data: {
@@ -43,7 +42,6 @@ $(function() {
                     Phone: phone,
                     Email: email,
                     Message: message,
-                    // _cc: cc
                     _cc: ""
                 },
                 cache: false,
