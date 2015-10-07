@@ -16,5 +16,5 @@ For complete copies of the data release, we have both [**color**][color_v] and [
 [**Sign up**][mailing list] for our mailing list to keep in touch.
 
 [mailing list]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
-[bw]: https://github.com/CUWiCS/internal_docs/blob/master/design/infographic/info2015_bw.pdf
-[color_v]:https://github.com/CUWiCS/internal_docs/blob/master/design/infographic/info2015_color.png
+[bw]: https://github.com/CUWiCS/cuwics.github.io/blob/master/assets/blog2015/data_release_bw.pdf
+[color_v]: https://github.com/CUWiCS/cuwics.github.io/blob/master/assets/blog2015/data_release_color.png
