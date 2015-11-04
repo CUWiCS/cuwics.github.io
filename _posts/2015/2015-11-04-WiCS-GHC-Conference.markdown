@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "WiCS does The Grace Hopper Celebration of Women in Computing"
+title:  "WiCS & The Grace Hopper Celebration of Women in Computing!"
 date:   2015-11-04 00:6:00
 categories: news
 ---
