@@ -37,6 +37,10 @@ p>a:hover{
     color:#75B2DD !important;
 }
 
+img + em {
+    color:#708491;
+}
+
 
 
 
