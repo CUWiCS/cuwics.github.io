@@ -14,15 +14,16 @@ Our panelists -- Alison Chang (CC '16), Anfal Boussayoud (BC '16), and  Cherie L
 
 Afterwards, an HR representative from Google provided advice about how to be a strong applicant and doing well in the interview process. 
 
-Special thanks to our student panelists, Google for sending a representative and swag, and Yahoo for sponsoring refreshments! 
+Special thanks to our student panelists, Google for sending a representative and swag, and Yahoo for sponsoring refreshments!
 
 WiCS wishes you all the best of luck on your summer internship hunt!
 
 <br>
-![Internship 1004]{{ site.url }}/assets/blog2015/20151112_Internship1004_2.JPG)
+![Internship 1004]({{ site.url }}/assets/blog2015/20151112_Internship1004_2.JPG)
+
 *Google recruiter discussing how to be a strong applicant.*
 
-![Internship 1004]{{ site.url }}/assets/blog2015/20151112_Internship1004_3.JPG)
+![Internship 1004]({{ site.url }}/assets/blog2015/20151112_Internship1004_3.JPG)
 
 Be sure to [**sign up**][mailinglist] for our mailing list to find out about our events! 
 
