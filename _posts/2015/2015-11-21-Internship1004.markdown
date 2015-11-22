@@ -5,7 +5,7 @@ date:   2015-11-21 00:6:00
 categories: news
 ---
 
-![Internship 1004]({{ site.url }}/assets/blog2015/20151112_Internship1004_1.jpg)
+![Internship 1004]({{ site.url }}/assets/blog2015/20151112_Internship1004_1.JPG)
 *Our panelists providing advice for the internship hunt.*
 
 On Thursday, WiCS held a panel discussion geared towards students beginning their first Computer Science-related internship having only taken an introductory CS course.
@@ -19,10 +19,10 @@ Special thanks to our student panelists, Google for sending a representative and
 WiCS wishes you all the best of luck on your summer internship hunt!
 
 <br>
-![Internship 1004]({{ site.url }}/assets/blog2015/20151112_Internship1004_1.jpg)
+![Internship 1004]{{ site.url }}/assets/blog2015/20151112_Internship1004_2.JPG)
 *Google recruiter discussing how to be a strong applicant.*
 
-![Internship 1004]({{ site.url }} /assets/blog2015/20151112_Internship1004_1.jpg)
+![Internship 1004]{{ site.url }}/assets/blog2015/20151112_Internship1004_3.JPG)
 
 Be sure to [**sign up**][mailinglist] for our mailing list to find out about our events! 
 
