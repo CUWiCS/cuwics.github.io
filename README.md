@@ -1,4 +1,4 @@
-## Official website of Columbia University's Women in Computer Science (WiCS) 2015.
+## Official website of Columbia University's Women in Computer Science (WiCS)
 ### See the final version live [here](http://www.cs.columbia.edu/wics/)!
 
 Made using a template from the [Agency](http://startbootstrap.com/template-overviews/agency/) template at [Start Bootstrap](http://startbootstrap.com/).
@@ -35,5 +35,3 @@ It features a smooth scrolling one page theme, with an external blogging section
 1. For each category of inquiry on the contact form (i.e. listserv announcement, company collaboration, anything else), emails get sent to different board members (i.e. Publicity Chair, Corporate Chairs, President, respectively).
 
 2. To change the email addresses, go into `js/contact_me.js` to lines 25-34. Change email addresses as fit for the variable `email_add`, add a second email if needed using the specified `cc` variable. 
-
-
