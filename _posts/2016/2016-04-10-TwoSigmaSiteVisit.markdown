@@ -22,6 +22,9 @@ education, and benefit philanthropic initiatives. So, if harnessing the power
 of technology, mathematics, and data to help people is something that excites
 you, let’s connect."_
 
+Interested in learning more and hearing about their current opportunities?
+Reach out at campus-careers@twosigma.com.
+
 ![Wowwww look at that food...]({{ site.url }}/assets/blog2016/TwoSigma2.jpg)
 
 [mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
