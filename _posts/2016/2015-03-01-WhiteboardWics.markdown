@@ -13,7 +13,7 @@ technical interview questions. We alternated languages between C, Python, Java, 
 
 Fun solutions were created, and good times were had! 
 
-Be sure to [**sign up**][mailinglist] for our mailing list to find out about other cool events like this! 
+Be sure to [**sign up**][mailinglist] for our mailing list to find out about other cool events like this.
 
 WiCS wishes you all the best of luck on that internship hunt!
 
