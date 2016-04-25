@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Whiteboard With WiCSa"
+title:  "Whiteboard With WiCS"
 date:   2016-03-01 00:12:00
 categories: news
 ---
