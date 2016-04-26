@@ -7,7 +7,7 @@ published: true
 ---
 ![NetWiCS]({{ site.url }}/assets/blog2016/NetWiCS_introspeech1.jpg)
 
-Thank you to everyone who came to NetWiCS, our annual Spring Networking Dinner on Friday, April 22nd! We had the honor of welcoming over 100 women in tech to our campuses. Thank you in particular to our awesome sponsors, Bloomberg, CME Group, Oscar Health, Microsoft, Google, and Yelp. We couldn't have done it without you!
+Thank you to everyone who came to NetWiCS, our annual Spring Networking Dinner on Friday, April 22nd! We had the honor of welcoming over 100 women in tech to our campuses. Thank you in particular to our awesome sponsors, Yahoo, Bloomberg, CME Group, Oscar Health, Microsoft, Google, and Yelp. We couldn't have done it without you!
 
 ![NetWiCS]({{ site.url }}/assets/blog2016/NetWiCS2.jpg)
 
