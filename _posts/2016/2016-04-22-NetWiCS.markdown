@@ -1,0 +1,29 @@
+---
+layout: post
+title: "WiCS SPRING NETWORKING DINNER 2016"
+date: 2016-04-22
+categories: news
+published: true
+---
+![NetWiCS]({{ site.url }}/assets/blog2016/NetWiCS_introspeech1.jpg)
+
+Thank you to everyone who came to NetWiCS, our annual Spring Networking Dinner on Friday, April 22nd! We had the honor of welcoming over 100 women in tech to our campuses. Thank you in particular to our awesome sponsors, Yahoo, Bloomberg, CME Group, Oscar Health, Microsoft, Google, and Yelp. We couldn't have done it without you!
+
+![NetWiCS]({{ site.url }}/assets/blog2016/NetWiCS2.jpg)
+
+![NetWiCS]({{ site.url }}/assets/blog2016/NetWiCS4.JPG)
+
+This year, 38 women engineers from companies and startups came to our event. The rest of attendees were students from Columbia and Barnard. After a warm opening, we had a great time talking to each other and enjoying delicious Pisticci food. Then we had a great speed-networking between engineers and students. The event was held at the beautiful Diana Event Oval.
+
+![NetWiCS]({{ site.url }}/assets/blog2016/NetWiCS5.JPG)
+Here is a photo of some women engineers!
+
+![NetWiCS]({{ site.url }}/assets/blog2016/NetWiCS6.JPG)
+And shout out to the amazing board members for organizing NetWiCS!
+
+![NetWiCS]({{ site.url }}/assets/blog2016/NetWiCS7.jpg)
+
+Be sure to [**sign up**][mailinglist] for our mailing list to find out about other cool events! 
+
+[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+
