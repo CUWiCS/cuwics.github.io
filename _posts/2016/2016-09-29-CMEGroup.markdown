@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "CME Group Tech Talk about Challenges in Low-Latency Trading"
+date:   2016-09-29 00:12:00
+categories: news
+---
+
+Engineers from CME Group visited campus and gave a talk about some interesting technical challenges they tackle: "Low Latency Trading in the Financial Industry". High frequency traders use CME Group's electronic trading system and if their system isn't deterministic, that affects the trading firms and their models. One of their engineers, David, used to be an adjunct professor of the embedded systems course at Columbia. He spoke about how his team designed the system architecture to address this. He also talked about how the engineers designed paths for their dedicated fiber network to further reduce latency in data transmission.
+
+![Photo of talk]({{ site.url }}/assets/blog2016/CMEGroup_talk_0916.jpg)
+
+Thank you to CME Group for a fun evening of nibbling on Dino BBQ, geeking out with your engineers, and learning about career opportunities with your teams!
+
+Be sure to [**sign up**][mailinglist] for our mailing list to find out more about interesting events and opportunities at WiCS!
+
+[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
