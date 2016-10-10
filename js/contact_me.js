@@ -23,13 +23,13 @@ $(function() {
             var email_add;
             var cc;
             if (inquiry_type=="listserv") {
-                email_add = "cc3636@columbia.edu"; //Chaiwen (current publicity chair)
-                cc = "";
+                email_add = "publicity-wics@googlegroups.com";
+                cc = "cc3636@columbia.edu"; //Chaiwen (current publicity chair)
             } else if (inquiry_type=="company") {
                 email_add = "ec2805@columbia.edu"; //Emily C (current corporate chairs)
                 cc="cl3180@barnard.edu";
             } else if (inquiry_type=="anything_else") {
-                email_add = "ab3750@barnard.edu"; // Anfal (current president)
+                email_add = "cl3180@barnard.edu"; // Cherie (current president)
                 cc="";
             }
 
