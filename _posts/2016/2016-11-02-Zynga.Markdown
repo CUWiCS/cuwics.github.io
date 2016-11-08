@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Pottery Night with Zynga!"
+date:   2016-11-02 00:12:00
+categories: news
+---
+
+On Nov 2, Zynga hosted a pottery painting night at Little Shop of Crafts on 94th and Amsterdam. WiCS members painted beautiful ceramic plates, mugs, piggy banks, and more while chatting with female engineers and a recruiter from Zynga. We learned so much about Zynga's culture, projects, and diversity. We had an amazing time and WiCS is so excited to have the opportunity to successfully plan a new type of info session. 
+
+![Photo of talk]({{ site.url }}/assets/blog2016/CMEGroup_talk_0916.jpg)
+
+Thank you to Zynga for an incredible evening of painting, chatting with engineers, and learning all about Zynga! 
+
+Be sure to [**sign up**][mailinglist] for our mailing list to find out more about interesting events and opportunities at WiCS!
+
+[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
