@@ -5,11 +5,11 @@ date:   2016-10-18 00:12:00
 categories: news
 ---
 
-This year, 9 WiCS members attended Grace Hopper Convention 2016 in Houston, Texas. In this 3-day conference, they had an amazing time meeting various tech companies at the large company expo, attending tech talks, trying virtual reality, collecting TONS of swag, exploring uptown Houston, meeting other Columbia women in CS, and more!
+This year 9 WiCS members flew to Houston, Texas at the end of October to attend Grace Hopper Convention 2016! In this jam-packed, activity-filled, 3-day conference, the students met various tech companies at the huge expo, attended inspiring tech talks that spanned from discussions about Internet of Things all the way to leadership and management, tried virtual reality, collected TONS of swag, explored uptown Houston, met other Columbia women in CS, and much more!
 
 ![GHC2016]({{ site.url }}/assets/ghc2016/ghc16_1.jpg)
 
-A huge shout out to WiCS treasurer, Katie Lin, who coordinated the trip. We couldn't have had this trip without you. Thank you for all that you do!
+A huge shout out to WiCS treasurer, Katie Lin, who coordinated every aspect of the trip. Thank you for your time, dedication, and patience. We wouldn't have had this trip without you!
 
 ![GHC2016]({{ site.url }}/assets/ghc2016/ghc16_4.jpg)
 
@@ -21,6 +21,8 @@ And thank you to this year's corporate sponsors (Yahoo!, Bloomberg, CME Group, O
 ![GHC2016]({{ site.url }}/assets/ghc2016/ghc16_2.jpg)
 
 ![GHC2016]({{ site.url }}/assets/ghc2016/ghc16_3.jpg)
+
+For those who want to attend GHC 2017, look out for WiCS' posts in the spring and the application in the summer.
 
 
 
