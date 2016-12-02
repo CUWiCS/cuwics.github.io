@@ -15,7 +15,10 @@ Thank you again Two Sigma for taking your time out to come and spend it with us!
 
 ![Photo of Interview Workshop]({{ site.url }}/assets/blog2016/tsigma2test.JPG)
 
+![Photo of Interview Workshop]({{ site.url }}/assets/blog2016/tsigma4test.JPG)
+
 ![Photo of Interview Workshop]({{ site.url }}/assets/blog2016/tsigma3test.png)
+
 
 
 
