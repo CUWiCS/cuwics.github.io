@@ -11,11 +11,11 @@ The Two Sigma engineers also graciously one-on-one looked over the resumes of st
 
 Thank you again Two Sigma for taking your time out to come and spend it with us! We had great time!
 
-![Photo of Interview Workshop]({{ site.url }}/assets/blog2016/tsigma1.JPG)
+![Photo of Interview Workshop]({{ site.url }}/assets/blog2016/tsigma1test.JPG)
 
-![Photo of Interview Workshop]({{ site.url }}/assets/blog2016/tsigma2.JPG)
+![Photo of Interview Workshop]({{ site.url }}/assets/blog2016/tsigma2test.JPG)
 
-![Photo of Interview Workshop]({{ site.url }}/assets/blog2016/tsigma3.JPG)
+![Photo of Interview Workshop]({{ site.url }}/assets/blog2016/tsigma3test.JPG)
 
 
 
