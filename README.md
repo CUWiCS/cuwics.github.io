@@ -5,6 +5,10 @@ Made using a template from the [Agency](http://startbootstrap.com/template-overv
 It features a smooth scrolling one page theme, with an external blogging section run by Jekyll. For more information about the site, please contact WiCS using the form on our official website.
 
 ***
+####Updating team photos:
+1. Make sure that every profile photo is 225x225 pixels, otherwise the layout will break. Thanks!
+
+***
 ####How to make a blog post:
 1. Create a new file inside `_posts/year` named `year-month-day-postTitle.markdown` where `year-month-day` is the date you wish to publish, and `postTitle` is the title of the post.
 2. Every post should include YAML front matter and is written with Markdown.  
