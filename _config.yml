@@ -12,5 +12,7 @@ github_username:  cuwics
 # Build settings
 markdown: kramdown
 permalink: pretty
-paginate: 3
 
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"
