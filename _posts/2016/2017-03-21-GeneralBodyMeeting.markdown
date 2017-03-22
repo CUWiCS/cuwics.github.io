@@ -9,6 +9,7 @@ On March 21st, WiCS held our first General Body meeting open to all students sha
 
 
 ![Flyer]({{ site.url }}/assets/blog2016/GeneralBodyMeeting.JPG)
+
 ![Flyer]({{ site.url }}/assets/blog2016/GeneralBodyMeeting1.JPG)
 
 Thanks to everyone who came! We can’t wait for our next general body meeting! 
