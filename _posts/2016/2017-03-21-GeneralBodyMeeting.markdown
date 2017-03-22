@@ -18,5 +18,7 @@ Don’t forget to sign up for board interviews [**here**][interview]!
 
 Be sure to [**sign up**][mailinglist] for our mailing list to find out more about interesting events and opportunities at WiCS! 
 
+![Flyer]({{ site.url }}/assets/blog2016/WiCSspringCal.jpg)
+
 [interview]: https://goo.gl/forms/IM6QRxvi02qTFz022
 [mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
