@@ -9,7 +9,7 @@ On February 24th, WICS went on a site visit to Paperless Post! Hosted by our ver
 
 ![Flyer]({{ site.url }}/assets/blog2016/PaperlessPost.jpg)
 
-Thank you to all the students who joined us but also to Paperless Post for hosting us! 
+Thank you to all the students who joined us but also to Paperless Post for hosting! 
 
 Be sure to [**sign up**][mailinglist] for our mailing list to find out more about interesting events and opportunities at WiCS! 
 
