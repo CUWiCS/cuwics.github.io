@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "CME Group Tech Talk: Field Programmable Gate Arrays"
+date:   2017-03-10 00:12:00
+categories: news
+---
+
+Engineers from CME Group visited campus and gave a talk about some interesting technical challenges they tackle. Our speaker is a Columbia alum who graduated in 2014. He introduced their use of field programmable gate arrays (FPGAs), including how they are different from ASICs and CPUs, and what kind of advantages FPGAs bring to CME and other fields. It was a very informative talk! 
+![Photo of talk]({{ site.url }}/assets/blog2017/cme_17_1.jpg)
+![Photo of talk]({{ site.url }}/assets/blog2017/cme_17_2.jpg)
+
+We had great interactions with the speaker. Thanks again! 
+![Photo of talk]({{ site.url }}/assets/blog2017/cme_17_qustions.jpg)
+
+Thank you to CME Group for a fun time of nibbling on Dino BBQ, geeking out with your engineers, and learning about career opportunities with your teams!
+
+Be sure to [**sign up**][mailinglist] for our mailing list to find out more about interesting events and opportunities at WiCS!
+
+[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43

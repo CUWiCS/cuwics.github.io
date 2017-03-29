@@ -11,7 +11,7 @@ It was incredibly informative and motivating to hear former students, and now su
 they didn't belong - imposter syndrome affects a wide range of people and can definitely be overcome.
 Afterward the presentation, they took questions from the crowd and handed out Google swag to the attendees!
 
-![Flyer]({{ site.url }}/assets/blog2016/googleimposter.JPG)
+![Flyer]({{ site.url }}/assets/blog2017/googleimposter.JPG)
 
 Thanks to everyone who came, as well as to our wonderful guests!
 

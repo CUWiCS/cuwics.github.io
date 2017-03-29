@@ -7,7 +7,7 @@ categories: news
 
 On February 24th, WICS went on a site visit to Paperless Post! Hosted by our very own operation chair, Iris, students were given a tour of the two floor office. To our surprise, we were greeted by WiCS's past president, Anfal. This was then followed by an intimate Q&A session. Students asked great questions about life at paperless post as well as job opportunities. The floor was then opened up to a quick meet and greet with fellow engineers. It was so great to see Anfal and Iris in their zone.
 
-![Flyer]({{ site.url }}/assets/blog2016/PaperlessPost.jpg)
+![Flyer]({{ site.url }}/assets/blog2017/PaperlessPost.jpg)
 
 Thank you to all the students who joined us but also to Paperless Post for hosting! 
 
