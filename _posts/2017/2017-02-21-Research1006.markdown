@@ -1,24 +1,10 @@
 ---
 layout: post
-title: "First General Body Meeting"
-date: 2017-03-21
+title: "Research 1006"
+date: 2017-02-21
 categories: news
 ---
 
-On March 21st, WiCS held our first General Body meeting open to all students sharing our mission and values. The agenda started with a quick introduction of the current board members and a little info on what we all do. Students broke off into groups to discuss Susan Fowler’s Uber article. It was great to hear everyone’s opinions and listen to personal experiences. Afterwards, we all shared quick final thoughts, leaving the room open to questions about elections as well as general WiCS questions. 
+On February 21st, WICS held Reseach 1006: an event geared towards undergraduates that explored all the ins and outs of what research in CS looks like and how to get a research position in a lab here at Columbia or over the summer. We began with a quick introduction of some of the popular research programs that are available over the summer, especially programs that are specifically for women interested in pursuing research in CS. We then turned the floor over to our panelists, all of whom were either undergraduate researchers or PhD students here at Columbia. These students shared their stories, advice, and lessons learned as to how to how to obtain a research position, how to succeed in research, what were some of the obstacles they face, and what they wish they could have done differently. The panelists then answered questions from the audience.
 
-
-![Flyer]({{ site.url }}/assets/blog2017/GeneralBodyMeeting2.jpg)
-
-![Flyer]({{ site.url }}/assets/blog2017/GeneralBodyMeeting1.jpg)
-
-Thanks to everyone who came! We can’t wait for our next general body meeting! 
-
-Don’t forget to sign up for board interviews [**here**][interview]!
-
-Be sure to [**sign up**][mailinglist] for our mailing list to find out more about interesting events and opportunities at WiCS! 
-
-![Flyer]({{ site.url }}/assets/blog2017/WiCSspringCal.jpg)
-
-[interview]: https://goo.gl/forms/IM6QRxvi02qTFz022
-[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+Thanks to everyone who came!
