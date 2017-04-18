@@ -7,7 +7,7 @@ categories: news
 
 Last night, we held NetWics, our annual networking dinner to celebrate women in computer science! We had over 30 engineers working in industries from Paperless Post, Google, BBH, MeetUp, Two Sigma, E trade, Dropbox, CME, Oscar Health, Goldman Sachs, Bloomberg, Columbia University, MongoDB, and Temboo and over 50 students present at the event. After signing in, attendees were directed to one of twelve tables to mingle with other students as well as the company representative at the table.
  
-Our WICS President, Cheri, gave a quick introduction to the night and with that, the activities commenced!
+Our WICS President, Cherie, gave a quick introduction to the night and with that, the activities commenced!
 ![Flyer]({{ site.url }}/assets/blog2017/NetWiCS1.jpg)
  
 After a quick intro, a tasty dinner was served as students and engineers continued to chat. The menu consisted of a delicious assortment of salad, pastas, and meatballs from Pisticci, and bread from Milano Market.
@@ -18,7 +18,7 @@ Continuing, we had a speed networking breakout session, rotating every couple of
 ![Flyer]({{ site.url }}/assets/blog2017/NetWiCS3.jpg)
 ![Flyer]({{ site.url }}/assets/blog2017/NetWiCS4.jpg)
 
-And to end the night, we served insomnia cookies and fresh fruit for dessert, and each attendee received a goodie bag of tech gear .
+And to end the night, we served Insomnia cookies and fresh fruit for dessert, and each attendee received a goodie bag of tech gear .
 
 Thank you to our wonderful engineers and attendees, as well as our sponsors and board members for making NetWics a success!
 ![Flyer]({{ site.url }}/assets/blog2017/NetWiCS5.jpg)
