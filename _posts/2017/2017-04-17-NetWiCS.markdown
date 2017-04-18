@@ -1,0 +1,34 @@
+---
+layout: post
+title: "NetWiCS 2017"
+date: 2017-04-17
+categories: news
+---
+
+Last night, we held NetWics, our annual networking dinner to celebrate women in computer science! We had over 30 engineers working in industries from Paperless Post, Google, BBH, MeetUp, Two Sigma, E trade, Dropbox, CME, Oscar Health, Goldman Sachs, Bloomberg, Columbia University, MongoDB, and Temboo and over 50 students present at the event. After signing in, attendees were directed to one of twelve tables to mingle with other students as well as the company representative at the table.
+ 
+Our WICS President, Cheri, gave a quick introduction to the night and with that, the activities commenced!
+![Flyer]({{ site.url }}/assets/blog2017/NetWiCS1.jpg)
+ 
+After a quick intro, a tasty dinner was served as students and engineers continued to chat. The menu consisted of a delicious assortment of salad, pastas, and meatballs from Pisticci, and bread from Milano Market.
+![Flyer]({{ site.url }}/assets/blog2017/NetWiCS2.jpg)
+
+Continuing, we had a speed networking breakout session, rotating every couple of minutes so students could network with as many professionals as possible!
+
+![Flyer]({{ site.url }}/assets/blog2017/NetWiCS3.jpg)
+![Flyer]({{ site.url }}/assets/blog2017/NetWiCS4.jpg)
+
+And to end the night, we served insomnia cookies and fresh fruit for dessert, and each attendee received a goodie bag of tech gear .
+
+Thank you to our wonderful engineers and attendees, as well as our sponsors and board members for making NetWics a success!
+![Flyer]({{ site.url }}/assets/blog2017/NetWiCS5.jpg)
+
+Sign up for our mailing list to stay informed about our upcoming events and opportunities!
+![Flyer]({{ site.url }}/assets/blog2017/NetWiCS6.jpg)
+![Flyer]({{ site.url }}/assets/blog2017/NetWiCS7.jpg)
+
+Thanks to everyone who came! We can’t wait for our next general body meeting! 
+
+Be sure to [**sign up**][mailinglist] for our mailing list to find out more about interesting events and opportunities at WiCS! 
+
+[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
