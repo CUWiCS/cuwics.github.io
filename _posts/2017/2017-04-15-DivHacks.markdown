@@ -1,0 +1,15 @@
+---
+layout: post
+title: "DivHacks 2017"
+date: 2017-04-15
+categories: news
+---
+
+On April 15th, 2017, WiCS led efforts to organize Columbia’s first ever diversity hackathon along with Columbia’s ADI and Columbia’s ColorCode; Technology and Entrepreneurship with the mission to  “create an empowering and inspirational space for Black people, Latinx people, women, and people whose identities exist beyond normative notions of being.” Going from 9am - 9pm, the hackathon proved to be a success with two great keynote speakers by Rebecca Garcia, the co-founder of CoderDojo NYC and award recipient for U.S. White House Champion of Change for Tech Inclusion, and Yesenia Perez-Cruz, design director at Vox Media. The speakers discussed both the importance of diversity in tech and the intersectionality of the tech industry, while also advising students on how to find their niche in tech. After a successful kick-off, several companies held breakout sessions throughout the day. For example, the New York Times discussed the journalism and tech intersection, Bloomberg discussed philanthropy and civic engagement and held mock technical interviews, Yahoo gave a research tech talk, and MakeSchool gave an iOS workshop. Every breakout session was filled with students eager to learn and asking great questions. Between breakout sessions, there was lots of food and mingling between company representatives and students. What really made DivHacks unique was the personal and integrated communication between students and company reps- we wanted to create an environment where students would build sustained and meaningful connections with industry professionals. 
+
+Hacking officially ended at 8pm and judging promptly began thereafter. Christian Joseph (SEAS) won the $200 cash prize with his project, Supreme Bot. This bot was able to complete the checkout process for Supreme clothing items given the url for an item. The team of Martin Gracia and Emma Lu (SEAS), winning the $300 cash prize, created a project that analyzed a user’s Facebook messages for sentiment with the IBM Watson API. Our grand first place winner, winning $500, was the team of Rosemarie and Daniel Encarnacion and Alex Florez-Veliz from Lehman College. They created a financial literacy platform tailored to low income households which provided relevant information about topics such as credit, investing and loans. The days’ success was displayed by the incredible projects by all participants, the meaningful interactions between company representatives and students, and students’ conspicuous passion and excitement day-of. The student’s creative projects evidenced the power of diversity and the incredible ideas that it produces. We sought to create an energetic environment conducive to learning and and building.  We are proud of the foundation we’ve laid, and now we strive to make the hackathon bigger and better for coming years. 
+
+Our First Place Winners
+![Flyer]({{ site.url }}/assets/blog2017/Divhacks2.jpg)
+
+![Flyer]({{ site.url }}/assets/blog2017/Divhacks1.jpg)
