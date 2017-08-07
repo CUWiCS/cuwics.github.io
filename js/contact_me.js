@@ -30,7 +30,7 @@ $(function() {
                 cc="julia.di@columbia.edu"; //Julia (current president)
             } else if (inquiry_type=="anything_else") {
                 email_add = "julia.di@columbia.edu"; // Julia (current president)
-                cc="";
+                cc="elh2157@barnard.edu";
             }
 
             $.ajax({
