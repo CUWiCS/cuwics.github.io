@@ -24,12 +24,12 @@ $(function() {
             var cc;
             if (inquiry_type=="listserv") {
                 email_add = "publicity-wics@googlegroups.com";
-                cc = "cc3636@columbia.edu"; //Chaiwen (current publicity chair)
+                cc = "elh2157@barnard.edu"; //Erica (current publicity chair)
             } else if (inquiry_type=="company") {
-                email_add = "ec2805@columbia.edu"; //Emily C (current corporate chairs)
-                cc="cl3180@barnard.edu";
+                email_add = "asm2221@columbia.edu"; //Angel M (current corporate chairs)
+                cc="julia.di@columbia.edu"; //Julia (current president)
             } else if (inquiry_type=="anything_else") {
-                email_add = "cl3180@barnard.edu"; // Cherie (current president)
+                email_add = "julia.di@columbia.edu"; // Julia (current president)
                 cc="";
             }
 
