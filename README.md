@@ -7,8 +7,12 @@ It features a smooth scrolling one page theme, with an external blogging section
 ***
 ####Updating team photos:
 1. Make sure that every profile photo is 225x225 pixels, otherwise the layout will break. Thanks!
+***
+####Updating sponsor logos:
+1. Make sure that every logo is put on a 300x300 pixel white square, otherwise the layout will break. Thanks!
 
 ***
+
 ####How to make a blog post:
 1. Create a new file inside `_posts/year` named `year-month-day-postTitle.markdown` where `year-month-day` is the date you wish to publish, and `postTitle` is the title of the post.
 2. Every post should include YAML front matter and is written with Markdown.  
