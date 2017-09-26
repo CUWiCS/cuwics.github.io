@@ -1,0 +1,16 @@
+---
+layout: post
+title: "CME Tech Talk"
+date: 2017-09-21
+categories: news
+---
+
+![Flyer]({{ site.url }}/assets/blog2017/CME.jpg)
+
+On September 21, Suchith Vasudevan from the CME Group hosted a tech talk about Low Latency Solutions in Electronic Trading for WICS and the Columbia community. As an alum from Columbia University, he shared not only his work in the CME Group, but also how one might be able to begin to delve into the field more as a student here. His talk hit on everything from computer architecture, to latency in packet processing, to FPGA (Field Programmable Gate Arrays) and CPUs, going into not only some of the software side of CME, but also the hardware component.
+CME also generously provided delicious Dino-BBQ to snack on during the talk. The event highlighted the latest developments, advantages and disadvantages of FPGAs, and their applications. After the talk, students were free to ask questions about the topic or about the CME Group. 
+We had a packed room of eager students! Don’t miss out on our future events like these! Sign up for our newsletter [**here**][mailinglist] and like us on [**facebook**][facebook] for exciting events happening in the cs community. 
+
+
+[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+[facebook]:https://www.facebook.com/CUWICS
