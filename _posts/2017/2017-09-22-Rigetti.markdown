@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Rigetti Quantum Computing Tech Talk"
+date: 2017-09-21
+categories: news
+---
+
+![Flyer]({{ site.url }}/assets/blog2017/Rigetti.jpg)
+
+On September 22, Rigetti Computing came to Columbia to give a niche tech talk on quantum computing, the basis of their work and research to build the world’s most powerful computer with great problem solving capabilities. They shared the technical and background information, then went more in depth describing their design and fabrication of their quantum integrated circuits. Students were even able to hold one of the masks Rigetti used in fabrication! After the talk, students went up to chat to the representatives and to ask questions.
+Thank you Rigetti for the wonderful tech talk and for the delicious Dig Inn! 
+
+Sign up for our newsletter [**here**][mailinglist] and like us on [**facebook**][facebook] for exciting events happening in the cs community. 
+
+
+[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+[facebook]:https://www.facebook.com/CUWICS
