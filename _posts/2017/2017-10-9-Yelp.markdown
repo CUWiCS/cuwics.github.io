@@ -5,7 +5,7 @@ date: 2017-10-09
 categories: news
 ---
 
-![Flyer]({{ site.url }}/assets/blog2017/Yelp.jpg)
+![Flyer]({{ site.url }}/assets/blog2017/YelpInfo.JPG)
 
 
 Another great event, this time with this Yelp! Our room was packed with students eager to learn about Yelp and the technology and people behind it. To begin, the Yelp engineer delved a bit into Apache Mesos, what Yelp uses at the foundation. It provides API's for products to manage, as well as many other resources. The recruiters then spoke more about what they look for when hiring and shared the company's core tenets and what the environment is like at work. They emphasized the collaborative spirit and talked about the opportunities they have for summer or for fulltime. They even raffled off an iPad, and provided delicious food. At the end, students were free to talk to the engineers and recruiters, as well as drop off their resume. 
