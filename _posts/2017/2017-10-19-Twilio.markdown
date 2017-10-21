@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Twilio!"
+date: 2017-10-19
+categories: news
+---
+
+![Flyer]({{ site.url }}/assets/blog2017/Twilio2.jpg)
+
+Once again, our room was filled at the Twilio info session talk this Thursday! Engineers and recruiters from Twilio, came to Columbia to present their company, everything from how their company came to be, to cloud communications and a day in life of an engineer. They then did a live demo for us, first buying a phone number, and then showing us how we can code responses to send back when someone texted our number for example. 
+
+![Flyer]({{ site.url }}/assets/blog2017/Twilio3.png)
+
+They talked about the hiring process and what they look for in applicants, as well as the positions currently available for those looking for fulltime or internships. They spoke about the company culture and how they provide resources to everyone, even non programmers, to eventually make an app for the company! With fantastic speakers and delicious Dig Inn, the event was a success! After the presentation, students were free to chat with the recruiters and engineers, hand them their resumes, and ask any questions they may have.
+
+![Flyer]({{ site.url }}/assets/blog2017/Twilio.jpg)
+
+Thank you Twilio for sponsoring this event, for the wonderful speakers and representatives, and the food and swag! 
+Sign up for our newsletter [**here**][mailinglist] and like us on [**facebook**][facebook] for more exciting events like this! 
+
+[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+[facebook]:https://www.facebook.com/CUWICS
