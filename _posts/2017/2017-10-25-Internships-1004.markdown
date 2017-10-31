@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Internships 1004"
+date: 2017-10-25
+categories: news
+---
+![Flyer]({{ site.url }}/assets/blog2017/Internships 1004.jpg)
+
+As first years and sophomores begin to navigate the application process for internships, it may be difficult to get the hang of everything, from finding internship opportunities, to coding interviews. On Wednesday, October 25, three students,  Amulya Kandikonda, Gergana Alteva, and Samantha Stultz, spoke about their summer experiences they had as first and second years, gave advice and resources, and highlighted the numerous possibilities for the summer, not only internships, but also working in a startup, researching, creating personal projects, and taking summer classes.
+
+![Flyer]({{ site.url }}/assets/blog2017/Internships1.jpg)
+
+One thing to keep in mind is to look for internships specifically geared towards your year. Companies like Google, Microsoft, Facebook, Two Sigma, McKinsey and many others, have programs specifically for first and second years. There are also plenty of places students have conducted research, such as on campus, at REU programs, and government programs. A summer spent working on your own projects can be just as impactful too! Building up your Github or competing in hackathons are great ways to improve on your skills and help you gain experience. 
+
+Take a look at our quick guide to the summer [**here**][dropbox]! And to practice for your upcoming interviews, check out these resources recommended by Samantha!
+
+- HackerRank
+- LeetCode
+- Big-O Cheat Sheet
+- Cracking the Coding Interview
+- GlassDoor
+
+Sign up for our newsletter [**here**][mailinglist] and like us on [**facebook**][facebook] for more exciting events like this! 
+
+[dropbox]: https://www.dropbox.com/s/j4s2arg4i63q8qh/Internships%201004%20-%202017.pdf?dl=0
+[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+[facebook]:https://www.facebook.com/CUWICS
