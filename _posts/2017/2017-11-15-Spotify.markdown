@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Spotify: Women, Music, and Tech"
+date: 2017-11-15
+categories: news
+---
+
+![Flyer]({{ site.url }}/assets/blog2017/Spotify.pdf)
+
+Come jam out with Spotify! Today, we heard from a panel of incredible women working at Spotify! They shared their experiences, from the challenges they faced, to why they love working at Spotify and the supportive community for women. The panelists all came from different backgrounds, (some even graduated from Columbia!), but all were brought together under Spotify to create and build together. They spoke about the environment as well as their transistions. After, they shared a great opportunity from our WICS community members, #JointheBand, Spotify's summer internship program. The event was packed with aspiring female and non-binary computer scientists at Columbia and Barnard. Chipotle, provided by Spotify, topped off the fantastic event, leaving everyone inspired, as well as full. 
+
+![Flyer]({{ site.url }}/assets/blog2017/Spotify1.jpg)
+The fabulous panelists
+
+![Flyer]({{ site.url }}/assets/blog2017/Spotify3.jpg)
+Go women in computer science!
+
+Thank you to Spotify for putting on such a wonderful event with WICS! Don't miss out on other events like this!
+Sign up for our newsletter [**here**][mailinglist] and like us on [**facebook**][facebook]!
+
+[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+[facebook]:https://www.facebook.com/CUWICS
