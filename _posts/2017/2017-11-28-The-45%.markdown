@@ -1,0 +1,25 @@
+---
+layout: post
+title: "The 45%: "
+date: 2017-11-15
+categories: news
+---
+
+![Flyer]({{ site.url }}/assets/blog2017/45.jpg)
+
+While women nationally represent fewer than 20% of computer science majors, Columbia’s relatively high percentage of women CS majors in the 2016-2017 academic year ranks it among the top US universities in attracting women to computer science. 
+
+![Flyer]({{ site.url }}/assets/blog2017/45a.jpg)
+
+What accounts for Columbia's success? What does it feel like to be part of the 45%? What challenges remain? To address these questions, WICS held a panel with inspiring female role models at Columbia University to share their experiences and explore these questions.
+We had student presentations, breakout discussions for brainstorming questions, and a panel discussion that included Julia Hirschberg, Kathy McKeown, Tal Malkin, and Lydia Chilton, who helped offer insights and advice for future direction. 
+
+![Flyer]({{ site.url }}/assets/blog2017/45b.jpg)
+![Flyer]({{ site.url }}/assets/blog2017/45c.jpg)
+
+45% is an incredible accomplishment. Let's keep pushing that number up by encouraging and supporting our friends and community!
+Sign up for our newsletter [**here**][mailinglist] and like us on [**facebook**][facebook] to find out about more events we are hosting!
+
+
+[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+[facebook]:https://www.facebook.com/CUWICS
