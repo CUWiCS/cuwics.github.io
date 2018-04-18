@@ -5,7 +5,7 @@ date: 2018-04-18
 categories: news
 ---
 
-![Flyer]({{ site.url }}/assets/blog2018/announcement.jpg)
+![Flyer]({{ site.url }}/assets/blog2018/Announcement.jpg)
 
 If you have any questions or concerns, please don't hesitate to reach out to us by email or Facebook.
 
