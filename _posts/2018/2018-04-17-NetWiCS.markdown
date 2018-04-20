@@ -21,7 +21,7 @@ Thank you to our wonderful engineers and attendees, as well as our sponsors and 
 
 ![Flyer]({{ site.url }}/assets/blog2018/NetWiCS4.JPG)
 
-![Flyer]({{ site.url }}/assets/blog2018/NetWiCS2.JPG)
+![Flyer]({{ site.url }}/assets/blog2018/NetWiCS2.jpg)
 
 Sign up for our newsletter [**here**][mailinglist] and like us on [**facebook**][facebook] to find out about more events we are hosting!
 
