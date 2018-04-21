@@ -1,0 +1,28 @@
+---
+layout: post
+title: "DivHacks"
+date: 2018-04-14
+categories: news
+---
+
+![Flyer]({{ site.url }}/assets/blog2018/DivHacks1.jpg)
+
+DivHacks is Columbia University’s first student-run diversity hackathon and this year, we held it for the second time in a row! Our mission statement reads:
+
+"We strive to create an empowering and inspirational space for marginalized communities and people whose identities exist beyond the standard definition. Despite systematic attempts to exclude and erase us, we affirm our existence. We are vital to the success of the tech and business industry.
+Through this hackathon, we strive to create an experience that appreciates and uplifts our voices, while also bringing about the very technologies we seek to see."
+
+The day started off with keynotes from Kathryn Hurley (Makerbot) and Alex Qin (Gakko NYC) on social impact and education. Then, the rest of the day was dedicated to workshops and hacking on projects related to social impact categories including sustainability, activism, health, and education.
+
+![Flyer]({{ site.url }}/assets/blog2018/DivHacks2.jpg)
+
+Students enjoyed free food, swag, and many people went home with prizes - including four students who walked away with full-time offers for IBM internships!
+
+We are already in the midst of planning next year’s hackathon and look forward to seeing you there. https://cu-divhacks.github.io/
+
+![Flyer]({{ site.url }}/assets/blog2018/DivHacks3.jpg)
+
+Sign up for our newsletter [**here**][mailinglist] and like us on [**facebook**][facebook] to find out about more events we are hosting!
+
+[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+[facebook]:https://www.facebook.com/CUWICS
