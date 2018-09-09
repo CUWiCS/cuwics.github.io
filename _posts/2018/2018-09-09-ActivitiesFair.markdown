@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Activities Fair"
-date: 2017-09-09
+date: 2018-09-09
 categories: news
 ---
-![Flyer]({{ site.url }}/assets/blog2017/ActivitiesFair.JPG)
+![Flyer]({{ site.url }}/assets/blog2018/ActivitiesFair.JPG)
 
 Hi everyone! Thank you all for coming out to the activities fair on Friday and stopping by our booth. We were so happy to see so many womxn interested in Computer Science, and we had a wonderful time chatting with each and every one of you! If you haven't done so yet, sign up for our newsletter [**here**][mailinglist] and like us on [**facebook**][facebook] to stay informed about our upcoming events.
 
