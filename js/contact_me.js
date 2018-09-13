@@ -26,11 +26,11 @@ $(function() {
                 email_add = "publicity-wics@googlegroups.com";
                 cc = "ts2931@barnard.edu"; //Tahsina (future publicity chair)
             } else if (inquiry_type=="company") {
-                email_add = "xl2669@columbia.edu"; //Xiao L (current corporate chairs)
-                cc="ls3389@barnard.edu"; //Lucille (current president)
+                email_add = "elh2157@barnard.edu"; //Xiao L (current corporate chairs)
+                cc = "ls3389@barnard.edu"; //Lucille (current president)
             } else if (inquiry_type=="anything_else") {
                 email_add = "ts29312@barnard.edu"; // Tahsina (current publicity chair)
-                cc="elh2157@barnard.edu";
+                cc = "elh2157@barnard.edu";
                 
             }
 
