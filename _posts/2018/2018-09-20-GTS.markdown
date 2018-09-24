@@ -5,6 +5,8 @@ date: 2018-09-20
 categories: news
 ---
 
+![Flyer]({{ site.url }}/assets/blog2018/GTSInfoSession.jpg)
+
 On September 17, GTS came to Columbia for an info session about their company. Engineer Jenny Zhou led a talk about GTS and its different departments and teams, as well as how to apply. The room was packed with eager students. Students also enjoyed pizza and learned how to apply for an exclusive tour at the New York Stock Exchange.
 
 Be on the lookout for more exciting info sessions in the future! 
