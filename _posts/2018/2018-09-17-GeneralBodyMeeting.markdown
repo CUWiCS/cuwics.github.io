@@ -4,6 +4,7 @@ title: "First General Body Meeting"
 date: 2018-09-17
 categories: news
 ---
+![Flyer]({{ site.url }}/assets/blog2018/SeptGBM.jpg)
 
 On September 17th, WiCS held its first General Body meeting of the semester, welcoming all students and sharing our mission and values. The agenda kicked off with a quick introduction of the current board members and a little info on what we all do. We discussed our name change from "Women" to "Womxn" and our new mission statement. Other agenda items included explanations of each committee, and new ways for members to get involved in WiCS as event coordinators. Finally, students were given a chance to mingle and play an ice breaking Bingo game. 
 
