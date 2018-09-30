@@ -9,7 +9,7 @@ categories: news
 
 On Friday, Blackstone entertained students with its very own technology trivia night! Students enjoyed dinner from JunZi Kitchen and learning about Blackstone engineers' tech stacks.
 
-Our own WiCS members Xiao and Yuxuan did so well at the trivia night, they won Echo Dots! Congratulations, you two :) 
+Our own WiCS members Susie and Yuxuan did so well at the trivia night, they won Echo Dots! Congratulations, you two :) 
 
 Sign up for our newsletter [**here**][mailinglist] and like us on [**facebook**][facebook] for exciting events happening in the CS community. 
 
