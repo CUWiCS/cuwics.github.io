@@ -6,6 +6,7 @@ categories: news
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/GHCWeAreHere.jpg)
+![Flyer]({{ site.url }}/assets/blog2018/GHC18.jpg)
 
 Last week, WiCS sponsored several of its womxn to attend the 2018 Grace Hopper Conference in Texas! This 3-day long event is especially geared towards women to encourage them to pursue STEM fields, such as computer science. It offers students a multitude of learning opportunities and chances to discuss research and career interests.
 
