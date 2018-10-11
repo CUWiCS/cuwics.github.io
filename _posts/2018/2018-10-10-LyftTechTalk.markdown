@@ -5,7 +5,9 @@ date: 2018-10-10
 categories: news
 ---
 
-Earlier today, Lyft engineers and recruiters walked students through a technical interview prep workshop, as well as a discussion about what it's like to work at Lyft. A Q&A session was also held afterwards.
+![Flyer]({{ site.url }}/assets/blog2018/LyftTechTalk.jpg)
+
+Earlier today, Lyft engineers and recruiters walked students through a technical interview prep workshop, as well as a discussion about what it's like to work at Lyft. Students learned general interview tips and tried out a practice coding question to test their new knowledge. A Q&A session was also held afterwards.
 
 Sign up for our newsletter [**here**][mailinglist] and like us on [**facebook**][facebook] for exciting events happening in the CS community. 
 
