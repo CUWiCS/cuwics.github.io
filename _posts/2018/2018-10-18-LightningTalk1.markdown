@@ -5,6 +5,8 @@ date: 2018-10-18
 categories: news
 ---
 
+![Flyer]({{ site.url }}/assets/blog2018/Lightning Talk 1 Fei-Tzin.jpg)
+
 Last week, WiCS excitedly presented its first Lightning Talk, a speaker series featuring student researchers with a focus on supporting traditionally underrepresented groups in CS. The goal of this series is to empower student researchers at Columbia by giving them the opportunity to present their work and share their journeys in research. Additionally, we want this to be a space for all students in CS, especially those who are relatively new to the field, to be exposed to different types of research and learn how CS research is conducted.
 
 Our first Lightning Talk featured speakers Katy Ilonka Gero and Fei-Tzin Lee. 
