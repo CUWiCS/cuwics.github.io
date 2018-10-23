@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lightning Talk #1"
-date: 2018-10-22
+date: 2018-10-18
 categories: news
 ---
 
