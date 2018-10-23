@@ -9,7 +9,7 @@ On October 16th, WiCS had its second general body meeting of the year! Smack in 
 
 Stay tuned for our next general body meeting for more community bonding :) 
 
-Be sure to [**sign up**][mailinglist] for our mailing list to find out more about interesting events and opportunities at WiCS! 
+Be sure to [**sign up**][mailinglist] for our mailing list and like us on [**facebook**][facebook] to find out about more events like to find out more about interesting events and opportunities at WiCS! 
 
-[interview]: https://goo.gl/forms/IM6QRxvi02qTFz022
 [mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+[facebook]:https://www.facebook.com/CUWICS
