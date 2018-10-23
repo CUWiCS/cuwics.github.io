@@ -5,7 +5,7 @@ date: 2018-10-22
 categories: news
 ---
 
-On October 16th, WiCS had its second general body meeting of the year! Smack in the middle of peak midterm season, we discusses healthy strategies and tips for stress management, paired with snacks and beverages. WiCS hopes all students have a great midterm season, while also making sure to take care of themselves!
+On October 16th, WiCS had its second general body meeting of the year! Smack in the middle of peak midterm season, we discussed healthy strategies and tips for stress management, paired with snacks and beverages. WiCS hopes all students have a great midterm season, while also making sure to take care of themselves!
 
 Stay tuned for our next general body meeting for more community bonding :) 
 
