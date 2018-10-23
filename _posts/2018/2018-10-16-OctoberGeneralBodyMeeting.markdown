@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "October General Body Meeting"
-date: 2018-10-22
+date: 2018-10-16
 categories: news
 ---
 
