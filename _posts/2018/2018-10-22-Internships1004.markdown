@@ -5,6 +5,8 @@ date: 2018-10-22
 categories: news
 ---
 
+![Flyer]({{ site.url }}/assets/blog2018/internships1004.jpg)
+
 Jumping into the search for internships can be scary, especially for students with little prior internship-hunting experience. Luckily, WiCS hosted its own panel discussion called Internships 1004 to help students navigate the intimidating process and provide them with valuable interview tips. 
 
 General internship tips for those who couldn't make it:
