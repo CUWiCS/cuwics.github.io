@@ -1,0 +1,16 @@
+---
+layout: post
+title: "SeatGeek Site Visit"
+date: 2018-10-10
+categories: news
+---
+![Flyer]({{ site.url }}/assets/blog2018/SeatGeek.jpeg)
+
+Last Monday, CUWiCS and NYU Women in Computing banded together to trek down to SeatGeek's territory. SeatGeek is a Live Event Tech company focused on creating a product that optimizes how fans experience live events. At the event, one of SeatGeek's engineers gave an overview of the organization and its crucial API functions. Recruiters were also availble to answer questions about internships and full-time positions. Students also enjoyed refreshments and dinner!
+
+![Flyer]({{ site.url }}/assets/blog2018/SeatGeekSpeaker.jpeg)
+
+Want to join us on more trips like this? Sign up for our newsletter [**here**][mailinglist] and like us on [**facebook**][facebook] to find out about more events like this!
+
+[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+[facebook]:https://www.facebook.com/CUWICS

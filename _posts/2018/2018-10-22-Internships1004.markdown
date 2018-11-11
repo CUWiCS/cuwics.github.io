@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Internships 1004"
+date: 2018-10-22
+categories: news
+---
+
+![Flyer]({{ site.url }}/assets/blog2018/internships1004.jpg)
+
+Jumping into the search for internships can be scary, especially for students with little prior internship-hunting experience. Luckily, WiCS hosted its own panel discussion called Internships 1004 to help students navigate the intimidating process and provide them with valuable interview tips. 
+
+General internship tips for those who couldn't make it:
+- If you are a freshman or sophomore, keep an eye out for summer programs specifically geared towards first and second years. These will be much easier to get into and likely be a better fit given your level of experience! 
+- Practice for technical interviews with coding practice websites like HackerRank and LeetCode
+- Read "Cracking the Coding Interview" by Gayle Laakmann McDowell for interview topics and strategies on how to approach interview questions 
+
+We also have our summer guide [**here**][guide].
+
+It's also ok to not pursue an internship! Experience gained through research, hackathons, and side projects are all highly valuable and will pop on any resume. It's all about finding what works best for you, and what will be a satisfying experience both emotionally and educationally. 
+
+Sign up for our newsletter [**here**][mailinglist] and like us on [**facebook**][facebook] for more exciting events like this! 
+
+[guide]: https://www.dropbox.com/s/j4s2arg4i63q8qh/Internships%201004%20-%202017.pdf?dl=0
+[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+[facebook]:https://www.facebook.com/CUWICS
