@@ -5,6 +5,8 @@ date: 2018-10-24
 categories: news
 ---
 
+![Flyer]({{ site.url }}/assets/blog2018/cybersecurityFB.jpg)
+
 Cybersecurity is among one of the hottest topics in tech today. In an era where our online presences are just as strong as our physical ones, knowing how to protect your identity and data is of the utmost important. Luckily, we had Facebook walk us through a beginner-friendly cybersecurity workshop to keep us up to speed. Thanks Facebook!
 
 Want to attend more events like this? Sign up for our newsletter [**here**][mailinglist] and like us on [**facebook**][facebook] to find out about more!
