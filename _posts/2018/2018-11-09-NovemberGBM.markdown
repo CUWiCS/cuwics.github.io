@@ -5,6 +5,8 @@ date: 2018-11-09
 categories: news
 ---
 
+![Flyer]({{ site.url }}/assets/blog2018/novgbm.png)
+
 For this month's general body meeting, WiCS focused on imposter syndrome, a psychological pattern in which an individual doubts their own accomplishments and internalizes a persistent fear of being outed as a "fraud." As an organization designed to empower womxn, we strive to eliminate imposter syndrome in womxn in tech, and all other factors that would discourage womxn from pursusing the tech careers they want. 
 
 At our IAmRemarkable workshop, we talked through ways to highlight our strengths and methods to exude confidence and fight imposter syndrome. Attendees also enjoyed some free food, yum! 
