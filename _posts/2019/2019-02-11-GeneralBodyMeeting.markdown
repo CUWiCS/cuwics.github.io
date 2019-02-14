@@ -7,9 +7,9 @@ categories: news
 
 ![Flyer]({{ site.url }}/assets/blog2019/GBM-February.JPG)
 
-On February 11th, WiCS had its first general body meeting of the spring semester! Board members introduced themselves, their committees, and our big upcoming events of the semester. Keep an eye out for more information to come about DivHacks, our diversity-themed hackathon, and NetWiCS, a networking event for womxn in tech! Then we all got to know each other a bit better by playing a WiCS version of Bingo. We had so much fun meeting fellow CU womxn in CS.
+On February 11th, WiCS had its first general body meeting of the spring semester! Board members introduced themselves, their committees, and our big upcoming events this semester. Keep an eye out for more information to come about DivHacks, our diversity-themed hackathon, and NetWiCS, a networking event for womxn in tech! Then we all got to know each other a bit better by playing a WiCS version of Bingo. We had so much fun making new friends in the CS@CU community!
 
-Stay tuned for our next general body meeting for more community bonding :) 
+Stay tuned for our next general body meeting for more bonding :) 
 
 Be sure to [**sign up**][mailinglist] for our mailing list and like us on [**facebook**][facebook] to find out more about interesting events and opportunities at WiCS! 
 
