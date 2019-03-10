@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Research 1006 Panel"
+date: 2019-02-26
+categories: news
+---
+
+![Flyer]({{ site.url }}/assets/blog2019/Research1006.jpg)
+
+Student researchers shared their project and how to get more involved with the CS research scene at Columbia during our Research 1006 panel. Projects included computational approaches to poetic language, machine learning, and natural language processing!
+
+Be sure to [**sign up**][mailinglist] for our mailing list and like us on [**facebook**][facebook] to find out more about interesting events and opportunities at WiCS! 
+
+[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+[facebook]:https://www.facebook.com/CUWICS
