@@ -1,0 +1,18 @@
+---
+layout: post
+title: "March General Body Meeting"
+date: 2019-03-12
+categories: news
+---
+
+![Flyer]({{ site.url }}/assets/blog2019/GBM-March.PNG)
+
+On March 12th, WiCS had its second general body meeting of the spring semester! We loved getting to see new and old faces. It was the perfect study break during midterms!
+
+Stay tuned for our next general body meeting :) and be sure to apply to be part of the [WiCS board] before March 24th!
+
+Be sure to [**sign up**][mailinglist] for our mailing list and like us on [**facebook**][facebook] to find out more about interesting events and opportunities at WiCS! 
+
+[WiCS board]: https://docs.google.com/forms/d/e/1FAIpQLSfvdESn3ufMnnMPOxPjdBRUCnu5ujz-cuFmrXKRJBGtfSSxhQ/viewform?fbclid=IwAR1Y0ptxKVQN_03ttM04WUadL_c1TKRm889-9dXEdM-qrC3QL9Uoho7nClg
+[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+[facebook]:https://www.facebook.com/CUWICS
