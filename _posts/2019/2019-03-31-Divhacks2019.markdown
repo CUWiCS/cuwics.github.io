@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Divhacks 2019"
+date: 2019-03-31
+categories: news
+---
+
+![Flyer]({{ site.url }}/assets/blog2019/divhacks.jpg)
+
+We had such an incredible time hacking with everyone at Divhacks 2019: Uplifting Urban America!! Participants heard from our keynote speaker, Maggie Chan Jones, the Founder and CEO of [Tenshey, Inc.][tenshey], a startup "dedicated to advancing gender diversity through executive coaching, one female leader at a time." Besides plenty of hacking, there were also workshops on HTML/CSS and Flask.
+
+Thank you to everyone who came out, and we'll see you again next year!
+
+Be sure to [**sign up**][mailinglist] for our mailing list and like us on [**facebook**][facebook] to find out more about interesting events and opportunities at WiCS! 
+
+[tenshey]: https://tenshey.com/
+[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+[facebook]:https://www.facebook.com/CUWICS
