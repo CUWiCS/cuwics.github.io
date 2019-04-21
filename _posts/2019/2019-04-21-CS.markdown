@@ -4,7 +4,6 @@ title: "A look into CS at Columbia!"
 date: 2019-04-21
 categories: news
 ---
-# A look into CS at Columbia!
 *by your fabulous WiCS Event Coordinators*
 
 Likely if you are reading this, you are at least considering taking a Computer Science course. You might be on the fence about whether you really want to try something new, but that you've heard it is a good resume builder. You might be nervous because it something you've never tried before and you only know as much as The Social Network and The Matrix taught you. Perhaps you've tried Scratch or some other language in middle school and swore you would never try it again, but here you are. Maybe the only experience you have is using Excel to make a graph in your last lab. Fear not, all of these are ok, and hopefully, this will give you some information to tip the scales on your decision.
