@@ -9,7 +9,15 @@ categories: news
 
 After months of preparation, we were so happy to host Barnumbia students and engineers from GTS, SeatGeek, BBH, Dropbox, Google, HRT, Two Sigma, PDT Partners, Bloomberg, Spotify, Vimeo, and WeWork plus amazing professors and PhD candidates from right here at Columbia! Attendees networked with each other in six speed rounds over delicious Malaysian food from Laut.
 
-We had the best time expanding our networks both on and off campus with empowering women. Thank you to everyone who attended and/or helped out, especially our wonderful board, event coordinators, and graduating seniors.
+At NetWiCS, 80 students were in attendance, ranging from all undergraduate years and graduate studies. 30 industry representatives from 12 different tech companies were also present, representing a variety of roles. We also had professors and PHD students representing the womxn in academia.
+
+During the introduction, WiCS president Lucille Sui spoke about the importance of diverse thoughts and opinions in tech, and how humbling it was for WiCS to play a small part in this journey to making computer science a more inclusive field.
+
+After dinner was served by Laut, it was time for speed networking. We had seven rounds of networking sessions as students were given the chance to talk to industry professionals, womxn in academia, and their fellow peers.
+
+After networking, closing remarks were given. Lucille highlighted the support of the board members, event coordinators, the Computer Science department, and the new Barnard Computational Science Center. Students also got to leave with a bag full of swag from our generous sponsors!
+
+Thank you to our wonderful engineers and attendees, as well as our sponsors and board members for making NetWiCS a success!
 
 Be sure to [**sign up**][mailinglist] for our mailing list and like us on [**facebook**][facebook] to find out more about interesting events and opportunities at WiCS! 
 
