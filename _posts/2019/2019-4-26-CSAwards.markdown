@@ -7,7 +7,7 @@ categories: news
 
 ![Flyer]({{ site.url }}/assets/blog2019/CSAwards.jpg)
 
-Congratulations to WiCS Corporate Chair Yuxuan Mei SEAS '19 and Academic Chair Serina Chang CC '19, who were both recognized by the Columbia Computer Science with awards this year. Yuxuan won the Russell C. Mills Award and Serina won the Theodore R. Bashkow Award. Below are descriptions of both awards.
+Congratulations to WiCS Corporate Chair Yuxuan Mei SEAS '19 (pictured on the left) and Academic Chair Serina Chang CC '19 (pictured on the right), who were both recognized by the Columbia Computer Science with awards this year. Yuxuan won the Russell C. Mills Award and Serina won the Theodore R. Bashkow Award. Below are descriptions of both awards.
 
 The Russell C. Mills Award was established by the computer science department in 1992 in memory of Russell C. Mills, is a cash prize given to a computer science major who has exhibited excellence in the area of computer science.
 
