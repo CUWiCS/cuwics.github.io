@@ -36,7 +36,7 @@ $(function() {
             }
 
             $.ajax({
-                url: "//formspree.io/"+FORM_ID,
+                url: "//formspree.io/"+email_add,
                 method: "POST",
                 dataType: "json",
                 data: {
