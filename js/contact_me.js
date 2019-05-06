@@ -36,7 +36,7 @@ $(function() {
             }
 
             $.ajax({
-                url: "//formspree.io/"+email_add,
+                url: "//formspree.io/elh2157@barnard.edu",
                 method: "POST",
                 dataType: "json",
                 data: {
