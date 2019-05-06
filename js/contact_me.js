@@ -28,6 +28,7 @@ $(function() {
             } else if (inquiry_type=="company") {
                 email_add = "xiao.lim@columbia.edu"; //Xiao L (current corporate chairs)
                 cc = "ls3389@barnard.edu"; //Lucille (current president)
+                cc = "elh2157@barnard.edu";
             } else if (inquiry_type=="anything_else") {
                 email_add = "aqs2104@columbia.edu"; // Annie (current publicity chair)
                 cc = "elh2157@barnard.edu";
