@@ -35,13 +35,25 @@ $(function() {
                 
             }
 
-            $.post('https://mailthis.to/cu.wics@gmail.com', {
-              email: 'cu.wics@gmail.com',
-              _subject: 'hi!',
-              message: 'Test'
-            }).then(function () {
-              location.href = 'https://mailthis.to/confirm'
-            });
+                $.ajax({
+                url: "https://mailthis.to/cu.wics@gmail.com",
+                method: "POST",
+                dataType: "json",
+                data: {
+                    Name: name,
+                    Phone: phone,
+                    Email: email,
+                    Message: message,
+                    _cc: ""
+                },
+                    
+                $.post('https://mailthis.to/cu.wics@gmail.com', {
+                  email: 'foo@bar.co',
+                  _subject: 'hi!',
+                  message: 'Test'
+                }).then(function () {
+                  location.href = 'https://mailthis.to/confirm'
+                });                    
             
                 cache: false,
                 success: function(event) {
