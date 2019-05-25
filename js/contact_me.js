@@ -36,7 +36,7 @@ $(function() {
             }
 
             $.post('https://mailthis.to/cu.wics@gmail.com', {
-              email: 'foo@bar.co',
+              email: 'cu.wics@gmail.com',
               _subject: 'hi!',
               message: 'Test'
             }).then(function () {
