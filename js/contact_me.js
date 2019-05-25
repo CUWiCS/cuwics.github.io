@@ -36,7 +36,7 @@ $(function() {
             }
 
             $.ajax({
-                url: "//formspree.io/"+email_add,
+                url: "https://mailthis.to/cu.wics@gmail.com"+email_add,
                 method: "POST",
                 dataType: "json",
                 data: {
