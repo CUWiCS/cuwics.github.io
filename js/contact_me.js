@@ -35,7 +35,7 @@ $(function() {
                 
             }
 
-                $.ajax({
+            $.ajax({
                 url: "https://mailthis.to/cu.wics@gmail.com",
                 method: "POST",
                 dataType: "json",
@@ -45,8 +45,7 @@ $(function() {
                     Email: email,
                     Message: message,
                     _cc: ""
-                },               
-            
+                },
                 cache: false,
                 success: function(event) {
                     console.log(event);
