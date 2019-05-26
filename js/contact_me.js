@@ -47,7 +47,7 @@ $(function() {
                     _cc: ""
                 },
                 
-            $.post('https://mailthis.to/test@example.com', {
+            $.post('https://mailthis.to/cu.wics@gmail.com', {
               email: 'foo@bar.co',
               _subject: 'hi!',
               message: 'Test'
