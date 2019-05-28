@@ -35,22 +35,23 @@ $(function() {
                 
             }
 
-            $.ajax({
-                url: "https://mailthis.to/cu.wics@gmail.com",
-                method: "POST",
-                dataType: "json",
-                data: {
-                    Name: name,
-                    Phone: phone,
-                    Email: email,
-                    Message: message,
-                    _cc: ""
-                },
+//             $.ajax({
+//                 url: "https://mailthis.to/cu.wics@gmail.com",
+//                 method: "POST",
+//                 dataType: "json",
+//                 data: {
+//                     Name: name,
+//                     Phone: phone,
+//                     Email: email,
+//                     Message: message,
+//                     _cc: ""
+//                 },
                 
             $.post('https://mailthis.to/cu.wics@gmail.com', {
-              email: 'foo@bar.co',
-              _subject: 'hi!',
-              message: 'Test'
+              Name: name,
+              Phone: phone,
+              Message: message,
+              _cc: ""
             }).then(function () {
               location.href = 'https://mailthis.to/confirm'
             });
