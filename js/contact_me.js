@@ -27,34 +27,34 @@ $(function() {
                 cc = "elh2157@barnard.edu"; //old publicity chair
             } else if (inquiry_type=="company") {
                 email_add = "xiao.lim@columbia.edu"; //Xiao L (current corporate chairs)
-                cc = "ls3389@barnard.edu"; //Lucille (current president)
-                cc = "elh2157@barnard.edu";
+                cc = "h.so@columbia.edu"; //Haley (current president)
+                cc = "aqs2104@columbia.edu";
             } else if (inquiry_type=="anything_else") {
                 email_add = "aqs2104@columbia.edu"; // Annie (current publicity chair)
                 cc = "elh2157@barnard.edu";
                 
             }
 
-//             $.ajax({
-//                 url: "https://mailthis.to/cu.wics@gmail.com",
-//                 method: "POST",
-//                 dataType: "json",
-//                 data: {
-//                     Name: name,
-//                     Phone: phone,
-//                     Email: email,
-//                     Message: message,
-//                     _cc: ""
-//                 },
+            $.ajax({
+                url: "././mail/contact_me.php",
+                method: "POST",
+                dataType: "json",
+                data: {
+                    Name: name,
+                    Phone: phone,
+                    Email: email,
+                    Message: message,
+                    _cc: ""
+                },
                 
-            $.post('https://mailthis.to/cu.wics@gmail.com', {
-              Name: name,
-              Phone: phone,
-              Message: message,
-              _cc: ""
-            }).then(function () {
-              location.href = 'https://mailthis.to/confirm'
-            });
+//             $.post('https://mailthis.to/cu.wics@gmail.com', {
+//               Name: name,
+//               Phone: phone,
+//               Message: message,
+//               _cc: ""
+//             }).then(function () {
+//               location.href = 'https://mailthis.to/confirm'
+//             });
             
                 cache: false,
                 success: function(event) {
