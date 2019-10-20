@@ -1,1 +1,18 @@
 
+---
+layout: post
+title: "DivHacks 2020"
+date: 2019-10-12
+categories: news
+---
+
+![Flyer]({{ site.url }}/assets/blog2020/divhacks1.png)
+
+On October 5th, WiCS hosted DivHacks, Columbia's annual diversity hackathon! This year's DivHacks theme was Education for All. Students worked on projects geared towards enhancing the accessibility of academic resources for local communities. We had the highest turnout and most submitted hacks in the history of DivHacks! Our unprecedented success is all thanks to our wonderful hosts (Computer Science at Barnard College, Vagelos Computational Science Center at Barnard College), sponsors (Two Sigma and N26), keynote speaker (Emily Denton), judges, and workshop leaders. For more details, please check out our webpage at https://divhackscu.github.io/
+
+Stay tuned for more diversity events! We hope to see you at next year's DivHacks.
+
+Be sure to [**sign up**][mailinglist] for our mailing list and like us on [**facebook**][facebook] to find out more about interesting events and opportunities at WiCS! 
+
+[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+[facebook]:https://www.facebook.com/CUWICS
