@@ -5,7 +5,7 @@ date: 2019-11-20
 categories: news
 ---
 
-
+![Flyer]({{ site.url }}/assets/blog2020/divhacks1.png)
 
 On October 7th, WiCS hosted Stripe, one of biggest up and coming technology unicorns that is revolutionizing online payments. The event consisted of a talk by a recruiter, followed by an in depth exploration of the recruitment process for internships and new grad roles. The recruiter was joined by two software engineers, who explained how Stripe's interviews differ from mainstream coding interviews, and the rationale behind this decision.
 
