@@ -9,7 +9,7 @@ categories: news
 
 On October 17th, WiCS hosted a panel of 5 Bloomberg engineers, who shared their experiences of working at Bloomberg. They particularly emphasized Bloomberg philanthropy and the focus of the company on giving back to society. They also elaborated on the corporate structure, which is extremely flat and allows for everyone to have access to important decision making processes.
 
-Be sure to check out internship opportunities at Bloomberg, and stay tuned for more corporate events!
+Check out internship opportunities at Bloomberg, and stay tuned for more corporate events!
 
 Be sure to [**sign up**][mailinglist] for our mailing list and like us on [**facebook**][facebook] to find out more about interesting events and opportunities at WiCS! 
 
