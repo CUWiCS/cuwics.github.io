@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Lunch with Professor Bauer"
