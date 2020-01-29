@@ -1,0 +1,18 @@
+---
+layout: post
+title: "GTS Information Session"
+date: 2019-10-29
+categories: news
+---
+
+![Flyer]({{ site.url }}/assets/blog2020/gts.png)
+
+On October 29th, WiCS hosted GTS, a leader in financial technology, for an information session. They talked about the history
+and culture of GTS and the types of technical problems they face. They outlined internship and full time technology roles with them as well.
+
+Check out GTS if you're interested in making an impact in fin-tech!
+
+Be sure to [**sign up**][mailinglist] for our mailing list and like us on [**facebook**][facebook] to find out more about interesting events and opportunities at WiCS! 
+
+[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+[facebook]:https://www.facebook.com/CUWICS
