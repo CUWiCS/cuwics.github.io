@@ -248,6 +248,12 @@ main {
 	height: 100%;
 	width: 100%;
 }
+
+.alert-primary{color:#004085;background-color:#cce5ff;border-color:#b8daff}
+.alert-primary hr{border-top-color:#9fcdff}
+.alert-dismissible{padding-right:4rem}
+.alert-dismissible .close{position:absolute;top:0;right:0;padding:.75rem 1.25rem;color:inherit}
+
 /* Slides */
 #home .bcg {background-image:url('../img/img_school.jpg')}
 #calendar .bcg {background-image:url('../img/img_events.jpg')}
