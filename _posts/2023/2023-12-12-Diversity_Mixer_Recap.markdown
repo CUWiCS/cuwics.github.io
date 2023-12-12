@@ -28,7 +28,7 @@ _Answers!\
 3) What is the Society of Hispanic Professional Engineers (SHPE)?_
 
 <p>&nbsp;</p>
-Be sure to [**sign up**][mailinglist] for our mailing list and like us on [**facebook**][facebook] to find out more about interesting events and opportunities at WiCS! 
+Be sure to [**sign up**][mailinglist] for our mailing list and like us on [**instagram**][instagram] to find out more about interesting events and opportunities at WiCS! 
 
 [mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
-[facebook]:https://www.instagram.com/columbiawics/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==
+[instagram]:https://www.instagram.com/columbiawics/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==
