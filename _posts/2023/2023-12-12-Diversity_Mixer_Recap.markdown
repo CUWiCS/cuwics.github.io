@@ -6,7 +6,7 @@ categories: news
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2023/nsbeXcolorstack_mixer.jpg)
-By: Carla Mandiola (School of Journalism '25)
+#### By: Carla Mandiola (School of Journalism '25)
 
 With an entertaining Jeopardy Game on December 1st, we hosted a new NSBE x WiCS x ColorStack: Black and Latina Women in CS Mixer. The event was organized by the WiCS Diversity and Inclusion committee, consisting of Maiya Morgan (Barnard ‘25), Daniella Cardenas (SEAS' 26), Kristy Martinez (SEAS ‘26), and Christine Lam (Barnard ‘26), NSBE led by Mandy Jenkins (SEAS ‘24) and ColorStack, led by Michaela Gary (Barnard ‘25).
 
@@ -22,7 +22,9 @@ Thanks to everyone who participated and collaborated to create this great mixer.
 Now is your chance to participate in our Jeopardy Game! 
 
 1) This class is required for electrical engineering and computer science majors.
+
 2) This woman calculated orbital trajectories, as seen in the film Hidden Figures.
+
 3) This organization, founded in 1974, supports Latinas in their pursuit of higher education and careers in STEM. 
 
 
@@ -30,8 +32,11 @@ Now is your chance to participate in our Jeopardy Game!
 
 Answers!
 1) What is Fundamentals of Computer Systems?
+
 2) Who is Katherine Johnson?
+
 3) What is the Society of Hispanic Professional Engineers (SHPE)?
+
 
 
 
