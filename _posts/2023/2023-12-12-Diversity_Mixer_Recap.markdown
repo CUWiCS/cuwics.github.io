@@ -15,8 +15,6 @@ With an entertaining Jeopardy Game on December 1st, we hosted a new NSBE x WiCS 
 For the event, the Diversity and Inclusion committee lead Maiya Morgan was in charge of the questions included in the Jeopardy Game, and she says that "hosting events for Black and Latina women in computer science is vital because it offers a space to connect, feel supported, and break down barriers in an often underrepresented field. We hope to create a comfortable environment that makes everyone in the tech space feel welcome".
 
 Thanks to everyone who participated and collaborated to create this great mixer. 
-
-<p>&nbsp;</p>
 <p>&nbsp;</p>
 
 Now is your chance to participate in our Jeopardy Game!\
@@ -30,8 +28,6 @@ _Answers!\
 3) What is the Society of Hispanic Professional Engineers (SHPE)?_
 
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-
 Be sure to [**sign up**][mailinglist] for our mailing list and like us on [**facebook**][facebook] to find out more about interesting events and opportunities at WiCS! 
 
 [mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
