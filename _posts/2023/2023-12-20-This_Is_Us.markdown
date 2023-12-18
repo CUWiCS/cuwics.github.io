@@ -1,14 +1,15 @@
 ---
 layout: post
-title: "THIS IS US"
+title: "MEET 2023-24 E-BOARD"
 date: 2023-12-18
 categories: news
 ---
 
-![Flyer]({{ site.url }}/assets/blog2023/nsbeXcolorstack_mixer.jpg)
 ##### By: Carla Mandiola (M.S. in Data Journalism 24')
 
 Can you believe that Women in Computer Science have been around since 1998? And it’s because of this great community that we still are here. Meet our board members, the reason why they are here, advice to go navigate through school, and the best places in New York City:
+
+![Flyer]({{ site.url }}/assets/blog2023/Rachel.heic)
 
 ### Rachel Chung, Co-President
 **Describe yourself in three words**
@@ -26,8 +27,7 @@ I can't imagine being anywhere else! I love being at Columba, in New York City, 
 **Reveal your favorite place in NYC**
 K-town
 
-![Flyer]({{ site.url }}/assets/blog2023/Rachel.heic)
-
+![Flyer]({{ site.url }}/assets/blog2023/Samantha.jpeg)
 
 ### Samantha Burak, Co-President:
 **Describe yourself in three words**
@@ -48,8 +48,8 @@ I'd still be in New York, trying something music or dance related
 **Reveal your favorite place in NYC**
 Veselka and Prince Tea House in East Village
 
-![Flyer]({{ site.url }}/assets/blog2023/Samantha.jpeg)
 
+![Flyer]({{ site.url }}/assets/blog2023/Alayna.jpg)
 
 ### Alayna Nguyen, Vice President
 **Describe yourself in three words:**
@@ -70,8 +70,8 @@ Studying at Hogwarts (potions would be interesting!)
 **Reveal your favorite place in NYC:**
 Xi'an Famous Foods (Shaanxi spicy cumin lamb noodles) on 78th—a quick walk away from the MET which makes it a perfect post-gallery touring meal
 
-![Flyer]({{ site.url }}/assets/blog2023/Alayna.jpg)
 
+![Flyer]({{ site.url }}/assets/blog2023/Catherine.png)
 
 ### Catherine Ji, Vice President
 **Describe yourself in three words:**
@@ -92,8 +92,7 @@ In another life, I would be busy whipping up pastries in my own little bakery + 
 **Reveal your favorite place in NYC:**
 -Pier 34 at night
 
-![Flyer]({{ site.url }}/assets/blog2023/Catherine.png)
-
+![Flyer]({{ site.url }}/assets/blog2023/Indigo.png)
 
 ### Indigo Parlin, Operations Chair
 **Describe yourself in three words:**
@@ -114,7 +113,6 @@ Well, I won't be here for much longer because I'm going to do a study abroad ter
 **Reveal your favorite place in NYC**
 Scarr's pizza
 
-![Flyer]({{ site.url }}/assets/blog2023/Indigo.png)
 
 <p>&nbsp;</p>
 Be sure to [**sign up**][mailinglist] for our mailing list and like us on [**instagram**][instagram] to find out more about interesting events and opportunities at WiCS! 
