@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "This is Us"
-date: 2023-12-20
+title: "THIS IS US"
+date: 2023-12-18
 categories: news
 ---
 
@@ -112,7 +112,7 @@ I TA for Adam Cannon, and he always gives the advice to relax and not stress so 
 Well, I won't be here for much longer because I'm going to do a study abroad term in Australia next semester! So let's just say somewhere warm!
 
 **Reveal your favorite place in NYC**
-Scarr's pizza :)
+Scarr's pizza
 
 ![Flyer]({{ site.url }}/assets/blog2023/Indigo.png)
 
