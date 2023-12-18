@@ -9,7 +9,7 @@ categories: news
 
 Can you believe that Women in Computer Science have been around since 1998? And it’s because of this great community that we still are here. Meet our board members, the reason why they are here, advice to go navigate through school, and the best places in New York City:
 
-![Flyer]({{ site.url }}/assets/blog2023/Rachel.heic)
+![Flyer]({{ site.url }}/assets/blog2023/Rachel.png)
 
 ### Rachel Chung, Co-President
 **Describe yourself in three words**
