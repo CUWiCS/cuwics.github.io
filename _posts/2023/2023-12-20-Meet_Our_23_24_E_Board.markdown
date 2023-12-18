@@ -96,7 +96,7 @@ In another life, I would be busy whipping up pastries in my own little bakery + 
 
 ### Indigo Parlin, Operations Chair
 **Describe yourself in three words:**
-Outgoing, Creative, Genuine
+Outgoing, creative, genuine
 
 **Why did you want to be part of WiCS?**
 I joined WiCS during covid because I didn't know much about CS opportunities as a FLI student who started college online. Once I joined I really liked the idea of helping other people in similar situations find opportunities in Computer Science.
@@ -112,6 +112,29 @@ Well, I won't be here for much longer because I'm going to do a study abroad ter
 
 **Reveal your favorite place in NYC**
 Scarr's pizza
+
+![Flyer]({{ site.url }}/assets/blog2023/Jennifer.jpeg)
+
+### Jennifer Oettinger, Interim Operations Chair 
+
+**Describe yourself in three words**
+Inventive, enthusiastic, and dedicated
+
+**Why did you want to be part of WiCS?**
+I joined WiCS to find a community of people with similar interests who could help me navigate what I wanted to do here. I really enjoy the opportunity to help other students do the same now. 
+
+**How would you describe the energy of working and learning with women and gender-diverse people?**
+Everyone is super resourceful and committed to the work we are doing. It's great to see so many people passionate about our club.
+
+
+**What's the best advice a professor has given you?**
+Something being difficult isn't a bad thing. That's when we really get the chance to think and expand our understanding. 
+
+**If you weren't here, where would you be?**
+Hopefully still in NYC, I love the intensity of the city! 
+
+**Reveal your favorite place in NYC**
+I love to get bagels and sit in Paley park with friends!
 
 
 <p>&nbsp;</p>
