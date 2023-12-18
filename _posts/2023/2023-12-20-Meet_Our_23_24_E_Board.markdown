@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MEET 2023-24 E-BOARD"
+title: "MEET OUR 2023-24 E-BOARD"
 date: 2023-12-18
 categories: news
 ---
