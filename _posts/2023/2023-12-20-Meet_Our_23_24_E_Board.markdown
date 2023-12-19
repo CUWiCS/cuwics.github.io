@@ -7,12 +7,12 @@ categories: news
 
 ##### By: Carla Mandiola (M.S. in Data Journalism 24')
 
-Can you believe that Women in Computer Science have been around since 1998? And it’s because of this great community that we still are here. Meet our board members, the reason why they are here, advice to go navigate through school, and the best places in New York City:
+Can you believe that Women in Computer Science has been around since 1998? And it’s because of this great community we are still growing strong. Meet our board members, the reason why they are here, advice to navigate through school, and the best-hidden gems in New York City: 
 
 ![Flyer]({{ site.url }}/assets/blog2023/Rachel.png)
 
 ### Rachel Chung, Co-President
-**Describe yourself in three words**
+**Describe yourself in three words:**
 Honest, resourceful, optimistic
 
 **Why did you want to be part of WiCS?**
@@ -24,13 +24,13 @@ I can tell that everyone who is committed to WiCS really cares for the club and 
 **If you weren't here, where would you be?**
 I can't imagine being anywhere else! I love being at Columba, in New York City, and in WiCS!
 
-**Reveal your favorite place in NYC**
+**Reveal your favorite place in NYC:**
 K-town
 
 ![Flyer]({{ site.url }}/assets/blog2023/Samantha.jpeg)
 
 ### Samantha Burak, Co-President:
-**Describe yourself in three words**
+**Describe yourself in three words:**
 Hardworking, idealistic, empathetic
 
 **Why did you want to be part of WiCS?**
@@ -45,7 +45,7 @@ Pay attention in class - based on the current price of tuition, each class perio
 **If you weren't here, where would you be?**
 I'd still be in New York, trying something music or dance related
 
-**Reveal your favorite place in NYC**
+**Reveal your favorite place in NYC:**
 Veselka and Prince Tea House in East Village
 
 
@@ -73,11 +73,11 @@ Xi'an Famous Foods (Shaanxi spicy cumin lamb noodles) on 78th—a quick walk awa
 
 ![Flyer]({{ site.url }}/assets/blog2023/Catherine.png)
 
-### Catherine Ji, Vice President
+### Catherine Ji, Co-Treasurer
 **Describe yourself in three words:**
 Optimistic, easy-going, creative
 
-**Why did you want to be part of WiCS?:**
+**Why did you want to be part of WiCS?**
 I wanted to meet more women and gender-diverse people in CS while helping establish a supportive community. Back in high school, I enjoyed the experience of getting together and studying with friends, so I wanted to recreate that, especially given the isolating era of Zoom classes.
 
 **How would you describe the energy of working and learning with women and gender-diverse people?**
@@ -91,6 +91,53 @@ In another life, I would be busy whipping up pastries in my own little bakery + 
 
 **Reveal your favorite place in NYC:**
 -Pier 34 at night
+
+![Flyer]({{ site.url }}/assets/blog2023/Chelsea.png)
+
+### Chelsea Soemitro, Co-Treasurer
+
+**Describe yourself in three words:**
+Driven, enthusiastic, passionate
+
+**Why did you want to be part of WiCS?**
+I wanted to find a tight-knit community of women in CS, and help uplift this community on our campus!
+
+**How would you describe the energy of working and learning with women and gender-diverse people?** 
+Refreshing and open – it’s nice to be in an environment where I’m not afraid to chime in and voice my ideas. 
+
+**What's the best advice a professor has given you?**
+Communicate — college is hard, but it’s important to let people around you know if you need a break so you don’t go through anything alone.
+
+**If you weren't here, where would you be?**
+Probably back home in Hong Kong!
+
+**Reveal your favorite place in NYC:**
+Soho <3
+
+
+![Flyer]({{ site.url }}/assets/blog2023/Jennifer.jpeg)
+
+### Jennifer Oettinger, Interim Operations Chair 
+
+**Describe yourself in three words:**
+Inventive, enthusiastic, and dedicated
+
+**Why did you want to be part of WiCS?**
+I joined WiCS to find a community of people with similar interests who could help me navigate what I wanted to do here. I really enjoy the opportunity to help other students do the same now. 
+
+**How would you describe the energy of working and learning with women and gender-diverse people?**
+Everyone is super resourceful and committed to the work we are doing. It's great to see so many people passionate about our club.
+
+
+**What's the best advice a professor has given you?**
+Something being difficult isn't a bad thing. That's when we really get the chance to think and expand our understanding. 
+
+**If you weren't here, where would you be?**
+Hopefully still in NYC, I love the intensity of the city! 
+
+**Reveal your favorite place in NYC:**
+I love to get bagels and sit in Paley park with friends!
+
 
 ![Flyer]({{ site.url }}/assets/blog2023/Indigo.png)
 
@@ -110,31 +157,8 @@ I TA for Adam Cannon, and he always gives the advice to relax and not stress so 
 **If you weren't here, where would you be?**
 Well, I won't be here for much longer because I'm going to do a study abroad term in Australia next semester! So let's just say somewhere warm!
 
-**Reveal your favorite place in NYC**
+**Reveal your favorite place in NYC:**
 Scarr's pizza
-
-![Flyer]({{ site.url }}/assets/blog2023/Jennifer.jpeg)
-
-### Jennifer Oettinger, Interim Operations Chair 
-
-**Describe yourself in three words**
-Inventive, enthusiastic, and dedicated
-
-**Why did you want to be part of WiCS?**
-I joined WiCS to find a community of people with similar interests who could help me navigate what I wanted to do here. I really enjoy the opportunity to help other students do the same now. 
-
-**How would you describe the energy of working and learning with women and gender-diverse people?**
-Everyone is super resourceful and committed to the work we are doing. It's great to see so many people passionate about our club.
-
-
-**What's the best advice a professor has given you?**
-Something being difficult isn't a bad thing. That's when we really get the chance to think and expand our understanding. 
-
-**If you weren't here, where would you be?**
-Hopefully still in NYC, I love the intensity of the city! 
-
-**Reveal your favorite place in NYC**
-I love to get bagels and sit in Paley park with friends!
 
 
 <p>&nbsp;</p>
