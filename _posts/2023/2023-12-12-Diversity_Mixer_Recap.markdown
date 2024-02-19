@@ -6,7 +6,7 @@ categories: news
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2023/nsbeXcolorstack_mixer.jpg)
-##### By: Carla Mandiola (M.S. in Data Journalism 24')
+##### By: Carla Mandiola (M.S. in Data Journalism '24)
 
 With an entertaining Jeopardy Game on December 1st, we hosted a new NSBE x WiCS x ColorStack: Black and Latina Women in CS Mixer. The event was organized by the WiCS Diversity and Inclusion committee, consisting of Maiya Morgan (Barnard ‘25), Daniella Cardenas (SEAS' 26), Kristy Martinez (SEAS ‘26), and Christine Lam (Barnard ‘26), NSBE led by Mandy Jenkins (SEAS ‘24) and ColorStack, led by Michaela Gary (Barnard ‘25).
 
