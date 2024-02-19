@@ -6,7 +6,7 @@ categories: news
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2024/divhacks2023flyer.png)
-***Theme from DivHacks 2023 hackathon, "Hack to the Future" (September 23-24, 2023)***
+*Theme from DivHacks 2023 hackathon, "Hack to the Future" (September 23-24, 2023)*
 ##### By: Anita Rab (SEAS '27)
 
 Interested in engaging with the hacker community at Columbia, and, more specifically, a diverse and inclusive one that welcomes beginner programmers? Read on to learn more about **DivHacks, Columbia WiCS’s annual hackathon** that usually occurs in the fall semester at the end of September. DivHacks is open to **undergraduate students**, and Columbia students—especially underclassmen interested in technology—are highly encouraged to apply and participate.
