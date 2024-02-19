@@ -13,14 +13,14 @@ layout: home
             </h3>
         </div>
         <div class="panel-body">
-            {% assign truncated_html = post.content | markdownify %}
-            {% assign truncated_text = truncated_html | strip_html | truncatewords: 50 %}
-            {{ truncated_text }}
-            <br><br>
+        {{ post.content | truncatehtml | truncatewords: 50 }}
+        
+        </br></br>
             <center><a class="post-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}">
                 &lt;read more&gt;
             </a></center>
-        </div>
     </div>
+    </div>
+
 </div>
 {% endfor %}
