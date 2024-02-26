@@ -6,7 +6,7 @@ categories: news
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2024/diana.png)
-##### By: Rachel Boroda (SEAS '27)
+##### By: Rachel Boroda (Barnard '27)
 
 Hellooooo WiCS blog readers! Welcome to the Day in the Life series, where I’ll feature blog posts dedicated to a freshman, sophomore, junior, and senior studying computer science. For the inaugural post, I’ll share a bit about myself!
 
