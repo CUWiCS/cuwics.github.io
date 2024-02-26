@@ -52,9 +52,6 @@ I pack up and head to Uris for a quick meeting before grabbing dinner at Chef Mi
 **8:15pm - 11:30pm**
 I head back across Broadway to Barnard. Once I get to my dorm, I settle in for the night. I work on a couple of applications for the summer and look over the assigned articles for my Russia and the West class tomorrow morning. Then, I read, shower, and head to bed. Goodnight!
 
-
-***We look forward to seeing you join the hacking!***
-
 <p>&nbsp;</p>
 Be sure to [**sign up**][mailinglist] for our mailing list and like us on [**instagram**][instagram] to find out more about interesting events and opportunities at WiCS! 
 
