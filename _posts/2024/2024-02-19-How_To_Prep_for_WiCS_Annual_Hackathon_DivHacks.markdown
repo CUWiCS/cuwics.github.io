@@ -28,5 +28,5 @@ DivHacks is the perfect hackathon to begin your hacker journey, as it is beginne
 <p>&nbsp;</p>
 Be sure to [**sign up**][mailinglist] for our mailing list and like us on [**instagram**][instagram] to find out more about interesting events and opportunities at WiCS! 
 
-[mailinglist]: http://columbia.us9.list-manage.com/subscribe?u=4c6a1c710f8ab9cce10272368&id=593b5faa43
+[mailinglist]: https://listserv.cuit.columbia.edu/scripts/wa.exe?SUBED1=WICS&A=1
 [instagram]:https://www.instagram.com/columbiawics/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==
