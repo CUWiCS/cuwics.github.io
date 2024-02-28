@@ -6,7 +6,6 @@ categories: news
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2024/diana.png)
-*[Image Source](https://blog-assets.3ds.com/uploads/2022/03/ht-vte-wof-1024x576-1.png)*
 ##### By: Rachel Boroda (Barnard '27)
 
 Hellooooo WiCS blog readers! Welcome to the Day in the Life series, where I’ll feature blog posts dedicated to a freshman, sophomore, junior, and senior studying computer science. For the inaugural post, I’ll share a bit about myself!
