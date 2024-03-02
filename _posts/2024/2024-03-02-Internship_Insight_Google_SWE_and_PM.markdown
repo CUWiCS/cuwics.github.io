@@ -7,8 +7,8 @@ categories: news
 
 ![Flyer]({{ site.url }}/assets/blog2024/googleHQ.png)
 *Google Headquarters, the Googleplex, in Mountain View, California*
-*Image published under Creative Commons (CC BY-SA 4.0)*
 
+*Image published under Creative Commons (CC BY-SA 4.0)*
 
 ##### By: Ann Li (SEAS '27)
 
