@@ -5,7 +5,6 @@ date: 2024-03-03
 categories: news
 ---
 
-![Flyer]({{ site.url }}/assets/blog2024/techbreakthroughs.png)
 ##### By: Carla Mandiola (M.S. in Data Journalism '24)
 
 This is the best chance to get feedback, meet WiCS board members, and find resources for your career. If you are a Columbia/Barnard student, sign up [HERE](https://cu-wics.appointlet.com/). 
