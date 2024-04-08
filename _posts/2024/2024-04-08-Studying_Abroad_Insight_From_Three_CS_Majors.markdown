@@ -60,10 +60,10 @@ Have you ever considered studying abroad? Read this blog to hear about the exper
 
 **Maiya** wished she looked more into each university and the classes offered before committing to one. She didn’t look at the classes before choosing a university but recommends doing it.
 
-**Martha** would definitely study abroad again if she had another year, and is open to chatting with underclassmen if anyone has questions,
+**Martha** would definitely study abroad again if she had another year, and is open to chatting with underclassmen if anyone has questions.
 
 
-For more information about studying abroad, check out the Center for Global Engagement website at global.undergrad.columbia.edu.
+For more information about studying abroad, check out the Center for Global Engagement website at [global.undergrad.columbia.edu](https://global.undergrad.columbia.edu/).
 
 
 
