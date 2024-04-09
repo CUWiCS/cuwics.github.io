@@ -6,7 +6,8 @@ categories: news
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2024/resume_stockphoto.jpg)
-*View from Mont Des-Arts, photo taken by Indigo Parlin while studying abroad in Paris*
+*Image credit to www.flexjobs.com*
+
 ##### By: Marley Abowitz (BC '24)
 
 Hey readers! Many individuals encounter challenges when applying for their first jobs and internships in computer science, especially considering the catch-22 situation where experience is needed to gain experience. Here are some tips to enhance your resume by acquiring experience and skills outside of the classroom.

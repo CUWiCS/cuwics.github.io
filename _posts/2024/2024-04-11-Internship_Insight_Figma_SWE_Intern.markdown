@@ -6,7 +6,7 @@ categories: news
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2024/figma_office.png)
-*Image credit to www.flexjobs.com*
+*Figma Office Space, image credit to cityam.com*
 
 ##### By: Ann Li (SEAS '27)
 
