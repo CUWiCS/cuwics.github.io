@@ -7,7 +7,6 @@ categories: news
 
 ![Flyer]({{ site.url }}/assets/blog2024/figma_office.png)
 *Figma Office Space, image credit to cityam.com*
-
 ##### By: Ann Li (SEAS '27)
 
 If you have tried UI design before, you’ve probably used Figma, an online tool for interface design. I talked with **Samantha Burak**, a senior in SEAS studying Computer Science, to hear about her experience as a software engineering intern at Figma.
