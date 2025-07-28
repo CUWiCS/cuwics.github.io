@@ -42,54 +42,31 @@
     <body id="page-top" class="index">
 
       <!-- Navigation -->
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-
-          <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <img src="img/logos/wics_logo.png" class="wics-logo"><a class="navbar-brand page-scroll header-cu" href="#page-top">Columbia University</a>
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1a1a1a;">
+  <div class="container">
+    <a class="navbar-brand" href="/" style="color: #ff69b4; font-weight: bold;">CUWICS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="/" style="color: #fff;">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/board.html" style="color: #fff;">Board</a></li>
+        <li class="nav-item"><a class="nav-link" href="/sponsorships.html" style="color: #fff;">Sponsorships & Partners</a></li>
+        <li class="nav-item"><a class="nav-link" href="/calendar.html" style="color: #fff;">Calendar</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="connectDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #fff;">Connect</a>
+          <div class="dropdown-menu" aria-labelledby="connectDropdown" style="background-color: #1a1a1a;">
+            <a class="dropdown-item" href="/blog.html" style="color: #ff69b4;">Blog</a>
+            <a class="dropdown-item" href="https://instagram.com/cuwics" style="color: #ff69b4;">Instagram</a>
+            <a class="dropdown-item" href="mailto:cuwics@columbia.edu" style="color: #ff69b4;">Email</a>
           </div>
-
-          <!-- add media query to shrink Columbia University -->
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="hidden">
-                <a href="#page-top"></a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#services">Purpose</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#news">Blog</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#about">Corporate</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#board">Board</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#calendars">Calendar</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#instaposts">Instagram</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-      </nav>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="https://notion.so/cuwics" style="color: #fff;">Notion</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
       <!-- Header -->
       <header>
@@ -124,6 +101,18 @@
             </div>
           </div>
         </header>
+
+        <!-- Home Intro Section -->
+        <section class="home-intro" style="background: linear-gradient(135deg, #ff69b4 0%, #1a1a1a 100%); color: #fff; padding: 60px 0; text-align: center;">
+  <h1 style="font-size: 3rem; font-weight: bold; color: #ff69b4;">CUWICS</h1>
+  <p style="font-size: 1.5rem; color: #fff;">Columbia University Women in Computer Science</p>
+  <a href="https://newsletter-link.com" class="btn btn-lg" style="background-color: #ff69b4; color: #fff; margin: 20px;">Join Our Newsletter</a>
+  <div class="social-links" style="margin-top: 20px;">
+    <a href="https://instagram.com/cuwics" style="color: #fff; margin: 0 10px;"><i class="fab fa-instagram fa-2x"></i></a>
+    <a href="https://facebook.com/cuwics" style="color: #fff; margin: 0 10px;"><i class="fab fa-facebook fa-2x"></i></a>
+    <a href="mailto:cuwics@columbia.edu" style="color: #fff; margin: 0 10px;"><i class="fas fa-envelope fa-2x"></i></a>
+  </div>
+</section>
 
         <!-- Services Section -->
         <section id="services">
@@ -1247,11 +1236,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-md-4">
-        <ul class="list-inline quicklinks">
-          <li>Template by <a href="https://www.behance.net/MathavanJaya" target="_blank">Mathavan Jaya</a>, modified by <b>WiCS</b>.</li>
-        </ul>
-      </div>
+      
     </div>
   </div>
 </footer>

@@ -1,21 +1,234 @@
 ---
-layout: blog
+layout: main
+title: Blog
 ---
 
-<div class="home">
+<!-- Header -->
+<header style="background: linear-gradient(135deg, #ff69b4 0%, #1a1a1a 100%); color: #fff; padding: 100px 0; text-align: center; position: relative; overflow: hidden;">
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('/img/logos/wics_logo.png') center/contain no-repeat; opacity: 0.1;"></div>
+  <div class="container" style="position: relative; z-index: 2;">
+    <h1 style="font-size: 3.5rem; font-weight: bold; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">Blog</h1>
+    <p style="font-size: 1.3rem; margin-bottom: 30px;">Stay updated with our latest news, events, and stories.</p>
+    <div style="width: 80px; height: 4px; background: #ff69b4; margin: 0 auto; border-radius: 2px;"></div>
+  </div>
+</header>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<!-- Posts Section -->
+<section style="padding: 100px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading" style="font-size: 2.5rem; margin-bottom: 20px; color: #1a1a1a;">Latest Posts</h2>
+        <div style="width: 60px; height: 3px; background: #ff69b4; margin: 0 auto 30px; border-radius: 2px;"></div>
+        <h3 class="section-subheading text-muted" style="font-size: 1.1rem; margin-bottom: 60px;">Read about our community, events, and the amazing work of women in computer science.</h3>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="post-list" style="list-style: none; padding: 0;">
+          {% for post in site.posts %}
+            <li class="blog-post-card" style="background: #fff; margin-bottom: 40px; border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+              <div class="post-content" style="padding: 40px;">
+                <div class="post-meta" style="color: #ff69b4; font-size: 0.9rem; font-weight: bold; margin-bottom: 15px; display: flex; align-items: center;">
+                  <i class="fa fa-calendar" style="margin-right: 8px;"></i>
+                  {{ post.date | date: "%B %-d, %Y" }}
+                </div>
+                
+                <h2 class="post-title" style="margin-bottom: 20px;">
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="color: #1a1a1a; text-decoration: none; font-weight: bold; font-size: 1.8rem; line-height: 1.3; transition: color 0.3s ease;">{{ post.title }}</a>
+                </h2>
+                
+                <div class="post-excerpt" style="margin-bottom: 25px; color: #6c757d; line-height: 1.6; font-size: 1.1rem;">
+                  {{ post.excerpt | default: post.content | truncatewords: 50 }}
+                </div>
+                
+                <div class="post-actions" style="display: flex; align-items: center; justify-content: space-between;">
+                  <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary" style="background-color: #ff69b4; border-color: #ff69b4; border-radius: 25px; padding: 12px 30px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(255,105,180,0.3);">
+                    <i class="fa fa-arrow-right" style="margin-right: 8px;"></i>Read More
+                  </a>
+                  
+                  <div class="post-tags" style="display: flex; gap: 10px;">
+                    {% if post.tags %}
+                      {% for tag in post.tags %}
+                        <span class="tag" style="background: #f8f9fa; color: #ff69b4; padding: 5px 12px; border-radius: 15px; font-size: 0.8rem; font-weight: 600; border: 1px solid #ff69b4;">
+                          #{{ tag }}
+                        </span>
+                      {% endfor %}
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+        
+        <div class="text-center" style="margin-top: 60px;">
+          <div class="rss-subscribe" style="background: #fff; border-radius: 15px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); display: inline-block;">
+            <h4 style="color: #1a1a1a; margin-bottom: 15px; font-weight: bold;">
+              <i class="fa fa-rss" style="color: #ff69b4; margin-right: 10px;"></i>Stay Updated
+            </h4>
+            <p class="text-muted" style="margin-bottom: 20px;">Subscribe to our RSS feed to get notified about new posts.</p>
+            <a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="btn btn-outline-primary" style="border-color: #ff69b4; color: #ff69b4; border-radius: 25px; padding: 12px 30px; font-weight: 600; transition: all 0.3s ease;">
+              <i class="fa fa-rss" style="margin-right: 8px;"></i>Subscribe via RSS
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<!-- Featured Categories  -->
+<section style="padding: 100px 0; background: #fff;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading" style="font-size: 2.5rem; margin-bottom: 20px; color: #1a1a1a;">Blog Categories</h2>
+        <div style="width: 60px; height: 3px; background: #ff69b4; margin: 0 auto 30px; border-radius: 2px;"></div>
+        <h3 class="section-subheading text-muted" style="font-size: 1.1rem; margin-bottom: 60px;">Explore different topics and themes in our blog.</h3>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <div class="category-card" style="background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%); border-radius: 15px; padding: 30px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: center; border-left: 4px solid #ff69b4;">
+          <div class="category-icon" style="width: 60px; height: 60px; background: #ff69b4; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; box-shadow: 0 5px 15px rgba(255,105,180,0.3);">
+            <i class="fa fa-users" style="color: #fff; font-size: 1.5rem;"></i>
+          </div>
+          <h4 style="color: #1a1a1a; font-weight: bold; margin-bottom: 10px;">Community</h4>
+          <p class="text-muted" style="font-size: 0.9rem; line-height: 1.5;">Stories about our community members and their achievements.</p>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6">
+        <div class="category-card" style="background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%); border-radius: 15px; padding: 30px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: center; border-left: 4px solid #ff69b4;">
+          <div class="category-icon" style="width: 60px; height: 60px; background: #ff69b4; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; box-shadow: 0 5px 15px rgba(255,105,180,0.3);">
+            <i class="fa fa-calendar" style="color: #fff; font-size: 1.5rem;"></i>
+          </div>
+          <h4 style="color: #1a1a1a; font-weight: bold; margin-bottom: 10px;">Events</h4>
+          <p class="text-muted" style="font-size: 0.9rem; line-height: 1.5;">Recaps and highlights from our events and activities.</p>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6">
+        <div class="category-card" style="background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%); border-radius: 15px; padding: 30px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: center; border-left: 4px solid #ff69b4;">
+          <div class="category-icon" style="width: 60px; height: 60px; background: #ff69b4; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; box-shadow: 0 5px 15px rgba(255,105,180,0.3);">
+            <i class="fa fa-lightbulb-o" style="color: #fff; font-size: 1.5rem;"></i>
+          </div>
+          <h4 style="color: #1a1a1a; font-weight: bold; margin-bottom: 10px;">Insights</h4>
+          <p class="text-muted" style="font-size: 0.9rem; line-height: 1.5;">Thoughts and perspectives on women in tech and computer science.</p>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6">
+        <div class="category-card" style="background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%); border-radius: 15px; padding: 30px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: center; border-left: 4px solid #ff69b4;">
+          <div class="category-icon" style="width: 60px; height: 60px; background: #ff69b4; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; box-shadow: 0 5px 15px rgba(255,105,180,0.3);">
+            <i class="fa fa-star" style="color: #fff; font-size: 1.5rem;"></i>
+          </div>
+          <h4 style="color: #1a1a1a; font-weight: bold; margin-bottom: 10px;">Spotlight</h4>
+          <p class="text-muted" style="font-size: 0.9rem; line-height: 1.5;">Featured stories and interviews with inspiring women in CS.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ /feed.xml | prepend: site.baseurl }}">via RSS!</a></p>
+<!-- Newsletter Signup  -->
+<section style="padding: 100px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading" style="font-size: 2.5rem; margin-bottom: 20px; color: #1a1a1a;">Stay in the Loop</h2>
+        <div style="width: 60px; height: 3px; background: #ff69b4; margin: 0 auto 30px; border-radius: 2px;"></div>
+        <h3 class="section-subheading text-muted" style="font-size: 1.1rem; margin-bottom: 40px;">Get our latest blog posts and updates delivered to your inbox.</h3>
+        
+        <div class="newsletter-signup" style="background: #fff; border-radius: 20px; padding: 50px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); max-width: 600px; margin: 0 auto;">
+          <div class="newsletter-icon" style="width: 80px; height: 80px; background: #ff69b4; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 30px; box-shadow: 0 10px 25px rgba(255,105,180,0.3);">
+            <i class="fa fa-envelope" style="color: #fff; font-size: 2rem;"></i>
+          </div>
+          <h4 style="color: #1a1a1a; font-weight: bold; margin-bottom: 15px;">Subscribe to Our Newsletter</h4>
+          <p class="text-muted" style="line-height: 1.6; margin-bottom: 30px;">Join our community and receive weekly updates about events, opportunities, and inspiring stories from women in computer science.</p>
+          <a href="https://listserv.cuit.columbia.edu/scripts/wa.exe?SUBED1=WICS&A=1" target="_blank" class="btn btn-primary" style="background-color: #ff69b4; border-color: #ff69b4; border-radius: 30px; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 8px 20px rgba(255,105,180,0.3);">
+            <i class="fa fa-paper-plane" style="margin-right: 10px;"></i>Subscribe Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-</div>
+<style>
+  .blog-post-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+  }
+  
+  .post-link:hover {
+    color: #ff69b4 !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e55aa0 !important;
+    border-color: #e55aa0 !important;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(255,105,180,0.4);
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #ff69b4 !important;
+    border-color: #ff69b4 !important;
+    color: #fff !important;
+    transform: translateY(-2px);
+  }
+  
+  .category-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  }
+  
+  .category-icon:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .newsletter-signup:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  }
+  
+  .newsletter-icon:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .tag {
+    transition: all 0.3s ease;
+  }
+  
+  .tag:hover {
+    background: #ff69b4 !important;
+    color: #fff !important;
+    transform: translateY(-2px);
+  }
+</style>
+
+<style>
+  .post-content img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .post-content img:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  }
+</style>
