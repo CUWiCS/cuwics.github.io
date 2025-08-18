@@ -35,8 +35,9 @@ title: Blog
             <div style="width: 40px; height: 2px; background: #ff69b4; margin: 0 auto; border-radius: 1px;"></div>
           </div>
           
-          {% assign academic_posts = site.posts | where_exp: "post", "post.tags contains 'academic' or post.tags contains 'research' or post.tags contains 'study' or post.tags contains 'faculty' or post.tags contains 'course'" %}
+          {% assign academic_posts = site.posts %}
           {% for post in academic_posts %}
+            {% if post.tags contains "academic" or post.tags contains "research" or post.tags contains "study" or post.tags contains "faculty" or post.tags contains "course" %}
             {% assign modulo = forloop.index0 | modulo: 3 %}
             {% if modulo == 0 %}
               <div class="row">
@@ -79,6 +80,7 @@ title: Blog
             </div>
             {% if modulo == 2 or forloop.last %}
               </div>
+            {% endif %}
             {% endif %}
           {% endfor %}
         </div>
@@ -92,8 +94,9 @@ title: Blog
             <div style="width: 40px; height: 2px; background: #ff69b4; margin: 0 auto; border-radius: 1px;"></div>
           </div>
           
-          {% assign corporate_posts = site.posts | where_exp: "post", "post.tags contains 'corporate' or post.tags contains 'company' or post.tags contains 'visit' or post.tags contains 'tech-talk' or post.tags contains 'career' or post.tags contains 'internship' or post.tags contains 'job'" %}
+          {% assign corporate_posts = site.posts %}
           {% for post in corporate_posts %}
+            {% if post.tags contains "corporate" or post.tags contains "company" or post.tags contains "visit" or post.tags contains "tech-talk" or post.tags contains "career" or post.tags contains "internship" or post.tags contains "job" %}
             {% assign modulo = forloop.index0 | modulo: 3 %}
             {% if modulo == 0 %}
               <div class="row">
@@ -136,6 +139,7 @@ title: Blog
             </div>
             {% if modulo == 2 or forloop.last %}
               </div>
+            {% endif %}
             {% endif %}
           {% endfor %}
         </div>
