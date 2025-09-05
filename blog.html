@@ -36,9 +36,10 @@ title: Blog
           </div>
           
           {% assign academic_posts = site.posts %}
+          {% assign academic_count = 0 %}
           {% for post in academic_posts %}
-            {% if post.tags contains "academic" or post.tags contains "research" or post.tags contains "study" or post.tags contains "faculty" or post.tags contains "course" %}
-            {% assign modulo = forloop.index0 | modulo: 3 %}
+            {% if post.categories contains "academic" %}
+            {% assign modulo = academic_count | modulo: 3 %}
             {% if modulo == 0 %}
               <div class="row">
             {% endif %}
@@ -72,17 +73,21 @@ title: Blog
                     {{ post.excerpt | default: post.content | truncatewords: 50 }}
                   </div>
                   <br><br>
-                  <center><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">
-                    &lt;read more&gt;
-                  </a></center>
+                  <center><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">&lt;read more&gt;</a></center>
                 </div>
               </div>
             </div>
-            {% if modulo == 2 or forloop.last %}
+            {% assign academic_count = academic_count | plus: 1 %}
+            {% assign modulo = academic_count | modulo: 3 %}
+            {% if modulo == 0 %}
               </div>
             {% endif %}
             {% endif %}
           {% endfor %}
+          {% assign remainder = academic_count | modulo: 3 %}
+          {% if remainder != 0 %}
+            </div>
+          {% endif %}
         </div>
         
         <!-- Corporate Section -->
@@ -95,9 +100,10 @@ title: Blog
           </div>
           
           {% assign corporate_posts = site.posts %}
+          {% assign corporate_count = 0 %}
           {% for post in corporate_posts %}
-            {% if post.tags contains "corporate" or post.tags contains "company" or post.tags contains "visit" or post.tags contains "tech-talk" or post.tags contains "career" or post.tags contains "internship" or post.tags contains "job" %}
-            {% assign modulo = forloop.index0 | modulo: 3 %}
+            {% if post.categories contains "corporate" %}
+            {% assign modulo = corporate_count | modulo: 3 %}
             {% if modulo == 0 %}
               <div class="row">
             {% endif %}
@@ -131,17 +137,21 @@ title: Blog
                     {{ post.excerpt | default: post.content | truncatewords: 50 }}
                   </div>
                   <br><br>
-                  <center><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">
-                    &lt;read more&gt;
-                  </a></center>
+                  <center><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">&lt;read more&gt;</a></center>
                 </div>
               </div>
             </div>
-            {% if modulo == 2 or forloop.last %}
+            {% assign corporate_count = corporate_count | plus: 1 %}
+            {% assign modulo = corporate_count | modulo: 3 %}
+            {% if modulo == 0 %}
               </div>
             {% endif %}
             {% endif %}
           {% endfor %}
+          {% assign rem2 = corporate_count | modulo: 3 %}
+          {% if rem2 != 0 %}
+            </div>
+          {% endif %}
         </div>
         
         <!-- All Posts Section -->
@@ -188,9 +198,7 @@ title: Blog
                     {{ post.excerpt | default: post.content | truncatewords: 50 }}
                   </div>
                   <br><br>
-                  <center><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">
-                    &lt;read more&gt;
-                  </a></center>
+                  <center><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">&lt;read more&gt;</a></center>
                 </div>
               </div>
             </div>

@@ -36,20 +36,22 @@
             <li><a href="/sponsorships" style="color: #ff69b4; padding: 10px 20px; transition: background-color 0.3s ease;">
               <i class="fa fa-users"></i> For Students
             </a></li>
-            <li><a href="/sponsorships" style="color: #ff69b4; padding: 10px 20px; transition: background-color 0.3s ease;">
+            <li><a href="/for-sponsors" style="color: #ff69b4; padding: 10px 20px; transition: background-color 0.3s ease;">
               <i class="fa fa-users"></i> For Sponsors
             </a></li>
             <li><a href="https://calendar.google.com/calendar/embed?src=cu.wics%40gmail.com" target="_blank" style="color: #ff69b4; padding: 10px 20px; transition: background-color 0.3s ease;">
               <i class="fa fa-calendar"></i> Calendar
             </a></li>
-            <li><a href="/blog" style="color: #ff69b4; padding: 10px 20px; transition: background-color 0.3s ease;">
-              <i class="fa fa-rss"></i> Blog
-            </a></li>
           </ul>
         </li>
         <li>
+          <a href="/blog" style="color: #fff; margin: 0 5px; padding: 8px 16px; transition: all 0.3s ease; border-radius: 20px;">
+             Blog
+          </a>
+        </li>
+        <li>
           <a href="https://notion.so/cuwics" target="_blank" style="color: #fff; margin: 0 5px; padding: 8px 16px; transition: all 0.3s ease; border-radius: 20px;">
-            <i class="fa fa-sticky-note"></i> Notion
+            <i class="fa fa-sticky-note"></i> Notion Wiki
           </a>
         </li>
       </ul>
@@ -64,6 +66,21 @@
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(255, 105, 180, 0.3);
   }
+  .navbar-nav > li > a:focus,
+  .navbar-nav > li > a:active {
+    background-color: #ff69b4 !important;
+    color: #fff !important;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+  /* Active nav item should match brand pink, not bootstrap blue */
+  .navbar-nav > .active > a,
+  .navbar-nav > .active > a:focus,
+  .navbar-nav > .active > a:hover {
+    background-color: #ff69b4 !important;
+    color: #fff !important;
+    border-color: #ff69b4 !important;
+  }
   
   .navbar-nav > li > a {
     border: 1px solid transparent;
@@ -71,6 +88,12 @@
   
   .navbar-nav > li > a:hover {
     border-color: #ff69b4;
+  }
+  /* Remove default blue/gray backgrounds */
+  .navbar-default .navbar-nav > li > a,
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus {
+    background-color: transparent !important;
   }
   
   .dropdown-menu > li > a:hover {

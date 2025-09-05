@@ -1,3 +1,57 @@
+/* Blog page card sizing */
+.blog-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  height: 460px; /* rigid total card height */
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-card .panel-heading {
+  background-color: #ff69b4;
+  color: #fff;
+  border-radius: 8px 8px 0 0;
+}
+
+.blog-card .panel-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-card .post-image-container {
+  margin-bottom: 12px;
+}
+
+.blog-card .post-featured-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.blog-card .post-content {
+  color: #6c757d;
+  line-height: 1.6;
+  margin-top: 4px;
+}
+
+.blog-card .read-more {
+  margin-top: auto;
+  text-align: center;
+}
+/* Limit equal-height behavior to sponsorships grid only via a class on the row */
+.equal-cards > [class*="col-"] {
+  display: flex;
+}
+.equal-cards > [class*="col-"] > .subscription-card.mini {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 160px;
+}
 /* Custom Styles for CUWICS Website */
 
 /* Header Styles */
@@ -209,6 +263,9 @@
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .team-card:hover {
@@ -281,6 +338,9 @@
   font-size: 0.9rem;
   margin-bottom: 15px;
 }
+
+/* Equal-height cards within bootstrap rows */
+/* Removed global flex on Bootstrap columns to avoid site-wide layout issues */
 
 .member-email {
   color: #ff69b4;
@@ -667,6 +727,19 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Ensure mini cards take same fixed height when stacked */
+.subscription-card.mini {
+  min-height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.subscription-card.mini h4 {
+  margin: 0 0 0 0;
+}
+
 .subscription-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 20px 40px rgba(0,0,0,0.15);
@@ -784,6 +857,11 @@
   transform: translateY(-3px);
   box-shadow: 0 8px 25px rgba(255,105,180,0.4);
 }
+/* Ensure contrast on active/pressed state for header/home CTA */
+.btn-xl:active, .btn-xl:focus {
+  background-color: #ff69b4 !important;
+  color: #fff !important;
+}
 
 .btn-primary {
   background-color: #ff69b4;
@@ -801,6 +879,12 @@
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(255,105,180,0.4);
 }
+/* Fix issue where text and background both turn white on click */
+.btn-primary:active, .btn-primary:focus {
+  background-color: #ff69b4 !important;
+  border-color: #ff69b4 !important;
+  color: #fff !important;
+}
 
 .btn-primary i {
   margin-right: 8px;
@@ -813,6 +897,15 @@
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(255, 105, 180, 0.3);
 }
+/* Remove bootstrap default blue hover/focus background */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  background-color: #ff69b4 !important;
+  color: #fff !important;
+}
 
 .navbar-nav > li > a {
   border: 1px solid transparent;
@@ -820,6 +913,34 @@
 
 .navbar-nav > li > a:hover {
   border-color: #ff69b4;
+}
+/* Remove Bootstrap default hover/focus blue from nav links */
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:active {
+  background-color: #ff69b4 !important;
+  color: #fff !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: transparent !important;
+}
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:focus,
+.navbar-nav > .active > a:hover {
+  background-color: #ff69b4 !important;
+  color: #fff !important;
+  border-color: #ff69b4 !important;
+}
+/* Active nav item color (override bootstrap default light blue) */
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:focus,
+.navbar-nav > .active > a:hover {
+  background-color: #ff69b4 !important;
+  color: #fff !important;
+  border-color: #ff69b4 !important;
 }
 
 .dropdown-menu > li > a:hover {
