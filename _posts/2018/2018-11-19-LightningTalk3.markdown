@@ -2,7 +2,7 @@
 layout: post
 title: "WiCS Lightning Talk #3"
 date: 2018-11-19
-categories: news
+categories: academic
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/lightningtalk3.jpg)

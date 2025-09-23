@@ -2,7 +2,7 @@
 layout: post
 title: "Bloomberg Panel 2019"
 date: 2019-11-21
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2020/bloomberg-logo.jpg)

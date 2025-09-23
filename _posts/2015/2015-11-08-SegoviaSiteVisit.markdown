@@ -2,7 +2,7 @@
 layout: post
 title:  "WiCS visits Segovia"
 date:   2015-11-08 00:12:00
-categories: news
+categories: professional
 ---
 
 ![Screenshot of Segovia's product]({{ site.url }}/assets/blog2015/SegoviaCard-Identity.png)

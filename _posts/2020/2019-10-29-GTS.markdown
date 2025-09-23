@@ -2,7 +2,7 @@
 layout: post
 title: "GTS Information Session"
 date: 2019-10-29
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2020/gts.png)

@@ -2,7 +2,7 @@
 layout: post
 title: "Stripe Info Session"
 date: 2018-10-24
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/stripe1.JPG)

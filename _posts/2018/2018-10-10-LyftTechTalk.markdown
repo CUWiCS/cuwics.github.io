@@ -2,7 +2,7 @@
 layout: post
 title: "Lyft Tech Talk"
 date: 2018-10-10
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/LyftTechTalk.jpg)

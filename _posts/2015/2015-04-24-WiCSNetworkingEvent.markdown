@@ -2,7 +2,7 @@
 layout: post
 title:  "WiCS Spring Networking Dinner 2015"
 date:   2015-04-24 00:6:00
-categories: news
+categories: professional
 ---
 
 ![Networking Event]({{ site.url }}/assets/blog2015/networking_event_2015.jpg)

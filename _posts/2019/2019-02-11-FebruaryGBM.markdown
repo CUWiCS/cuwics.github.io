@@ -2,7 +2,7 @@
 layout: post
 title: "February General Body Meeting"
 date: 2019-02-11
-categories: news
+categories: community
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2019/GBM-February.JPG)

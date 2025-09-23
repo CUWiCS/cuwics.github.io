@@ -2,7 +2,7 @@
 layout: post
 title: "Oscar Health Site Visit"
 date: 2018-11-07
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/oscar.jpg)

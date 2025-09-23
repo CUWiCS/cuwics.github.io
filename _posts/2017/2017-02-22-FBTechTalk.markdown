@@ -2,7 +2,7 @@
 layout: post
 title: "Facebook Tech Talk"
 date: 2017-02-22
-categories: news
+categories: professional
 ---
 
 On February 22nd, Facebook engineers, Patricia and Kelly came to campus to speak with students about their work with flagging questionable content on the internet. This FB tech talk, a combined effort by both SWE + WiCS elicited an interesting conversation about the challenges with classifying images and content on social media networks. Towards the end, Patricia and Kelly offered their advice to students in regards to the internship search, and also discussed the life and culture at Facebook. 

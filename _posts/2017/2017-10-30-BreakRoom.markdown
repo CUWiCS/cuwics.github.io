@@ -2,7 +2,7 @@
 layout: post
 title: "Computers, Assemble!/Break room!"
 date: 2017-10-30
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2017/breakRoom2.jpg)

@@ -2,7 +2,7 @@
 layout: post
 title: "Internship Insight: Google SWE and APM"
 date: 2024-03-02
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2024/googleHQ.png)

@@ -2,7 +2,7 @@
 layout: post
 title: "March General Body Meeting"
 date: 2018-03-22
-categories: news
+categories: community
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/MarchGBM.jpg)

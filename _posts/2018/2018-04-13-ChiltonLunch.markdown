@@ -2,7 +2,7 @@
 layout: post
 title: "Lunch with Professor Chilton"
 date: 2018-04-13
-categories: news
+categories: academic
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/ChiltonLunch.jpg)

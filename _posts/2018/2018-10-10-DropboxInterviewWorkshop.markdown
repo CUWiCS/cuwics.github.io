@@ -2,7 +2,7 @@
 layout: post
 title: "Dropbox Interview Workshop"
 date: 2018-10-10
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/Dropbox1.jpg)

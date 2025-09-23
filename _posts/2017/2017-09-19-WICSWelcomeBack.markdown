@@ -2,7 +2,7 @@
 layout: post
 title: "Welcome Back!"
 date: 2017-09-19
-categories: news
+categories: community
 ---
 
 Welcome to WICS! On Tuesday, we held our first general body meeting of the year! We were so excited to see so many new faces. After some mingling, a couple cookies and grapes, we introduced the WICS board, upcoming events, and what our mission is, to advocate and encourage women to pursue computer science. 

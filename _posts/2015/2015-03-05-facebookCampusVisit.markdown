@@ -2,7 +2,7 @@
 layout: post
 title:  "Facebook Campus Visit"
 date:   2015-03-05 02:00:00
-categories: news
+categories: professional
 ---
 
 ![facebookCampusVisit]({{ site.url }}/assets/blog2015/20150303_FB_Columbia_techtalk.jpg)

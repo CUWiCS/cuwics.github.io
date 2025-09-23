@@ -2,7 +2,7 @@
 layout: post
 title: "Goldman Sachs: A day in the life of a Female Engineer Panel"
 date: 2018-01-25
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/GSFemaleEngineers.jpg)

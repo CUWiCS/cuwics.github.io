@@ -2,7 +2,7 @@
 layout: post
 title: "Blackstone Technology Trivia Night"
 date: 2018-09-30
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/BlackstoneTrivia.jpg)

@@ -2,7 +2,7 @@
 layout: post
 title: "NetWiCS 2019"
 date: 2019-04-9
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2019/netwics2019.JPG)

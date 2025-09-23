@@ -2,7 +2,7 @@
 layout: post
 title: "Imposter Syndrome 1006"
 date: 2018-11-12
-categories: news
+categories: professional
 ---
 
 At a competitive school like Columbia, filled with accomplished students, it can be easy to develop imposter syndrome. Luckily, Meghan Duffy, career coach and former Program Manager for the Grace Hopper Program gifted us with an imposter syndrome workshop and how to overcome imposter syndrome. 

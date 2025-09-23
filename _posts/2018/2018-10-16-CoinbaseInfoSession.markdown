@@ -2,7 +2,7 @@
 layout: post
 title: "Chat with Coinbase"
 date: 2018-10-16
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/coinbase1.JPG)

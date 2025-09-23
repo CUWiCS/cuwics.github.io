@@ -2,7 +2,7 @@
 layout: post
 title: "Facebook Company Visit"
 date: 2017-12-01
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2017/facebookTrek.jpg)

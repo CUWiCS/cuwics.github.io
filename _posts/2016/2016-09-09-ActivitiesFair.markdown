@@ -2,7 +2,7 @@
 layout: post
 title:  "WiCS on 2016 Activities Fair"
 date:   2016-09-09 00:12:00
-categories: news
+categories: community
 ---
 
 On Friday, WiCS tabled at Butler lawn for Activities Fair. It was a sunny afternoon, and we had BuzzFeed stickers and pens from our sponsors at our table. We introduced what WiCS does and what events we have for this semester. 

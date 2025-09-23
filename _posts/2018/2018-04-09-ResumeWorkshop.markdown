@@ -2,7 +2,7 @@
 layout: post
 title: "Resume Workshop"
 date: 2018-04-09
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/resumeworkshop.jpg)

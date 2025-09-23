@@ -2,7 +2,7 @@
 layout: post
 title: "Insight x WiCS: Women in Data Panel"
 date: 2018-10-23
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/insightpanel.jpg)

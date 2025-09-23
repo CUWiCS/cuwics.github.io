@@ -2,7 +2,7 @@
 layout: post
 title: "Google Mock Interview Workshop"
 date: 2018-10-10
-categories: news
+categories: professional
 ---
 
 On September 25, students got a chance to brush up on their technical interview skills with Google representatives. Knowing how to complete technical interviews is a valuable skill for any Computer Science student, especially one with their eye on a Google internship, whether that be SWE or PM!

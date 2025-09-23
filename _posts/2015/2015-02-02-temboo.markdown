@@ -2,7 +2,7 @@
 layout: post
 title:  "Temboo and Hacker School Bring Physical Computing Intro to WICS"
 date:   2015-02-17 00:40:20
-categories: news
+categories: professional
 ---
 
 <!---![Hello World!]({{ site.url }}/assets/blog2015/20150130_temboo_group.jpg)-->

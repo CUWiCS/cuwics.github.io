@@ -2,7 +2,7 @@
 layout: post
 title: "NSBE X WICS X COLORSTACK: BLACK AND LATINA WOMEN IN CS MIXER"
 date: 2023-12-12
-categories: news
+categories: community
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2023/nsbeXcolorstack_mixer.jpg)

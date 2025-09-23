@@ -2,7 +2,7 @@
 layout: post
 title: "Speaker Series: Crypto with Ghada Almashaqbeh"
 date: 2018-11-16
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/speakerseries-crypto.jpg)

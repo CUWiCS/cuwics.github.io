@@ -2,7 +2,7 @@
 layout: post
 title: "CS Department Data Release"
 date: 2015-05-19 12:30:00
-categories: news, data
+categories: academic
 ---
 
 This past semester, the Columbia CS department gave us some stats on how female students stack up in terms of enrollment in the department. We learned a lot about the **current state of our department**, but perhaps more importantly, about demographic shifts in the department over time. 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Computers, Assemble!"
 date:   2016-10-20
-categories: news
+categories: professional
 ---
 
 Today WiCS joined with the Barnard College Information Technology department (BCIT) to hold one of our so-much-fun workshops - assembling and dissassembling a computer! The computers and food were generously donated by BCIT.  

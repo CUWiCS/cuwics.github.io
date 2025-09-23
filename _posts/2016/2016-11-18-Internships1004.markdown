@@ -2,7 +2,7 @@
 layout: post
 title: "Internships 1004!"
 date: 2016-11-18
-categories: news
+categories: professional
 ---
 
 On November 18th, WICS had our annual internship information session, Internships 1004. We had four panelists: Melody Ju, Angel Maredia, 

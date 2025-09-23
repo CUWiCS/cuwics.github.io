@@ -2,7 +2,7 @@
 layout: post
 title:  "WiCS at IBM Watson HQ!"
 date:   2016-04-01 00:12:00
-categories: news
+categories: professional
 ---
 
 ![Wics@Watson]({{ site.url }}/assets/blog2016/IBMWatson1.jpg)
