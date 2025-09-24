@@ -2,7 +2,7 @@
 layout: post
 title: "DivHacks 2019"
 date: 2019-10-12
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2020/divhacks1.png)

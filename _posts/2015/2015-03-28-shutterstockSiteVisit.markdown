@@ -2,7 +2,7 @@
 layout: post
 title:  "Shutterstock Site Visit"
 date:   2015-03-29 23:43:00
-categories: news
+categories: professional
 ---
 
 ![shutterstockOffice]({{ site.url }}/assets/blog2015/20150313_ShutterstockOffice.jpg)

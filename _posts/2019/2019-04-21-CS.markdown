@@ -2,7 +2,7 @@
 layout: post
 title: "A look into CS at Columbia!"
 date: 2019-04-21
-categories: news
+categories: academic
 ---
 *by your fabulous WiCS Event Coordinators*
 

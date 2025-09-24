@@ -2,7 +2,7 @@
 layout: post
 title: "Goldman Sachs: Code your Escape"
 date: 2017-12-06
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2017/CodeYourEscape.jpg)

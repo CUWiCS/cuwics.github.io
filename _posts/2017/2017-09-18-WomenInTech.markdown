@@ -2,7 +2,7 @@
 layout: post
 title: "Women in Tech Mixer!"
 date: 2017-09-18
-categories: news
+categories: professional
 ---
 ![Flyer]({{ site.url }}/assets/blog2017/WomenInTech.jpg)
 At the Women in Tech Mixer this past Monday, our very own Angel Maredia spoke as a panelist, along with three other women in tech!

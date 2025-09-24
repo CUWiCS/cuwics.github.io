@@ -2,7 +2,7 @@
 layout: post
 title: "March General Body Meeting"
 date: 2019-03-12
-categories: news
+categories: community
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2019/GBM-March.PNG)

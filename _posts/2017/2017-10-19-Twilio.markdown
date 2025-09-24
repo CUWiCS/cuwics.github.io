@@ -2,7 +2,7 @@
 layout: post
 title: "Twilio!"
 date: 2017-10-19
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2017/Twilio2.jpg)

@@ -2,7 +2,7 @@
 layout: post
 title: "Google Talk: Imposter Syndrome"
 date: 2017-10-05
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2017/ImposterSyndrome.jpg)

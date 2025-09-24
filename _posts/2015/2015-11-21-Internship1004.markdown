@@ -2,7 +2,7 @@
 layout: post
 title:  "Internship 1004"
 date:   2015-11-21 00:6:00
-categories: news
+categories: professional
 ---
 
 ![Internship 1004]({{ site.url }}/assets/blog2015/20151112_Internship1004_1.JPG)

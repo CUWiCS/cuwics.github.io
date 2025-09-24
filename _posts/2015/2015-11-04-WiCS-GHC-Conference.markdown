@@ -2,7 +2,7 @@
 layout: post
 title:  "WiCS & The Grace Hopper Celebration of Women in Computing!"
 date:   2015-11-04 00:6:00
-categories: news
+categories: professional
 ---
 
 ![WiCS@CU at GHC 2015]({{ site.url }}/assets/ghc2015/GHC_1.jpg)

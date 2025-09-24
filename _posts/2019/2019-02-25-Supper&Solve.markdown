@@ -2,7 +2,7 @@
 layout: post
 title: "Weekly Supper & Solve"
 date: 2019-02-25
-categories: news
+categories: academic
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2019/Supper-and-Solve.jpg)

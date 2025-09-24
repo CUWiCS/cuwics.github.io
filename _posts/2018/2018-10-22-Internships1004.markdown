@@ -2,7 +2,7 @@
 layout: post
 title: "Internships 1004"
 date: 2018-10-22
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/internships1004.jpg)

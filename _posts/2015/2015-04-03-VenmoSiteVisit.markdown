@@ -2,7 +2,7 @@
 layout: post
 title: "Venmo Site Visit"
 date: 2015-04-03 05:12:00
-categories: news
+categories: professional
 ---
 
 ![Venmo Site Visit]({{ site.url }}/assets/blog2015/20150403_venmo_group.JPG)

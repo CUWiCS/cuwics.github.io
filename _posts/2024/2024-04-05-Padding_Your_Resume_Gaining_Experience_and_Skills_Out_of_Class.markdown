@@ -2,7 +2,7 @@
 layout: post
 title: "Padding your Resume: Gaining Experience and Skills out of Class"
 date: 2024-04-03
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2024/resume_stockphoto.jpg)

@@ -2,7 +2,7 @@
 layout: post
 title: "Spotify Panel"
 date: 2018-11-15
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/spotifypanel.jpeg)

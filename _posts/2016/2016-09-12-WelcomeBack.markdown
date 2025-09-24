@@ -2,7 +2,7 @@
 layout: post
 title:  "Pumpkin Spice Everything: Welcome Back!"
 date:   2016-09-12 00:12:00
-categories: news
+categories: community
 ---
 
 On Monday of the second week of school, WiCS held its welcome back event. We chatted about the new semester, what classes we anticipate the most, and more. 

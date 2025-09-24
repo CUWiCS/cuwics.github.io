@@ -2,7 +2,7 @@
 layout: post
 title:  "WiCS goes to Two Sigma!"
 date:   2016-04-10 00:12:00
-categories: news
+categories: professional
 ---
 
 ![Two Sigma site visit]({{ site.url }}/assets/blog2016/TwoSigma1.jpg)

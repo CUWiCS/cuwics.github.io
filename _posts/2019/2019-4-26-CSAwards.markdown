@@ -2,7 +2,7 @@
 layout: post
 title: "Board Members Win CS Department Awards"
 date: 2019-04-26
-categories: news
+categories: academic
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2019/CSAwards.jpg)

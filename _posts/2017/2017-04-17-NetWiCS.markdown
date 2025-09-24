@@ -2,7 +2,7 @@
 layout: post
 title: "NetWiCS 2017"
 date: 2017-04-17
-categories: news
+categories: professional
 ---
 
 Last night, we held NetWics, our annual networking dinner to celebrate women in computer science! We had over 30 engineers working in industries from Paperless Post, Google, BBH, MeetUp, Two Sigma, E trade, Dropbox, CME, Oscar Health, Goldman Sachs, Bloomberg, Columbia University, MongoDB, and Temboo and over 50 students present at the event. After signing in, attendees were directed to one of twelve tables to mingle with other students as well as the company representative at the table.

@@ -2,7 +2,7 @@
 layout: post
 title: "First General Body Meeting"
 date: 2018-09-17
-categories: news
+categories: community
 ---
 ![Flyer]({{ site.url }}/assets/blog2018/SeptGBM.jpg)
 

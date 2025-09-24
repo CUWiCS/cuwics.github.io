@@ -2,7 +2,7 @@
 layout: post
 title: "Bloomberg Site Visit"
 date: 2015-02-26 09:31:00
-categories: news
+categories: professional
 ---
 
 ![Bloomberg Site Visit]({{ site.url }}/assets/blog2015/bloombergvisit.jpg)

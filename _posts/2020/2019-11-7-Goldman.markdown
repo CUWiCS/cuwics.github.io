@@ -2,7 +2,7 @@
 layout: post
 title: "Goldman Market Game"
 date: 2019-11-7
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2020/goldman.png)

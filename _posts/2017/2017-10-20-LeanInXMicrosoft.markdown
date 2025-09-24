@@ -2,7 +2,7 @@
 layout: post
 title: "Lean In x Microsoft x WICS"
 date: 2017-10-20
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2017/LeanInXMicrosoft2.jpg)

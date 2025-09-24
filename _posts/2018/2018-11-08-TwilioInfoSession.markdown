@@ -2,7 +2,7 @@
 layout: post
 title: "Twilio Info Session"
 date: 2018-11-08
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/twilio.jpg)

@@ -2,7 +2,7 @@
 layout: post
 title:  "WICS Builds a PC"
 date:   2015-02-19 00:40:20
-categories: news
+categories: professional
 ---
 
 ![Build a PC]({{ site.url }}/assets/blog2015/compassembly.jpg)

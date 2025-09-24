@@ -2,7 +2,7 @@
 layout: post
 title: "Grace Hopper Conference 2018"
 date: 2018-09-30
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/GHCWeAreHere.jpg)

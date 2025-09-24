@@ -2,7 +2,7 @@
 layout: post
 title: "What are you waiting for to have a mock interview?"
 date: 2024-03-03
-categories: news
+categories: professional
 ---
 
 ##### By: Carla Mandiola (M.S. in Data Journalism '24)

@@ -2,12 +2,12 @@
 layout: post
 title: "What's Happening in the Tech Industry? (And Why You Should Care)"
 date: 2024-02-25
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2024/techbreakthroughs.png)
 *[Image Source](https://blog-assets.3ds.com/uploads/2022/03/ht-vte-wof-1024x576-1.png)*
-##### By: Shobini iyer (SEAS ‘27)
+##### By: Shobini Iyer (SEAS ‘27)
 
 Over the years, the technology industry has seen significant breakthroughs, pushing the bounds of what was previously possible and revolutionizing our everyday lives. Recently, major technology companies have released brand-new products that have transformed the tech industry as we once knew it. Perhaps the most notable recent innovation was Apple’s release of its mixed-reality [Vision Pro](https://www.apple.com/apple-vision-pro/?afid=p238%7CsTHXpRf18-dc_mtid_%5Btracker_id%5D_pcrid_689653239346_pgrid_150826790596_pexid__&cid=wwa-us-kwgo-VisionPro-slid---productid--Brand-Avalanche-Avail-) headset, which reached new horizons in augmented reality and spatial computing capabilities. Behind the buzz of these novel technologies are developing trends in the industry that continue to evolve day by day. Where could your CS degree take you amid our current tech landscape? 
 

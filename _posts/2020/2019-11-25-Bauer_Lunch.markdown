@@ -2,7 +2,7 @@
 layout: post
 title: "Lunch with Professor Bauer"
 date: 2019-11-21
-categories: news
+categories: academic
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2020/Bauer.png)

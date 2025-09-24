@@ -2,7 +2,7 @@
 layout: post
 title: "Google Tech Trek"
 date: 2017-10-06
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2017/googletechtrek.jpg)

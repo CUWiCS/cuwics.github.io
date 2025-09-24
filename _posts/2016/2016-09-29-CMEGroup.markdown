@@ -2,7 +2,7 @@
 layout: post
 title:  "CME Group Tech Talk about Challenges in Low-Latency Trading"
 date:   2016-09-29 00:12:00
-categories: news
+categories: professional
 ---
 
 Engineers from CME Group visited campus and gave a talk about some interesting technical challenges they tackle: "Low Latency Trading in the Financial Industry". High frequency traders use CME Group's electronic trading system and if their system isn't deterministic, that affects the trading firms and their models. One of their engineers, David, used to be an adjunct professor of the embedded systems course at Columbia. He spoke about how his team designed the system architecture to address this. He also talked about how the engineers designed paths for their dedicated fiber network to further reduce latency in data transmission.

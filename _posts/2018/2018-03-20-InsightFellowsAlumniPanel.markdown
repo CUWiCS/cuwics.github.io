@@ -2,7 +2,7 @@
 layout: post
 title: "Insight Fellows Alumni Panel"
 date: 2018-03-20
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/InsightsFellowsPanel.png)

@@ -2,7 +2,7 @@
 layout: post
 title: "November General Body Meeting: IAmRemarkable!"
 date: 2018-11-09
-categories: news
+categories: community
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/novgbm.png)

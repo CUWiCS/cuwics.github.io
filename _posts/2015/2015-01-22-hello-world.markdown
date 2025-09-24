@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello World, WiCS!"
 date:   2015-01-22 20:20:20
-categories: news
+categories: community
 ---
 
 ![Hello World!]({{ site.url }}/assets/blog2015/helloworldwics.png)

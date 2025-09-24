@@ -2,7 +2,7 @@
 layout: post
 title: "Day in the Life of a Freshman CS Student"
 date: 2024-02-24
-categories: news
+categories: academic
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2024/diana.png)

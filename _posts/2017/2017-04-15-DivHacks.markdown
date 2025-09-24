@@ -2,7 +2,7 @@
 layout: post
 title: "DivHacks 2017"
 date: 2017-04-15
-categories: news
+categories: professional
 ---
 
 On April 15th, 2017, WiCS led efforts to organize Columbia’s first ever diversity hackathon along with Columbia’s ADI and Columbia’s ColorCode; Technology and Entrepreneurship with the mission to  “create an empowering and inspirational space for Black people, Latinx people, women, and people whose identities exist beyond normative notions of being.” Going from 9am - 9pm, the hackathon proved to be a success with two great keynote speakers by Rebecca Garcia, the co-founder of CoderDojo NYC and award recipient for U.S. White House Champion of Change for Tech Inclusion, and Yesenia Perez-Cruz, design director at Vox Media. The speakers discussed both the importance of diversity in tech and the intersectionality of the tech industry, while also advising students on how to find their niche in tech. After a successful kick-off, several companies held breakout sessions throughout the day. For example, the New York Times discussed the journalism and tech intersection, Bloomberg discussed philanthropy and civic engagement and held mock technical interviews, Yahoo gave a research tech talk, and MakeSchool gave an iOS workshop. Every breakout session was filled with students eager to learn and asking great questions. Between breakout sessions, there was lots of food and mingling between company representatives and students. What really made DivHacks unique was the personal and integrated communication between students and company reps- we wanted to create an environment where students would build sustained and meaningful connections with industry professionals. 

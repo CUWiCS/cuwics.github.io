@@ -2,7 +2,7 @@
 layout: post
 title: "Internship Insight: Figma SWE"
 date: 2024-04-11
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2024/figma_office.png)
