@@ -11,12 +11,10 @@ title: Home
       <div class="intro-lead-in" style="font-size: 1.7rem; margin-bottom: 4px;">Welcome to</div>
       <div class="intro-heading" style="font-size: 2.4rem; font-weight: bold; margin: 6px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">CUWICS</div>
       <div class="intro-subheading" style="font-size: 1.7rem; margin-bottom: 12px;">Columbia University Women in Computer Science</div>
-      
       <!-- Newsletter Link -->
       <a href="https://listserv.cuit.columbia.edu/scripts/wa.exe?SUBED1=WICS&A=1" target="_blank" role="button" class="btn btn-xl" style="background-color: #ff69b4; color: #fff; margin: 8px; padding: 8px 16px; font-size: 1.3rem; border-radius: 25px; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(255,105,180,0.3);">
         Subscribe to our Newsletter
       </a>
-      
       <!-- Social Media Links -->
       <div class="social-links" style="margin-top: 12px;">
         <a href="https://twitter.com/cu_wics" target="_blank" style="color: #fff; margin: 0 15px; font-size: 1.5rem; transition: all 0.3s ease;"><i class="fa fa-twitter"></i></a>
@@ -153,14 +151,7 @@ title: Home
         </div>
       </div>
     </div>
-    
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <a href="/calendar" class="btn btn-xl" style="background-color: #ff69b4; color: #fff; border-radius: 25px; padding: 15px 30px; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(255,105,180,0.3);">
-          <i class="fa fa-calendar"></i> View Full Calendar
-        </a>
-      </div>
-    </div>
+  
   </div>
 </section>
 
@@ -170,7 +161,7 @@ title: Home
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">Recent Blog Posts</h2>
-        <h3 class="section-subheading text-muted">Find out more about what we've been up to and keep up with news and events!</h3>
+        <h3 class="section-subheading text-muted">Find out more about what we've been up to!</h3>
       </div>
     </div>
     <div class="row">
@@ -182,15 +173,14 @@ title: Home
               <a class="post-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #fff;">
                 {{ post.title }}
               </a>
-              <p class="panel-date" style="margin-top: 10px; font-size: 0.9rem;">{{ post.date | date: "%b %-d, %Y" }}</p>
+              <p class="panel-date" style="margin-top: 10px; font-size: 0.9rem; color: #fff;">{{ post.date | date: "%b %-d, %Y" }}</p>
             </h3>
           </div>
-          <div class="panel-body" style="padding: 20px;">
-            {{ post.content | truncatehtml | truncatewords: 50 }}
-            <br><br>
-            <center><a class="post-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">
+          <div class="panel-body" style="padding: 10px;">
+            <div class="post-content">{{ post.content | truncatehtml | truncatewords: 50 }}</div>
+            <a class="post-link read-more-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">
               &lt;read more&gt;
-            </a></center>
+            </a>
           </div>
         </div>
       </div>

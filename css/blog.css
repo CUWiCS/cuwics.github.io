@@ -13,9 +13,7 @@ html, body {
 .post-link {
     color:#75B2DD !important;
 }
-.post-link:hover {
-    color:#559AE8!important;
-}
+
 
 .footer {
     position:relative;
@@ -29,13 +27,7 @@ p>a{
     color:#75B2DD !important;
 }
 
-p>a:hover{
-    color:#559AE8;
-}
 
-.navbar-default .nav li a:hover{
-    color:#75B2DD !important;
-}
 
 img + em {
     color:#708491;

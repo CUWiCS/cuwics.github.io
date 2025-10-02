@@ -186,12 +186,14 @@
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   border-radius: 20px;
   padding: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   align-items: center;
   border: 2px solid transparent;
+  height: 100%;
+  width: 100%;
 }
 
 .event-category-horizontal:hover {
@@ -227,13 +229,152 @@
   color: #1a1a1a;
   font-weight: bold;
   margin-bottom: 10px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .category-content p {
   line-height: 1.5;
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 1.2rem;
+}
+
+/* Ensure equal height columns for event categories */
+#events .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+#events .col-lg-6 {
+  display: flex;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+/* Ensure equal height columns for Recent Blog Posts */
+#news .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#news .col-sm-4 {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#news .panel {
+  height: 100%;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+#news .panel-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Standardize blog card components for consistent alignment */
+#news .panel-heading {
+  min-height: 100px !important;
+  display: flex;
+  align-items: center;
+  padding: 20px 20px !important;
+}
+
+#news .panel-title {
+  margin: 0 !important;
+  width: 100%;
+}
+
+#news .panel-title a {
+  font-size: 1.3rem !important;
+  line-height: 1.3 !important;
+  display: block;
+  margin-bottom: 8px;
+}
+
+#news .panel-date {
+  margin: 0 !important;
+  font-size: 1rem !important;
+  opacity: 0.9;
+}
+
+#news .panel-body {
+  padding: 20px !important;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Limit text content to consistent height */
+#news .post-content {
+  line-height: 1.4;
+  margin-bottom: 2px;
+  color: #6c757d;
+  display: block;
+}
+
+#news .read-more-link {
+  margin-top: auto;
+  text-align: center;
+  padding-top: 2px;
+}
+
+/* Handle images in blog posts - reduce space above */
+#news .post-content img {
+  margin-top: 5px !important;
+  margin-bottom: 15px !important;
+  max-height: 150px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Board member card styling */
+.team-card .member-photo {
+  width: 180px !important;
+  height: 180px !important;
+  margin: 0 auto 20px !important;
+  border-radius: 50% !important;
+  overflow: hidden !important;
+  border: 4px solid #ff69b4 !important;
+  box-shadow: 0 5px 15px rgba(255,105,180,0.3) !important;
+}
+
+.team-card .member-photo img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+/* Fixed height for all board member cards */
+.team-card {
+  height: 460px !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.team-card .bio-text {
+  flex: 1 !important;
+  overflow: hidden !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 8 !important;
+  -webkit-box-orient: vertical !important;
+}
+
+/* Board card social links styling */
+.team-card .social-links {
+  margin-top: auto !important;
+  padding-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.team-card .social-links a {
+  font-size: 1.5rem !important;
+  margin: 0 15px !important;
 }
 
 /* Sponsor Cards */
@@ -517,7 +658,7 @@
 }
 
 .post-content {
-  padding: 40px;
+  padding: 0 20px 0 20px;
 }
 
 .post-meta {
@@ -542,7 +683,6 @@
   text-decoration: none;
   font-weight: bold;
   font-size: 1.8rem;
-  line-height: 1.3;
   transition: color 0.3s ease;
 }
 
@@ -836,7 +976,7 @@
 }
 
 .social-links a:hover {
-  color: #1a1a1a !important;
+  color: #ff69b4 !important;
   transform: scale(1.2);
 }
 

@@ -14,7 +14,7 @@ title: Blog
 </header>
 
 <!-- Posts Section -->
-<section style="padding: 100px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+<section id="news" style="padding: 100px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -47,33 +47,17 @@ title: Blog
               <div class="panel panel-info" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); height: 100%;">
                 <div class="panel-heading" style="background-color: #ff69b4; color: #fff; border-radius: 8px 8px 0 0;">
                   <h3 class="panel-title">
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="color: #fff;">
+                    <a class="post-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #fff;">
                       {{ post.title }}
                     </a>
-                    <p class="panel-date" style="margin-top: 10px; font-size: 0.9rem;">{{ post.date | date: "%b %-d, %Y" }}</p>
+                    <p class="panel-date" style="margin-top: 10px; font-size: 0.9rem; color: #fff;">{{ post.date | date: "%b %-d, %Y" }}</p>
                   </h3>
                 </div>
-                <div class="panel-body" style="padding: 20px;">
-                  <!-- Featured Image -->
-                  {% if post.content contains '![' %}
-                    {% assign image_start = post.content | split: '![' | first %}
-                    {% assign image_content = post.content | split: '![' | last %}
-                    {% if image_content contains '](' %}
-                      {% assign image_alt = image_content | split: '](' | first %}
-                      {% assign image_url = image_content | split: '](' | last | split: ')' | first %}
-                      {% if image_url contains 'assets/' or image_url contains 'img/' %}
-                        <div class="post-image-container" style="margin-bottom: 15px; text-align: center;">
-                          <img src="{{ image_url | prepend: site.baseurl }}" alt="{{ image_alt }}" class="post-featured-image" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                        </div>
-                      {% endif %}
-                    {% endif %}
-                  {% endif %}
-                  
-                  <div class="post-content" style="color: #6c757d; line-height: 1.6;">
-                    {{ post.excerpt | default: post.content | truncatewords: 50 }}
-                  </div>
-                  <br><br>
-                  <center><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">&lt;read more&gt;</a></center>
+                <div class="panel-body" style="padding: 10px;">
+                  <div class="post-content">{{ post.content | truncatehtml | truncatewords: 50 }}</div>
+                  <a class="post-link read-more-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">
+                    &lt;read more&gt;
+                  </a>
                 </div>
               </div>
             </div>
@@ -117,27 +101,11 @@ title: Blog
                     <p class="panel-date" style="margin-top: 10px; font-size: 0.9rem;">{{ post.date | date: "%b %-d, %Y" }}</p>
                   </h3>
                 </div>
-                <div class="panel-body" style="padding: 20px;">
-                  <!-- Featured Image -->
-                  {% if post.content contains '![' %}
-                    {% assign image_start = post.content | split: '![' | first %}
-                    {% assign image_content = post.content | split: '![' | last %}
-                    {% if image_content contains '](' %}
-                      {% assign image_alt = image_content | split: '](' | first %}
-                      {% assign image_url = image_content | split: '](' | last | split: ')' | first %}
-                      {% if image_url contains 'assets/' or image_url contains 'img/' %}
-                        <div class="post-image-container" style="margin-bottom: 15px; text-align: center;">
-                          <img src="{{ image_url | prepend: site.baseurl }}" alt="{{ image_alt }}" class="post-featured-image" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                        </div>
-                      {% endif %}
-                    {% endif %}
-                  {% endif %}
-                  
-                  <div class="post-content" style="color: #6c757d; line-height: 1.6;">
-                    {{ post.excerpt | default: post.content | truncatewords: 50 }}
-                  </div>
-                  <br><br>
-                  <center><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">&lt;read more&gt;</a></center>
+                <div class="panel-body" style="padding: 10px;">
+                  <div class="post-content">{{ post.content | truncatehtml | truncatewords: 50 }}</div>
+                  <a class="post-link read-more-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">
+                    &lt;read more&gt;
+                  </a>
                 </div>
               </div>
             </div>
@@ -172,33 +140,17 @@ title: Blog
               <div class="panel panel-info" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); height: 100%;">
                 <div class="panel-heading" style="background-color: #ff69b4; color: #fff; border-radius: 8px 8px 0 0;">
                   <h3 class="panel-title">
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="color: #fff;">
+                    <a class="post-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #fff;">
                       {{ post.title }}
                     </a>
-                    <p class="panel-date" style="margin-top: 10px; font-size: 0.9rem;">{{ post.date | date: "%b %-d, %Y" }}</p>
+                    <p class="panel-date" style="margin-top: 10px; font-size: 0.9rem; color: #fff;">{{ post.date | date: "%b %-d, %Y" }}</p>
                   </h3>
                 </div>
-                <div class="panel-body" style="padding: 20px;">
-                  <!-- Featured Image -->
-                  {% if post.content contains '![' %}
-                    {% assign image_start = post.content | split: '![' | first %}
-                    {% assign image_content = post.content | split: '![' | last %}
-                    {% if image_content contains '](' %}
-                      {% assign image_alt = image_content | split: '](' | first %}
-                      {% assign image_url = image_content | split: '](' | last | split: ')' | first %}
-                      {% if image_url contains 'assets/' or image_url contains 'img/' %}
-                        <div class="post-image-container" style="margin-bottom: 15px; text-align: center;">
-                          <img src="{{ image_url | prepend: site.baseurl }}" alt="{{ image_alt }}" class="post-featured-image" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                        </div>
-                      {% endif %}
-                    {% endif %}
-                  {% endif %}
-                  
-                  <div class="post-content" style="color: #6c757d; line-height: 1.6;">
-                    {{ post.excerpt | default: post.content | truncatewords: 50 }}
-                  </div>
-                  <br><br>
-                  <center><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">&lt;read more&gt;</a></center>
+                <div class="panel-body" style="padding: 10px;">
+                  <div class="post-content">{{ post.content | truncatehtml | truncatewords: 50 }}</div>
+                  <a class="post-link read-more-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">
+                    &lt;read more&gt;
+                  </a>
                 </div>
               </div>
             </div>
@@ -208,100 +160,12 @@ title: Blog
           {% endfor %}
         </div>
         
-        <div class="text-center" style="margin-top: 60px;">
-          <div class="rss-subscribe" style="background: #fff; border-radius: 15px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); display: inline-block;">
-            <h4 style="color: #1a1a1a; margin-bottom: 15px; font-weight: bold;">
-              <i class="fa fa-rss" style="color: #ff69b4; margin-right: 10px;"></i>Stay Updated
-            </h4>
-            <p class="text-muted" style="margin-bottom: 20px;">Subscribe to our RSS feed to get notified about new posts.</p>
-            <a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="btn btn-outline-primary" style="border-color: #ff69b4; color: #ff69b4; border-radius: 25px; padding: 12px 30px; font-weight: 600; transition: all 0.3s ease;">
-              <i class="fa fa-rss" style="margin-right: 8px;"></i>Subscribe via RSS
-            </a>
-          </div>
-        </div>
+      
       </div>
     </div>
   </div>
 </section>
 
-<!-- Featured Categories  -->
-<section style="padding: 100px 0; background: #fff;">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading" style="font-size: 2.5rem; margin-bottom: 20px; color: #1a1a1a;">Blog Categories</h2>
-        <div style="width: 60px; height: 3px; background: #ff69b4; margin: 0 auto 30px; border-radius: 2px;"></div>
-        <h3 class="section-subheading text-muted" style="font-size: 1.1rem; margin-bottom: 60px;">Explore different topics and themes in our blog.</h3>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="col-lg-3 col-md-6">
-        <div class="category-card" style="background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%); border-radius: 15px; padding: 30px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: center; border-left: 4px solid #ff69b4;">
-          <div class="category-icon" style="width: 60px; height: 60px; background: #ff69b4; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; box-shadow: 0 5px 15px rgba(255,105,180,0.3);">
-            <i class="fa fa-users" style="color: #fff; font-size: 1.5rem;"></i>
-          </div>
-          <h4 style="color: #1a1a1a; font-weight: bold; margin-bottom: 10px;">Community</h4>
-          <p class="text-muted" style="font-size: 0.9rem; line-height: 1.5;">Stories about our community members and their achievements.</p>
-        </div>
-      </div>
-      
-      <div class="col-lg-3 col-md-6">
-        <div class="category-card" style="background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%); border-radius: 15px; padding: 30px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: center; border-left: 4px solid #ff69b4;">
-          <div class="category-icon" style="width: 60px; height: 60px; background: #ff69b4; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; box-shadow: 0 5px 15px rgba(255,105,180,0.3);">
-            <i class="fa fa-calendar" style="color: #fff; font-size: 1.5rem;"></i>
-          </div>
-          <h4 style="color: #1a1a1a; font-weight: bold; margin-bottom: 10px;">Events</h4>
-          <p class="text-muted" style="font-size: 0.9rem; line-height: 1.5;">Recaps and highlights from our events and activities.</p>
-        </div>
-      </div>
-      
-      <div class="col-lg-3 col-md-6">
-        <div class="category-card" style="background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%); border-radius: 15px; padding: 30px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: center; border-left: 4px solid #ff69b4;">
-          <div class="category-icon" style="width: 60px; height: 60px; background: #ff69b4; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; box-shadow: 0 5px 15px rgba(255,105,180,0.3);">
-            <i class="fa fa-lightbulb-o" style="color: #fff; font-size: 1.5rem;"></i>
-          </div>
-          <h4 style="color: #1a1a1a; font-weight: bold; margin-bottom: 10px;">Insights</h4>
-          <p class="text-muted" style="font-size: 0.9rem; line-height: 1.5;">Thoughts and perspectives on women in tech and computer science.</p>
-        </div>
-      </div>
-      
-      <div class="col-lg-3 col-md-6">
-        <div class="category-card" style="background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%); border-radius: 15px; padding: 30px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: center; border-left: 4px solid #ff69b4;">
-          <div class="category-icon" style="width: 60px; height: 60px; background: #ff69b4; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; box-shadow: 0 5px 15px rgba(255,105,180,0.3);">
-            <i class="fa fa-star" style="color: #fff; font-size: 1.5rem;"></i>
-          </div>
-          <h4 style="color: #1a1a1a; font-weight: bold; margin-bottom: 10px;">Spotlight</h4>
-          <p class="text-muted" style="font-size: 0.9rem; line-height: 1.5;">Featured stories and interviews with inspiring women in CS.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Newsletter Signup  -->
-<section style="padding: 100px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading" style="font-size: 2.5rem; margin-bottom: 20px; color: #1a1a1a;">Stay in the Loop</h2>
-        <div style="width: 60px; height: 3px; background: #ff69b4; margin: 0 auto 30px; border-radius: 2px;"></div>
-        <h3 class="section-subheading text-muted" style="font-size: 1.1rem; margin-bottom: 40px;">Get our latest blog posts and updates delivered to your inbox.</h3>
-        
-        <div class="newsletter-signup" style="background: #fff; border-radius: 20px; padding: 50px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); max-width: 600px; margin: 0 auto;">
-          <div class="newsletter-icon" style="width: 80px; height: 80px; background: #ff69b4; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 30px; box-shadow: 0 10px 25px rgba(255,105,180,0.3);">
-            <i class="fa fa-envelope" style="color: #fff; font-size: 2rem;"></i>
-          </div>
-          <h4 style="color: #1a1a1a; font-weight: bold; margin-bottom: 15px;">Subscribe to Our Newsletter</h4>
-          <p class="text-muted" style="line-height: 1.6; margin-bottom: 30px;">Join our community and receive weekly updates about events, opportunities, and inspiring stories from women in computer science.</p>
-          <a href="https://listserv.cuit.columbia.edu/scripts/wa.exe?SUBED1=WICS&A=1" target="_blank" class="btn btn-primary" style="background-color: #ff69b4; border-color: #ff69b4; border-radius: 30px; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 8px 20px rgba(255,105,180,0.3);">
-            <i class="fa fa-paper-plane" style="margin-right: 10px;"></i>Subscribe Now
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <style>
   .blog-post-card:hover {
