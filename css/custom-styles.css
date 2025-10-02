@@ -352,7 +352,7 @@
 
 /* Fixed height for all board member cards */
 .team-card {
-  height: 460px !important;
+  height: 440px !important;
   display: flex !important;
   flex-direction: column !important;
 }
@@ -687,7 +687,7 @@
 }
 
 .post-link:hover {
-  color: #ff69b4;
+  color: #1e90ff;
 }
 
 .post-excerpt {
@@ -1031,8 +1031,9 @@
 }
 
 /* Navigation Styles */
+/* Keep nav link background transparent on hover */
 .navbar-nav > li > a:hover {
-  background-color: #ff69b4 !important;
+  background-color: transparent !important;
   color: #fff !important;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(255, 105, 180, 0.3);
@@ -1043,7 +1044,7 @@
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .open > a:hover {
-  background-color: #ff69b4 !important;
+  background-color: transparent !important;
   color: #fff !important;
 }
 
@@ -1057,7 +1058,7 @@
 /* Remove Bootstrap default hover/focus blue from nav links */
 .navbar-nav > li > a:focus,
 .navbar-nav > li > a:active {
-  background-color: #ff69b4 !important;
+  background-color: transparent !important;
   color: #fff !important;
   outline: none !important;
   box-shadow: none !important;
@@ -1067,10 +1068,11 @@
 .navbar-default .navbar-nav > li > a:focus {
   background-color: transparent !important;
 }
+/* Keep active state styled only by border/text, not background */
 .navbar-nav > .active > a,
 .navbar-nav > .active > a:focus,
 .navbar-nav > .active > a:hover {
-  background-color: #ff69b4 !important;
+  background-color: transparent !important;
   color: #fff !important;
   border-color: #ff69b4 !important;
 }
@@ -1078,7 +1080,7 @@
 .navbar-nav > .active > a,
 .navbar-nav > .active > a:focus,
 .navbar-nav > .active > a:hover {
-  background-color: #ff69b4 !important;
+  background-color: transparent !important;
   color: #fff !important;
   border-color: #ff69b4 !important;
 }

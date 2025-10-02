@@ -41,7 +41,7 @@ title: For Sponsors
                     <div class="timeline-image">
                       <img class="img-circle img-responsive" src="/img/about/calendar.png" alt="">
                     </div>
-                    <div class="timeline-panel" style="float:right; text-align:left;">
+                    <div class="timeline-panel">
                       <div class="timeline-heading">
                         <h4>Co-host an event with WICS</h4>
                         <!-- <h4 class="subheading">Our Humble Beginnings</h4> -->
@@ -58,7 +58,7 @@ title: For Sponsors
                     <div class="timeline-panel">
                       <div class="timeline-heading">
                         <h4>Attend our Networking Event</h4>
-                        <!-- <h4 class="subheading">An Agency is Born</h4> -->
+              
                       </div>
                       <div class="timeline-body">
                         <p class="text-muted">Every year in early April, we host a networking dinner for Columbia women in computer science, alumni, and corporate guests. We would be happy to have you too, whether as a sponsor or an invited guest!</p>
@@ -72,7 +72,6 @@ title: For Sponsors
                     <div class="timeline-panel">
                       <div class="timeline-heading">
                         <h4>Sponsor WiCS</h4>
-                        <!-- <h4 class="subheading">Transition to Full Service</h4> -->
                       </div>
                       <div class="timeline-body">
                         <p class="text-muted">WiCS hosts a number of academic and social events throughout the school year, including lunches with faculty, study breaks, and mentorship activities. We also try to send as many students as possible to the Grace Hopper Conference. If you are interested in sponsoring one of these events or providing scholarships to Grace Hopper, definitely <b><a href="mailto:cu.wics@gmail.com">get in touch!</a></b></p>
@@ -86,7 +85,7 @@ title: For Sponsors
                     <div class="timeline-panel">
                       <div class="timeline-heading">
                         <h4>Open Job Positions</h4>
-                        <!-- <h4 class="subheading">Phase Two Expansion</h4> -->
+                
                       </div>
                       <div class="timeline-body">
                         <p class="text-muted">Do you have a job you would like to broadcast to our members? Please <b><a href="mailto:cu.wics@gmail.com"">reach out to us through email</a></b>.</p>
@@ -108,14 +107,14 @@ title: For Sponsors
   </section>
 
 <!-- Contact Section -->
-<section style="padding: 100px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+<section style="padding: 60px 0 50px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading" style="font-size: 2.5rem; margin-bottom: 20px; color: #1a1a1a;">Interested in Partnering?</h2>
         <div style="width: 60px; height: 3px; background: #ff69b4; margin: 0 auto 30px; border-radius: 2px;"></div>
-        <h3 class="section-subheading text-muted" style="font-size: 1.1rem; margin-bottom: 40px;">Get in touch with us to discuss collaboration opportunities.</h3>
-        <a href="mailto:cu.wics@gmail.com" class="btn btn-xl" style="background-color: #ff69b4; color: #fff; margin-top: 30px; padding: 15px 40px; font-size: 1.2rem; border-radius: 30px; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(255,105,180,0.3);">
+        <h3 class="section-subheading text-muted" style="font-size: 1.3rem; margin-bottom: 20px;">Get in touch with us to discuss collaboration opportunities.</h3>
+        <a href="mailto:cu.wics@gmail.com" class="btn btn-xl" style="background-color: #ff69b4; color: #fff; padding: 15px 40px; font-size: 1.2rem; border-radius: 30px; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(255,105,180,0.3);">
           <i class="fa fa-envelope" style="margin-right: 10px;"></i>Contact Us
         </a>
       </div>
@@ -301,15 +300,28 @@ title: For Sponsors
     display: block;
   }
 
-  .timeline-panel:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+  /* Center timeline images handled in responsive rules below */
+
+  /* Clean stacked layout on small screens to prevent overlaps */
+  @media (max-width: 991px) {
+    .timeline::before { display: none !important; }
+    .timeline > li .timeline-panel {
+      float: none !important;
+      width: 100% !important;
+      padding: 0 0 10px 0 !important;
+      text-align: center !important;
+    }
+    .timeline > li .timeline-image { float: none !important; margin: 0 auto 15px !important; }
   }
-  
-  .timeline-image:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
-  }
+
+  /* Ensure images never overlap panels */
+  .timeline-image { position: relative; z-index: 1; }
+  .timeline-panel { position: relative; z-index: 2; background: #fff; border-radius: 8px; padding: 15px; }
+  .timeline > li { position: relative; }
+  .timeline > li .timeline-image { margin-bottom: 10px; }
+
+  .timeline-panel:hover { transform: none; box-shadow: none; }
+  .timeline-image:hover { transform: none; }
   
   .pdf-container {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -346,26 +358,26 @@ title: For Sponsors
   
   .timeline > li:nth-child(odd) .timeline-panel {
     float: left;
-    width: 41%;
-    padding-right: 30px;
+    width: 45%;
+    padding-right: 15px;
     text-align: right;
   }
   
   .timeline > li:nth-child(even) .timeline-panel {
     float: right;
-    width: 41%;
-    padding-left: 30px;
+    width: 45%;
+    padding-left: 15px;
     text-align: left;
   }
   
   .timeline > li:nth-child(odd) .timeline-image {
     float: right;
-    margin-left: 30px;
+    margin-left: 10px;
   }
   
   .timeline > li:nth-child(even) .timeline-image {
     float: left;
-    margin-right: 30px;
+    margin-right: 10px;
   }
   
   .timeline > li:last-child {
@@ -375,6 +387,11 @@ title: For Sponsors
   .timeline > li:last-child .timeline-image {
     float: none;
     margin: 0 auto;
+  }
+
+  /* Add spacing above card titles */
+  .timeline .timeline-heading h4 {
+    padding-top: 8px;
   }
   
   /* Clear floats */

@@ -1,15 +1,50 @@
 ---
-layout: blog
+layout: main
 ---
-<div class="post">
+<div class="container blog-post" style="padding-top: 100px; padding-bottom: 60px;">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <header class="post-header" style="margin-bottom: 30px;">
+        <h1 class="post-title" style="margin-top: 20px; color: #000;">{{ page.title }}</h1>
+        <p class="post-meta text-muted" style="margin-top: 10px; margin-bottom: 0;">
+          {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+        </p>
+      </header>
 
-  <div class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      <article class="post-content">
+        {{ content }}
+      </article>
+    </div>
   </div>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
 </div>
+
+<style>
+  /* Keep posts readable without overriding markdown-defined styles */
+  .blog-post .post-header {
+    background: none !important;
+  }
+  .blog-post .post-title {
+    text-align: left;
+    margin-left: 0;
+  }
+  .blog-post .post-meta {
+    margin-left: 0;
+  }
+
+  .blog-post .post-content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  /* Disable hover effects on images within posts */
+  .blog-post .post-content img:hover {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
+  @media (max-width: 767px) {
+    .blog-post { padding-top: 80px; }
+  }
+</style>

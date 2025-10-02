@@ -10,6 +10,12 @@ title: Blog
     <h1 style="font-size: 3.5rem; font-weight: bold; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">Blog</h1>
     <p style="font-size: 1.3rem; margin-bottom: 30px;">Stay updated with our latest news, events, and stories.</p>
     <div style="width: 80px; height: 4px; background: #ff69b4; margin: 0 auto; border-radius: 2px;"></div>
+    <div style="margin-top: 25px;">
+      <a href="#academic" class="btn btn-primary btn-sm" style="margin: 0 6px;">Academic</a>
+      <a href="#professional" class="btn btn-primary btn-sm" style="margin: 0 6px;">Professional</a>
+      <a href="#community" class="btn btn-primary btn-sm" style="margin: 0 6px;">Community</a>
+      <a href="#other" class="btn btn-primary btn-sm" style="margin: 0 6px;">Other</a>
+    </div>
   </div>
 </header>
 
@@ -27,7 +33,7 @@ title: Blog
     <div class="row">
       <div class="col-lg-12">
         <!-- Academic Section -->
-        <div class="blog-section" style="margin-bottom: 80px;">
+        <div id="academic" class="blog-section" style="margin-bottom: 80px;">
           <div class="section-header" style="text-align: center; margin-bottom: 50px;">
             <h3 style="color: #ff69b4; font-size: 2rem; font-weight: bold; margin-bottom: 15px;">
               <i class="fa fa-graduation-cap" style="margin-right: 10px;"></i>Academic
@@ -39,6 +45,7 @@ title: Blog
           {% assign academic_count = 0 %}
           {% for post in academic_posts %}
             {% if post.categories contains "academic" %}
+            {% unless post.title == "Computers, Assemble!" or post.title == "CME Group Tech Talk about Challenges in Low-Latency Trading" or post.title == "Grace Hopper Convention 2016" %}
             {% assign modulo = academic_count | modulo: 3 %}
             {% if modulo == 0 %}
               <div class="row">
@@ -66,6 +73,7 @@ title: Blog
             {% if modulo == 0 %}
               </div>
             {% endif %}
+            {% endunless %}
             {% endif %}
           {% endfor %}
           {% assign remainder = academic_count | modulo: 3 %}
@@ -74,20 +82,21 @@ title: Blog
           {% endif %}
         </div>
         
-        <!-- Corporate Section -->
-        <div class="blog-section" style="margin-bottom: 80px;">
+        <!-- Professional Section -->
+        <div id="professional" class="blog-section" style="margin-bottom: 80px;">
           <div class="section-header" style="text-align: center; margin-bottom: 50px;">
             <h3 style="color: #ff69b4; font-size: 2rem; font-weight: bold; margin-bottom: 15px;">
-              <i class="fa fa-briefcase" style="margin-right: 10px;"></i>Corporate
+              <i class="fa fa-briefcase" style="margin-right: 10px;"></i>Professional
             </h3>
             <div style="width: 40px; height: 2px; background: #ff69b4; margin: 0 auto; border-radius: 1px;"></div>
           </div>
           
-          {% assign corporate_posts = site.posts %}
-          {% assign corporate_count = 0 %}
-          {% for post in corporate_posts %}
-            {% if post.categories contains "corporate" %}
-            {% assign modulo = corporate_count | modulo: 3 %}
+          {% assign professional_posts = site.posts %}
+          {% assign professional_count = 0 %}
+          {% for post in professional_posts %}
+            {% if post.categories contains "professional" %}
+            {% unless post.title == "Computers, Assemble!" or post.title == "CME Group Tech Talk about Challenges in Low-Latency Trading" or post.title == "Grace Hopper Convention 2016" %}
+            {% assign modulo = professional_count | modulo: 3 %}
             {% if modulo == 0 %}
               <div class="row">
             {% endif %}
@@ -95,7 +104,7 @@ title: Blog
               <div class="panel panel-info" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); height: 100%;">
                 <div class="panel-heading" style="background-color: #ff69b4; color: #fff; border-radius: 8px 8px 0 0;">
                   <h3 class="panel-title">
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="color: #fff;">
+                    <a class="post-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #fff;">
                       {{ post.title }}
                     </a>
                     <p class="panel-date" style="margin-top: 10px; font-size: 0.9rem;">{{ post.date | date: "%b %-d, %Y" }}</p>
@@ -109,30 +118,34 @@ title: Blog
                 </div>
               </div>
             </div>
-            {% assign corporate_count = corporate_count | plus: 1 %}
-            {% assign modulo = corporate_count | modulo: 3 %}
+            {% assign professional_count = professional_count | plus: 1 %}
+            {% assign modulo = professional_count | modulo: 3 %}
             {% if modulo == 0 %}
               </div>
             {% endif %}
+            {% endunless %}
             {% endif %}
           {% endfor %}
-          {% assign rem2 = corporate_count | modulo: 3 %}
+          {% assign rem2 = professional_count | modulo: 3 %}
           {% if rem2 != 0 %}
             </div>
           {% endif %}
         </div>
         
-        <!-- All Posts Section -->
-        <div class="blog-section">
+        <!-- Community Section -->
+        <div id="community" class="blog-section" style="margin-bottom: 80px;">
           <div class="section-header" style="text-align: center; margin-bottom: 50px;">
             <h3 style="color: #ff69b4; font-size: 2rem; font-weight: bold; margin-bottom: 15px;">
-              <i class="fa fa-list" style="margin-right: 10px;"></i>All Posts
+              <i class="fa fa-users" style="margin-right: 10px;"></i>Community
             </h3>
             <div style="width: 40px; height: 2px; background: #ff69b4; margin: 0 auto; border-radius: 1px;"></div>
           </div>
           
-          {% for post in site.posts %}
-            {% assign modulo = forloop.index0 | modulo: 3 %}
+          {% assign community_posts = site.posts %}
+          {% assign community_count = 0 %}
+          {% for post in community_posts %}
+            {% if post.categories contains "community" %}
+            {% assign modulo = community_count | modulo: 3 %}
             {% if modulo == 0 %}
               <div class="row">
             {% endif %}
@@ -154,11 +167,74 @@ title: Blog
                 </div>
               </div>
             </div>
-            {% if modulo == 2 or forloop.last %}
+            {% assign community_count = community_count | plus: 1 %}
+            {% assign modulo = community_count | modulo: 3 %}
+            {% if modulo == 0 %}
               </div>
             {% endif %}
+            {% endif %}
           {% endfor %}
+          {% assign rem3 = community_count | modulo: 3 %}
+          {% if rem3 != 0 %}
+            </div>
+          {% endif %}
         </div>
+
+        <!-- Other Section -->
+        <div id="other" class="blog-section" style="margin-bottom: 80px;">
+          <div class="section-header" style="text-align: center; margin-bottom: 50px;">
+            <h3 style="color: #ff69b4; font-size: 2rem; font-weight: bold; margin-bottom: 15px;">
+              <i class="fa fa-asterisk" style="margin-right: 10px;"></i>Other
+            </h3>
+            <div style="width: 40px; height: 2px; background: #ff69b4; margin: 0 auto; border-radius: 1px;"></div>
+          </div>
+          
+          {% assign other_posts = site.posts %}
+          {% assign other_count = 0 %}
+          {% for post in other_posts %}
+            {% assign is_academic = post.categories contains "academic" %}
+            {% assign is_professional = post.categories contains "professional" %}
+            {% assign is_community = post.categories contains "community" %}
+            {% assign is_other = post.categories contains "other" %}
+            {% if is_other or (is_academic == false and is_professional == false and is_community == false) %}
+            {% unless post.title == "Computers, Assemble!" or post.title == "CME Group Tech Talk about Challenges in Low-Latency Trading" or post.title == "Grace Hopper Convention 2016" %}
+            {% assign modulo = other_count | modulo: 3 %}
+            {% if modulo == 0 %}
+              <div class="row">
+            {% endif %}
+            <div class="col-sm-4" style="margin-bottom: 30px;">
+              <div class="panel panel-info" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); height: 100%;">
+                <div class="panel-heading" style="background-color: #ff69b4; color: #fff; border-radius: 8px 8px 0 0;">
+                  <h3 class="panel-title">
+                    <a class="post-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #fff;">
+                      {{ post.title }}
+                    </a>
+                    <p class="panel-date" style="margin-top: 10px; font-size: 0.9rem; color: #fff;">{{ post.date | date: "%b %-d, %Y" }}</p>
+                  </h3>
+                </div>
+                <div class="panel-body" style="padding: 10px;">
+                  <div class="post-content">{{ post.content | truncatehtml | truncatewords: 50 }}</div>
+                  <a class="post-link read-more-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">
+                    &lt;read more&gt;
+                  </a>
+                </div>
+              </div>
+            </div>
+            {% assign other_count = other_count | plus: 1 %}
+            {% assign modulo = other_count | modulo: 3 %}
+            {% if modulo == 0 %}
+              </div>
+            {% endif %}
+            {% endunless %}
+            {% endif %}
+          {% endfor %}
+          {% assign rem4 = other_count | modulo: 3 %}
+          {% if rem4 != 0 %}
+            </div>
+          {% endif %}
+        </div>
+
+        
         
       
       </div>
@@ -174,7 +250,7 @@ title: Blog
   }
   
   .post-link:hover {
-    color: #ff69b4 !important;
+    color: #1e90ff !important;
   }
   
   .btn-primary:hover {
