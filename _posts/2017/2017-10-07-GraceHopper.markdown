@@ -2,7 +2,7 @@
 layout: post
 title: "Grace Hopper Conference 2017!"
 date: 2017-10-07
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2017/GHC2017.jpg)

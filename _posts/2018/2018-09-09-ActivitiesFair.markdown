@@ -2,7 +2,7 @@
 layout: post
 title: "Activities Fair"
 date: 2018-09-09
-categories: news
+categories: community
 ---
 ![Flyer]({{ site.url }}/assets/blog2017/ActivitiesFair.JPG)
 

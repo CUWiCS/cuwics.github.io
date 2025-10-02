@@ -2,7 +2,7 @@
 layout: post
 title: "Stripe Meet-n-Greet 2019"
 date: 2019-11-20
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2020/social.png)

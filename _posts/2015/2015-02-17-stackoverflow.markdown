@@ -2,7 +2,7 @@
 layout: post
 title:  "WICS Site Visit to StackOverflow"
 date:   2015-02-18 00:40:20
-categories: news
+categories: professional
 ---
 
 ![StackOverflow]({{ site.url }}/assets/blog2015/20150213_stackexchange_group.jpg)

@@ -2,7 +2,7 @@
 layout: post
 title:  "CME Group Tech Talk: Field Programmable Gate Arrays"
 date:   2017-03-10
-categories: news
+categories: professional
 ---
 
 Engineers from CME Group visited campus and gave a talk about some interesting technical challenges they tackle. Our speaker is a Columbia alum who graduated in 2014. He introduced their use of field programmable gate arrays (FPGAs), including how they are different from ASICs and CPUs, and what kind of advantages FPGAs bring to CME and other fields. It was a very informative talk!   

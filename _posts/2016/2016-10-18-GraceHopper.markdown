@@ -2,7 +2,7 @@
 layout: post
 title:  "Grace Hopper Convention 2016"
 date:   2016-10-18 00:12:00
-categories: news
+categories: professional
 ---
 
 This year 9 WiCS members flew to Houston, Texas at the end of October to attend Grace Hopper Convention 2016! In this jam-packed, activity-filled, 3-day conference, the students met various tech companies at the huge expo, attended inspiring tech talks that spanned from discussions about Internet of Things all the way to leadership and management, tried virtual reality, collected TONS of swag, explored uptown Houston, met other Columbia women in CS, and much more!

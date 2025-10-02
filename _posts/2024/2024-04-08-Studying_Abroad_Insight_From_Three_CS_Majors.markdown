@@ -2,7 +2,7 @@
 layout: post
 title: "Studying Abroad: Insights from Three CS Majors"
 date: 2024-04-08
-categories: news
+categories: academic
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2024/paris_view_indigo.png)

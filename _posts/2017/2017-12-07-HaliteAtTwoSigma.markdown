@@ -2,7 +2,7 @@
 layout: post
 title: "Halite at Two Sigma: Discover AI & ML"
 date: 2017-12-07
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2017/Halite.jpg)

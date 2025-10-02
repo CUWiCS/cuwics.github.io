@@ -2,7 +2,7 @@
 layout: post
 title: "CS Track Expo"
 date: 2019-04-12
-categories: news
+categories: academic
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2019/TrackExpo.jpg)

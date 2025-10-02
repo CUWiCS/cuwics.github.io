@@ -1,21 +1,320 @@
 ---
-layout: blog
+layout: main
+title: Blog
 ---
 
-<div class="home">
+<!-- Header -->
+<header style="background: linear-gradient(135deg, #ff69b4 0%, #1a1a1a 100%); color: #fff; padding: 100px 0; text-align: center; position: relative; overflow: hidden;">
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('/img/logos/wics_logo.png') center/contain no-repeat; opacity: 0.1;"></div>
+  <div class="container" style="position: relative; z-index: 2; padding-top: 40px;">
+    <h1 style="font-size: 3.5rem; font-weight: bold; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">Blog</h1>
+    <p style="font-size: 1.3rem; margin-bottom: 30px;">Stay updated with our latest news, events, and stories.</p>
+    <div style="width: 80px; height: 4px; background: #ff69b4; margin: 0 auto; border-radius: 2px;"></div>
+    <div style="margin-top: 25px;">
+      <a href="#academic" class="btn btn-primary btn-sm" style="margin: 0 6px;">Academic</a>
+      <a href="#professional" class="btn btn-primary btn-sm" style="margin: 0 6px;">Professional</a>
+      <a href="#community" class="btn btn-primary btn-sm" style="margin: 0 6px;">Community</a>
+      <a href="#other" class="btn btn-primary btn-sm" style="margin: 0 6px;">Other</a>
+    </div>
+  </div>
+</header>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<!-- Posts Section -->
+<section id="news" style="padding: 100px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading" style="font-size: 2.5rem; margin-bottom: 20px; color: #1a1a1a;">Latest Posts</h2>
+        <div style="width: 60px; height: 3px; background: #ff69b4; margin: 0 auto 30px; border-radius: 2px;"></div>
+        <h3 class="section-subheading text-muted" style="font-size: 1.1rem; margin-bottom: 60px;">Read about our community, events, and the amazing work of women in computer science.</h3>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-12">
+        <!-- Academic Section -->
+        <div id="academic" class="blog-section" style="margin-bottom: 80px;">
+          <div class="section-header" style="text-align: center; margin-bottom: 50px;">
+            <h3 style="color: #ff69b4; font-size: 2rem; font-weight: bold; margin-bottom: 15px;">
+              <i class="fa fa-graduation-cap" style="margin-right: 10px;"></i>Academic
+            </h3>
+            <div style="width: 40px; height: 2px; background: #ff69b4; margin: 0 auto; border-radius: 1px;"></div>
+          </div>
+          
+          {% assign academic_posts = site.posts %}
+          {% assign academic_count = 0 %}
+          {% for post in academic_posts %}
+            {% if post.categories contains "academic" %}
+            {% unless post.title == "Computers, Assemble!" or post.title == "CME Group Tech Talk about Challenges in Low-Latency Trading" or post.title == "Grace Hopper Convention 2016" %}
+            {% assign modulo = academic_count | modulo: 3 %}
+            {% if modulo == 0 %}
+              <div class="row">
+            {% endif %}
+            <div class="col-sm-4" style="margin-bottom: 30px;">
+              <div class="panel panel-info" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); height: 100%;">
+                <div class="panel-heading" style="background-color: #ff69b4; color: #fff; border-radius: 8px 8px 0 0;">
+                  <h3 class="panel-title">
+                    <a class="post-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #fff;">
+                      {{ post.title }}
+                    </a>
+                    <p class="panel-date" style="margin-top: 10px; font-size: 0.9rem; color: #fff;">{{ post.date | date: "%b %-d, %Y" }}</p>
+                  </h3>
+                </div>
+                <div class="panel-body" style="padding: 10px;">
+                  <div class="post-content">{{ post.content | truncatehtml | truncatewords: 50 }}</div>
+                  <a class="post-link read-more-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">
+                    &lt;read more&gt;
+                  </a>
+                </div>
+              </div>
+            </div>
+            {% assign academic_count = academic_count | plus: 1 %}
+            {% assign modulo = academic_count | modulo: 3 %}
+            {% if modulo == 0 %}
+              </div>
+            {% endif %}
+            {% endunless %}
+            {% endif %}
+          {% endfor %}
+          {% assign remainder = academic_count | modulo: 3 %}
+          {% if remainder != 0 %}
+            </div>
+          {% endif %}
+        </div>
+        
+        <!-- Professional Section -->
+        <div id="professional" class="blog-section" style="margin-bottom: 80px;">
+          <div class="section-header" style="text-align: center; margin-bottom: 50px;">
+            <h3 style="color: #ff69b4; font-size: 2rem; font-weight: bold; margin-bottom: 15px;">
+              <i class="fa fa-briefcase" style="margin-right: 10px;"></i>Professional
+            </h3>
+            <div style="width: 40px; height: 2px; background: #ff69b4; margin: 0 auto; border-radius: 1px;"></div>
+          </div>
+          
+          {% assign professional_posts = site.posts %}
+          {% assign professional_count = 0 %}
+          {% for post in professional_posts %}
+            {% if post.categories contains "professional" %}
+            {% unless post.title == "Computers, Assemble!" or post.title == "CME Group Tech Talk about Challenges in Low-Latency Trading" or post.title == "Grace Hopper Convention 2016" %}
+            {% assign modulo = professional_count | modulo: 3 %}
+            {% if modulo == 0 %}
+              <div class="row">
+            {% endif %}
+            <div class="col-sm-4" style="margin-bottom: 30px;">
+              <div class="panel panel-info" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); height: 100%;">
+                <div class="panel-heading" style="background-color: #ff69b4; color: #fff; border-radius: 8px 8px 0 0;">
+                  <h3 class="panel-title">
+                    <a class="post-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #fff;">
+                      {{ post.title }}
+                    </a>
+                    <p class="panel-date" style="margin-top: 10px; font-size: 0.9rem;">{{ post.date | date: "%b %-d, %Y" }}</p>
+                  </h3>
+                </div>
+                <div class="panel-body" style="padding: 10px;">
+                  <div class="post-content">{{ post.content | truncatehtml | truncatewords: 50 }}</div>
+                  <a class="post-link read-more-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">
+                    &lt;read more&gt;
+                  </a>
+                </div>
+              </div>
+            </div>
+            {% assign professional_count = professional_count | plus: 1 %}
+            {% assign modulo = professional_count | modulo: 3 %}
+            {% if modulo == 0 %}
+              </div>
+            {% endif %}
+            {% endunless %}
+            {% endif %}
+          {% endfor %}
+          {% assign rem2 = professional_count | modulo: 3 %}
+          {% if rem2 != 0 %}
+            </div>
+          {% endif %}
+        </div>
+        
+        <!-- Community Section -->
+        <div id="community" class="blog-section" style="margin-bottom: 80px;">
+          <div class="section-header" style="text-align: center; margin-bottom: 50px;">
+            <h3 style="color: #ff69b4; font-size: 2rem; font-weight: bold; margin-bottom: 15px;">
+              <i class="fa fa-users" style="margin-right: 10px;"></i>Community
+            </h3>
+            <div style="width: 40px; height: 2px; background: #ff69b4; margin: 0 auto; border-radius: 1px;"></div>
+          </div>
+          
+          {% assign community_posts = site.posts %}
+          {% assign community_count = 0 %}
+          {% for post in community_posts %}
+            {% if post.categories contains "community" %}
+            {% assign modulo = community_count | modulo: 3 %}
+            {% if modulo == 0 %}
+              <div class="row">
+            {% endif %}
+            <div class="col-sm-4" style="margin-bottom: 30px;">
+              <div class="panel panel-info" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); height: 100%;">
+                <div class="panel-heading" style="background-color: #ff69b4; color: #fff; border-radius: 8px 8px 0 0;">
+                  <h3 class="panel-title">
+                    <a class="post-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #fff;">
+                      {{ post.title }}
+                    </a>
+                    <p class="panel-date" style="margin-top: 10px; font-size: 0.9rem; color: #fff;">{{ post.date | date: "%b %-d, %Y" }}</p>
+                  </h3>
+                </div>
+                <div class="panel-body" style="padding: 10px;">
+                  <div class="post-content">{{ post.content | truncatehtml | truncatewords: 50 }}</div>
+                  <a class="post-link read-more-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">
+                    &lt;read more&gt;
+                  </a>
+                </div>
+              </div>
+            </div>
+            {% assign community_count = community_count | plus: 1 %}
+            {% assign modulo = community_count | modulo: 3 %}
+            {% if modulo == 0 %}
+              </div>
+            {% endif %}
+            {% endif %}
+          {% endfor %}
+          {% assign rem3 = community_count | modulo: 3 %}
+          {% if rem3 != 0 %}
+            </div>
+          {% endif %}
+        </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+        <!-- Other Section -->
+        <div id="other" class="blog-section" style="margin-bottom: 80px;">
+          <div class="section-header" style="text-align: center; margin-bottom: 50px;">
+            <h3 style="color: #ff69b4; font-size: 2rem; font-weight: bold; margin-bottom: 15px;">
+              <i class="fa fa-asterisk" style="margin-right: 10px;"></i>Other
+            </h3>
+            <div style="width: 40px; height: 2px; background: #ff69b4; margin: 0 auto; border-radius: 1px;"></div>
+          </div>
+          
+          {% assign other_posts = site.posts %}
+          {% assign other_count = 0 %}
+          {% for post in other_posts %}
+            {% assign is_academic = post.categories contains "academic" %}
+            {% assign is_professional = post.categories contains "professional" %}
+            {% assign is_community = post.categories contains "community" %}
+            {% assign is_other = post.categories contains "other" %}
+            {% if is_other or (is_academic == false and is_professional == false and is_community == false) %}
+            {% unless post.title == "Computers, Assemble!" or post.title == "CME Group Tech Talk about Challenges in Low-Latency Trading" or post.title == "Grace Hopper Convention 2016" %}
+            {% assign modulo = other_count | modulo: 3 %}
+            {% if modulo == 0 %}
+              <div class="row">
+            {% endif %}
+            <div class="col-sm-4" style="margin-bottom: 30px;">
+              <div class="panel panel-info" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); height: 100%;">
+                <div class="panel-heading" style="background-color: #ff69b4; color: #fff; border-radius: 8px 8px 0 0;">
+                  <h3 class="panel-title">
+                    <a class="post-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #fff;">
+                      {{ post.title }}
+                    </a>
+                    <p class="panel-date" style="margin-top: 10px; font-size: 0.9rem; color: #fff;">{{ post.date | date: "%b %-d, %Y" }}</p>
+                  </h3>
+                </div>
+                <div class="panel-body" style="padding: 10px;">
+                  <div class="post-content">{{ post.content | truncatehtml | truncatewords: 50 }}</div>
+                  <a class="post-link read-more-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">
+                    &lt;read more&gt;
+                  </a>
+                </div>
+              </div>
+            </div>
+            {% assign other_count = other_count | plus: 1 %}
+            {% assign modulo = other_count | modulo: 3 %}
+            {% if modulo == 0 %}
+              </div>
+            {% endif %}
+            {% endunless %}
+            {% endif %}
+          {% endfor %}
+          {% assign rem4 = other_count | modulo: 3 %}
+          {% if rem4 != 0 %}
+            </div>
+          {% endif %}
+        </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ /feed.xml | prepend: site.baseurl }}">via RSS!</a></p>
+        
+        
+      
+      </div>
+    </div>
+  </div>
+</section>
 
-</div>
+
+<style>
+  .blog-post-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+  }
+  
+  .post-link:hover {
+    color: #1e90ff !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e55aa0 !important;
+    border-color: #e55aa0 !important;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(255,105,180,0.4);
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #ff69b4 !important;
+    border-color: #ff69b4 !important;
+    color: #fff !important;
+    transform: translateY(-2px);
+  }
+  
+  .category-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  }
+  
+  .category-icon:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .newsletter-signup:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  }
+  
+  .newsletter-icon:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .tag {
+    transition: all 0.3s ease;
+  }
+  
+  .tag:hover {
+    background: #ff69b4 !important;
+    color: #fff !important;
+    transform: translateY(-2px);
+  }
+  
+</style>
+
+<style>
+  .post-content img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .post-content img:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  }
+</style>

@@ -2,7 +2,7 @@
 layout: post
 title: "Yelp Info Session"
 date: 2017-10-09
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2017/YelpInfo.JPG)

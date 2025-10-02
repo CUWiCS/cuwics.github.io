@@ -2,7 +2,7 @@
 layout: post
 title: "Research 1006 Panel"
 date: 2019-02-26
-categories: news
+categories: academic
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2019/Research1006.jpg)

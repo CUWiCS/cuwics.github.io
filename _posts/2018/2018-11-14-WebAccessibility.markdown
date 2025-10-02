@@ -2,7 +2,7 @@
 layout: post
 title: "ADDA & WiCS Web Accessibility Workshop"
 date: 2018-11-14
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/webaccessibility.jpg)

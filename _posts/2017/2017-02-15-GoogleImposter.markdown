@@ -2,7 +2,7 @@
 layout: post
 title: "Google and WiCS present: Imposter Syndrome Talk"
 date: 2017-02-15
-categories: news
+categories: professional
 ---
 
 On February 15, WiCS and Google collaborated to present an intimate discussion about Imposter Syndrome for the CS community at Columbia.

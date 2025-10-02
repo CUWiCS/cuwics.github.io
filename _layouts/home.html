@@ -42,55 +42,31 @@
     <body id="page-top" class="index">
 
       <!-- Navigation -->
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-
-          <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <img src="img/logos/wics_logo.png" class="wics-logo"><a class="navbar-brand page-scroll header-cu" href="#page-top">Columbia University</a>
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1a1a1a;">
+  <div class="container">
+    <a class="navbar-brand" href="/" style="color: #ff69b4; font-weight: bold;">CUWICS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="/" style="color: #fff;">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/board.html" style="color: #fff;">Board</a></li>
+        <li class="nav-item"><a class="nav-link" href="/sponsorships.html" style="color: #fff;">Sponsorships & Partners</a></li>
+        <li class="nav-item"><a class="nav-link" href="/calendar.html" style="color: #fff;">Calendar</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="connectDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #fff;">Connect</a>
+          <div class="dropdown-menu" aria-labelledby="connectDropdown" style="background-color: #1a1a1a;">
+            <a class="dropdown-item" href="/blog.html" style="color: #ff69b4;">Blog</a>
+            <a class="dropdown-item" href="https://www.instagram.com/columbiawics" target="_blank" style="color: #ff69b4;">Instagram</a>
+            <a class="dropdown-item" href="mailto:cuwics@columbia.edu" style="color: #ff69b4;">Email</a>
           </div>
-
-          <!-- add media query to shrink Columbia University -->
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="hidden">
-                <a href="#page-top"></a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#services">Purpose</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#news">Blog</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#about">Corporate</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#board">Board</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#calendars">Calendar</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#instaposts">Instagram</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-      </nav>
-
+        </li>
+        <li class="nav-item"><a class="nav-link" href="https://notion.so/cuwics" style="color: #fff;">Notion</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
       <!-- Header -->
       <header>
@@ -125,6 +101,20 @@
             </div>
           </div>
         </header>
+
+        <!-- Home Intro Section -->
+        <section class="home-intro" style="background: linear-gradient(135deg, #ff69b4 0%, #1a1a1a 100%); color: #fff; padding: 0 0; text-align: center;">
+  <h1 style="font-size: 3rem; font-weight: bold; color: #ff69b4;">CUWICS</h1>
+  <p style="font-size: 2rem; color: #fff;">Columbia University Women in Computer Science</p>
+  <a href="https://newsletter-link.com" class="btn btn-lg" style="background-color: #ff69b4; color: #fff; margin: 20px;">Join Our Newsletter</a>
+  <div class="social-links" style="margin-top: 20px;">
+            <a href="https://www.instagram.com/columbiawics" target="_blank" style="color: #fff; margin: 0 10px;"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.facebook.com/CUWICS" target="_blank" style="color: #fff; margin: 0 10px;"><i class="fab fa-facebook fa-2x"></i></a>
+    <a href="mailto:cuwics@columbia.edu" style="color: #fff; margin: 0 10px;"><i class="fas fa-envelope fa-2x"></i></a>
+  </div>
+</section>
+
+
 
         <!-- Services Section -->
         <section id="services">
@@ -264,178 +254,92 @@
           </div>
           <div class="row">
             <div class="col-lg-12">
-              <ul class="timeline">
-                <li>
-                  <div class="timeline-image">
-                    <img class="img-circle img-responsive" src="img/about/tablet.png" alt="">
+              <div class="row">
+                <!-- Site Visit Card -->
+                <div class="col-sm-4">
+                  <div class="panel panel-info" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                    <div class="panel-heading" style="background-color: #ff69b4; color: #fff; border-radius: 8px 8px 0 0;">
+                      <h3 class="panel-title">
+                        <i class="fa fa-building" style="margin-right: 10px;"></i>Organize a Site Visit
+                      </h3>
+                    </div>
+                    <div class="panel-body" style="padding: 20px;">
+                      <p class="text-muted">We organize tours, tech talks and (of course) lunches at the offices of the best companies in Manhattan. If your company would like to set up a site visit with us, <b><a href="mailto:cu.wics@gmail.com">send us a note</a></b>.</p>
+                    </div>
                   </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h4>Organize a Site Visit</h4>
+                </div>
+                
+                <!-- Co-host Event Card -->
+                <div class="col-sm-4">
+                  <div class="panel panel-info" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                    <div class="panel-heading" style="background-color: #ff69b4; color: #fff; border-radius: 8px 8px 0 0;">
+                      <h3 class="panel-title">
+                        <i class="fa fa-calendar" style="margin-right: 10px;"></i>Co-host an event with WICS
+                      </h3>
                     </div>
-                    <div class="timeline-body">
-                      <p class="text-muted"> We organize tours, tech talks and (of course) lunches at the offices of the best companies in Manhattan. If your company would like to set up a site visit with us,<br><b><a href="mailto:cu.wics@gmail.com">send us a note</a></b>.</p>
+                    <div class="panel-body" style="padding: 20px;">
+                      <p class="text-muted">We welcome any collaborative event, from tech talks to study breaks! If you would like to sponsor an event on Columbia's campus to connect students with opportunities at your company, raise awareness about the cool things you're doing, hold mock interview sessions or just have coffee and cupcakes with us, <b><a href="mailto:cu.wics@gmail.com">let us know</a></b>.</p>
                     </div>
-                  </li>
-                  <li class="timeline-inverted">
-                    <div class="timeline-image">
-                      <img class="img-circle img-responsive" src="img/about/calendar.png" alt="">
+                  </div>
+                </div>
+                
+                <!-- Networking Event Card -->
+                <div class="col-sm-4">
+                  <div class="panel panel-info" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                    <div class="panel-heading" style="background-color: #ff69b4; color: #fff; border-radius: 8px 8px 0 0;">
+                      <h3 class="panel-title">
+                        <i class="fa fa-users" style="margin-right: 10px;"></i>Attend our Networking Event
+                      </h3>
                     </div>
-                    <div class="timeline-panel" style="float:right; text-align:left;">
-                      <div class="timeline-heading">
-                        <h4>Co-host an event with WICS</h4>
-                        <!-- <h4 class="subheading">Our Humble Beginnings</h4> -->
-                      </div>
-                      <div class="timeline-body">
-                        <p class="text-muted">We welcome any collaborative event, from tech talks to study breaks! If you would like to sponsor an event on Columbia's campus to connect students with opportunities at your company, raise awareness about the cool things you're doing, hold mock interview sessions or just have coffee and cupcakes with us, <b><a href="mailto:cu.wics@gmail.com">let us know</a></b>.</p>
-                      </div>
+                    <div class="panel-body" style="padding: 20px;">
+                      <p class="text-muted">Every year in early April, we host a networking dinner for Columbia women in computer science, alumni, and corporate guests. We would be happy to have you too, whether as a sponsor or an invited guest!</p>
                     </div>
-                  </li>
-                  <li>
-                    <div class="timeline-image">
-                      <img class="img-circle img-responsive" src="img/about/bookmark.png" alt="">
-                    </div>
-                    <div class="timeline-panel">
-                      <div class="timeline-heading">
-                        <h4>Attend our Networking Event</h4>
-                        <!-- <h4 class="subheading">An Agency is Born</h4> -->
-                      </div>
-                      <div class="timeline-body">
-                        <p class="text-muted">Every year in early April, we host a networking dinner for Columbia women in computer science, alumni, and corporate guests. We would be happy to have you too, whether as a sponsor or an invited guest!</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="timeline-inverted">
-                    <div class="timeline-image">
-                      <img class="img-circle img-responsive" src="img/about/creditcard.png" alt="">
-                    </div>
-                    <div class="timeline-panel">
-                      <div class="timeline-heading">
-                        <h4>Sponsor WiCS</h4>
-                        <!-- <h4 class="subheading">Transition to Full Service</h4> -->
-                      </div>
-                      <div class="timeline-body">
-                        <p class="text-muted">WiCS hosts a number of academic and social events throughout the school year, including lunches with faculty, study breaks, and mentorship activities. We also try to send as many students as possible to the Grace Hopper Conference. If you are interested in sponsoring one of these events or providing scholarships to Grace Hopper, definitely <b><a href="mailto:cu.wics@gmail.com">get in touch!</a></b></p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="timeline-image">
-                      <img class="img-circle img-responsive" src="img/about/woman.png" alt="">
-                    </div>
-                    <div class="timeline-panel">
-                      <div class="timeline-heading">
-                        <h4>Open Job Positions</h4>
-                        <!-- <h4 class="subheading">Phase Two Expansion</h4> -->
-                      </div>
-                      <div class="timeline-body">
-                        <p class="text-muted">Do you have a job you would like to broadcast to our members? Please <b><a href="mailto:cu.wics@gmail.com"">reach out to us through email</a></b>.</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="timeline-inverted">
-                    <div class="timeline-image">
-                      <h4>Support
-                        <br>Women
-                        <br>in CS!
-                      </h4>
-                    </div>
-                  </li>
-                </ul>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </section>
-
-      <!-- Corporate Section -->
-      <section id="about">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 text-center">
-              <h2 class="section-heading">Corporate</h2>
-              <h3 class="section-subheading text-muted">We are able to do what we do with the help of our generous sponsors.</h3>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-12">
-              <ul class="timeline">
-                <li>
-                  <div class="timeline-image">
-                    <img class="img-circle img-responsive" src="img/about/tablet.png" alt="">
+              
+              <div class="row">
+                <!-- Sponsor WiCS Card -->
+                <div class="col-sm-4">
+                  <div class="panel panel-info" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                    <div class="panel-heading" style="background-color: #ff69b4; color: #fff; border-radius: 8px 8px 0 0;">
+                      <h3 class="panel-title">
+                        <i class="fa fa-heart" style="margin-right: 10px;"></i>Sponsor WiCS
+                      </h3>
+                    </div>
+                    <div class="panel-body" style="padding: 20px;">
+                      <p class="text-muted">WiCS hosts a number of academic and social events throughout the school year, including lunches with faculty, study breaks, and mentorship activities. We also try to send as many students as possible to the Grace Hopper Conference. If you are interested in sponsoring one of these events or providing scholarships to Grace Hopper, definitely <b><a href="mailto:cu.wics@gmail.com">get in touch!</a></b></p>
+                    </div>
                   </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h4>Organize a Site Visit</h4>
+                </div>
+                
+                <!-- Job Positions Card -->
+                <div class="col-sm-4">
+                  <div class="panel panel-info" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                    <div class="panel-heading" style="background-color: #ff69b4; color: #fff; border-radius: 8px 8px 0 0;">
+                      <h3 class="panel-title">
+                        <i class="fa fa-briefcase" style="margin-right: 10px;"></i>Open Job Positions
+                      </h3>
                     </div>
-                    <div class="timeline-body">
-                      <p class="text-muted"> We organize tours, tech talks and (of course) lunches at the offices of the best companies in Manhattan. If your company would like to set up a site visit with us,<br><b><a href="mailto:cu.wics@gmail.com">send us a note</a></b>.</p>
+                    <div class="panel-body" style="padding: 20px;">
+                      <p class="text-muted">Do you have a job you would like to broadcast to our members? Please <b><a href="mailto:cu.wics@gmail.com">reach out to us through email</a></b>.</p>
                     </div>
-                  </li>
-                  <li class="timeline-inverted">
-                    <div class="timeline-image">
-                      <img class="img-circle img-responsive" src="img/about/calendar.png" alt="">
+                  </div>
+                </div>
+                
+                <!-- Support Women Card -->
+                <div class="col-sm-4">
+                  <div class="panel panel-info" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                    <div class="panel-heading" style="background-color: #ff69b4; color: #fff; border-radius: 8px 8px 0 0;">
+                      <h3 class="panel-title">
+                        <i class="fa fa-female" style="margin-right: 10px;"></i>Support Women in CS!
+                      </h3>
                     </div>
-                    <div class="timeline-panel" style="float:right; text-align:left;">
-                      <div class="timeline-heading">
-                        <h4>Co-host an event with WICS</h4>
-                        <!-- <h4 class="subheading">Our Humble Beginnings</h4> -->
-                      </div>
-                      <div class="timeline-body">
-                        <p class="text-muted">We welcome any collaborative event, from tech talks to study breaks! If you would like to sponsor an event on Columbia's campus to connect students with opportunities at your company, raise awareness about the cool things you're doing, hold mock interview sessions or just have coffee and cupcakes with us, <b><a href="mailto:cu.wics@gmail.com">let us know</a></b>.</p>
-                      </div>
+                    <div class="panel-body" style="padding: 20px;">
+                      <p class="text-muted">Join us in our mission to support and empower women in computer science at Columbia University. Together, we can create a more inclusive and diverse tech community.</p>
                     </div>
-                  </li>
-                  <li>
-                    <div class="timeline-image">
-                      <img class="img-circle img-responsive" src="img/about/bookmark.png" alt="">
-                    </div>
-                    <div class="timeline-panel">
-                      <div class="timeline-heading">
-                        <h4>Attend our Networking Event</h4>
-                        <!-- <h4 class="subheading">An Agency is Born</h4> -->
-                      </div>
-                      <div class="timeline-body">
-                        <p class="text-muted">Every year in early April, we host a networking dinner for Columbia women in computer science, alumni, and corporate guests. We would be happy to have you too, whether as a sponsor or an invited guest!</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="timeline-inverted">
-                    <div class="timeline-image">
-                      <img class="img-circle img-responsive" src="img/about/creditcard.png" alt="">
-                    </div>
-                    <div class="timeline-panel">
-                      <div class="timeline-heading">
-                        <h4>Sponsor WiCS</h4>
-                        <!-- <h4 class="subheading">Transition to Full Service</h4> -->
-                      </div>
-                      <div class="timeline-body">
-                        <p class="text-muted">WiCS hosts a number of academic and social events throughout the school year, including lunches with faculty, study breaks, and mentorship activities. We also try to send as many students as possible to the Grace Hopper Conference. If you are interested in sponsoring one of these events or providing scholarships to Grace Hopper, definitely <b><a href="mailto:cu.wics@gmail.com">get in touch!</a></b></p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="timeline-image">
-                      <img class="img-circle img-responsive" src="img/about/woman.png" alt="">
-                    </div>
-                    <div class="timeline-panel">
-                      <div class="timeline-heading">
-                        <h4>Open Job Positions</h4>
-                        <!-- <h4 class="subheading">Phase Two Expansion</h4> -->
-                      </div>
-                      <div class="timeline-body">
-                        <p class="text-muted">Do you have a job you would like to broadcast to our members? Please <b><a href="mailto:cu.wics@gmail.com"">reach out to us through email</a></b>.</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="timeline-inverted">
-                    <div class="timeline-image">
-                      <h4>Support
-                        <br>Women
-                        <br>in CS!
-                      </h4>
-                    </div>
-                  </li>
-                </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -443,14 +347,667 @@
 
         <!-- Team Section -->
         <section id="board" class="bg-light-gray">
+        
+          <!--EBoard Members-->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Our Executive Board</h2>
+                <h3 class="section-subheading text-muted">Meet the executive board of 2025-2026!</h3>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="team-member">
+                <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+                <h4>Kyra Ramesh Krishna</h4>
+                <p class="text-muted">President</p>
+                <p class="text-muted board-class">2026</p>
+                <ul class="list-inline social-buttons">
+                  <li><a href="mailto:kr3026@barnard.edu"><i class="fa fa-envelope"></i></a>
+                  </li>
+                  <!-- <li><a href="https://github.com/sburak13" target="_blank"><i class="fa fa-github"></i></a> -->
+                  <!-- </li> -->
+                  <!-- <li><a href="https://www.linkedin.com/in/samantha-burak-6342b21a1/" target="_blank"><i class="fa fa-linkedin"></i></a> -->
+                  <!-- </li> -->
+                </ul>
+              </div>
+            </div>
+            
+           <div class="col-sm-4">
+            <div class="team-member">
+              <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+              <h4>Brianna Wang</h4>
+              <p class="text-muted">Vice President</p>
+              <p class="text-muted board-class">2027</p>
+              <ul class="list-inline social-buttons">
+                <li><a href="mailto:bw2823@columbia.edu"><i class="fa fa-envelope"></i></a>
+                </li>
+                <!-- <li><a href="https://github.com/alaynamnguyen" target="_blank"><i class="fa fa-github"></i></a>
+                </li>
+                <li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </li> -->
+              </ul>
+            </div>
+          </div> 
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+              <h4>Shobini Iyer</h4>
+              <p class="text-muted">Co-Treasurer</p>
+              <p class="text-muted board-class">2027</p>
+              <ul class="list-inline social-buttons">
+                <li><a href="mailto:si2449@columbia.edu"><i class="fa fa-envelope"></i></a>
+                </li>
+                <!-- <li><a href="https://github.com/jmo2171" target="_blank"><i class="fa fa-github"></i></a>
+                </li>
+                <li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+              <h4>Anya Ganeshan</h4>
+              <p class="text-muted">Co-Treasurer</p>
+              <p class="text-muted board-class">2027</p>
+              <ul class="list-inline social-buttons">
+                <li><a href="mailto:ag4166@columbia.edu"><i class="fa fa-envelope"></i></a>
+                </li>
+                <!-- <li><a href="https://github.com/Catherine-Ji" target="_blank"><i class="fa fa-github"></i></a>
+                </li>
+                <li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </li> -->
+              </ul>
+            </div>
+          </div> 
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+              <h4>Carly Kiang</h4>
+              <p class="text-muted">Operations Chair</p>
+              <p class="text-muted board-class">2026</p>
+              <ul class="list-inline social-buttons">
+                <li><a href="mailto:carly.kiang@columbia.edu"><i class="fa fa-envelope"></i></a>
+                </li>
+                <!-- <li><a href="https://github.com/chelseasoemitro" target="_blank"><i class="fa fa-github"></i></a>
+                </li>
+                <li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </li> -->
+              </ul>
+            </div>
+          </div> 
+        </div>
+
+
+        <!--Committee Leads-->
+        <br><br><br>
         <div class="row">
           <div class="col-lg-12 text-center">
-           
-            <h2 class="section-heading">Board Members 2025-26</h2>
-            <h3 class="section-subheading">This section will be updated soon!</h3>
+            <h2 class="section-heading">WiCS Board Committee Leads</h2>
+            <h3 class="section-subheading text-muted">Meet the leads of our academic, community, corporate, DEI, DivHacks, and publicity committees.</h3>
           </div>
         </div>
-        </section>
+
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-4">
+                  <div class="team-member">
+                    <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+                    <h4>Trinity Suma</h4>
+                    <p class="text-muted">Academic Lead</p>
+                    <p class="text-muted board-class">2026</p>
+                    <ul class="list-inline social-buttons">
+                      <li><a href="mailto:trs2163@columbia.edu"><i class="fa fa-envelope"></i></a>
+                      </li>
+                      <!-- <li><a href="https://github.com/preethiprakash1" target="_blank"><i class="fa fa-github"></i></a> -->
+                      <!-- </li> -->
+                      <!-- <li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a> -->
+                      <!-- </li> -->
+                    </ul>
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="team-member">
+                    <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+                    <h4>Sarah Hagan</h4>
+                    <p class="text-muted">Academic Lead</p>
+                    <p class="text-muted board-class">2027</p>
+                    <ul class="list-inline social-buttons">
+                      <li><a href="mailto:sah2267@columbia.edu"><i class="fa fa-envelope"></i></a>
+                      </li>
+                      <!-- <li><a href="https://github.com/emlinking" target="_blank"><i class="fa fa-github"></i></a>
+                      </li>
+                      <li><a href="https://www.linkedin.com/in/eleanor-lin/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                      </li> -->
+                    </ul>
+                  </div>
+               </div>
+               <div class="col-sm-4">
+                   <div class="team-member">
+                     <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+                     <h4>Gouri Krishnan</h4>
+                     <p class="text-muted">Community Lead</p>
+                     <p class="text-muted board-class">2027</p>
+                     <ul class="list-inline social-buttons">
+                       <li><a href="mailto:gk2665@columbia.edu"><i class="fa fa-envelope"></i></a>
+                       </li>
+                       <!-- <li><a href="https://github.com/sarahtang7" target="_blank"><i class="fa fa-github"></i></a>
+                       </li>
+                       <li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a>
+                       </li> -->
+                     </ul>
+                   </div>
+               </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-sm-4">
+                  <div class="team-member">
+                    <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+                    <h4>Zoie Geronimi</h4>
+                    <p class="text-muted">Corporate Lead</p>
+                    <p class="text-muted board-class">2026</p>
+                    <ul class="list-inline social-buttons">
+                      <li><a href="mailto:zig2101@columbia.edu"><i class="fa fa-envelope"></i></a>
+                      </li>
+                      <!-- <li><a href="https://github.com/allison-liu" target="_blank"><i class="fa fa-github"></i></a>
+                      </li>
+                      <li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a>
+                      </li> -->
+                    </ul>
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="team-member">
+                    <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+                    <h4>Christine Lam</h4>
+                    <p class="text-muted">Diversity and Inclusion Lead</p>
+                    <p class="text-muted board-class">2026</p>
+                    <ul class="list-inline social-buttons">
+                      <li><a href="mailto:cl3903@barnard.edu"><i class="fa fa-envelope"></i></a>
+                      </li>
+                      <!-- <li><a href="https://github.com/katie03" target="_blank"><i class="fa fa-github"></i></a>
+                      </li>
+                      <li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a>
+                      </li> -->
+                    </ul>
+                  </div>
+               </div>
+               <div class="col-sm-4">
+                   <div class="team-member">
+                     <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+                     <h4>Anita Raj</h4>
+                     <p class="text-muted">DivHacks Chair Executive Lead</p>
+                     <p class="text-muted board-class">2027</p>
+                     <ul class="list-inline social-buttons">
+                       <li><a href="mailto:ar4658@columbia.edu"><i class="fa fa-envelope"></i></a>
+                       </li>
+                       <!-- <li><a href="https://github.com/mfadeyeva" target="_blank"><i class="fa fa-github"></i></a>
+                       </li>
+                       <li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a>
+                       </li> -->
+                     </ul>
+                   </div>
+               </div>
+            </div>
+            
+            <div class="row">
+               <div class="col-sm-4">
+                   <div class="team-member">
+                     <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+                     <h4>Jennifer Chiu</h4>
+                     <p class="text-muted">Publicity Chair Newsletter Lead</p>
+                     <p class="text-muted board-class">2026</p>
+                     <ul class="list-inline social-buttons">
+                       <li><a href="mailto:jennifer.chiu@columbia.edu"><i class="fa fa-envelope"></i></a>
+                       </li>
+                       <!-- <li><a href="https://github.com/sarahshen007" target="_blank"><i class="fa fa-github"></i></a>
+                       </li>
+                       <li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a>
+                       </li> -->
+                     </ul>
+                   </div>
+              </div>          
+              <div class="col-sm-4">
+                  <div class="team-member">
+                      <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+                      <h4>Luana Liao</h4>
+                      <p class="text-muted">Publicity Chair Graphics Lead</p>
+                      <p class="text-muted board-class">2026</p>
+                      <ul class="list-inline social-buttons">
+                        <li><a href="mailto:ll3637@columbia.edu"><i class="fa fa-envelope"></i></a>
+                        </li>
+                        <!-- <li><a href="https://github.com/im-nicole" target="_blank"><i class="fa fa-github"></i></a>
+                        </li>
+                        <li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li> -->
+                      </ul>
+                  </div>
+              </div>
+            </div>
+        </div>
+
+
+
+<br><br><br>
+<div class="row">
+  <div class="col-lg-12 text-center">
+    <h2 class="section-heading">WiCS Board Academic Leads</h2>
+  </div>
+</div>
+
+<!--Board Members-->
+<div class="container">
+  <div class="row">
+          
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Olivia Avila</h4>
+        <p class="text-muted">Academic Chair</p>
+        <p class="text-muted board-class">2027</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:oa2436@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Anna Bruhn</h4>
+        <p class="text-muted">Academic Chair</p>
+        <p class="text-muted board-class">2028</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:arb2327@barnard.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<br><br><br>
+<div class="row">
+  <div class="col-lg-12 text-center">
+    <h2 class="section-heading">WiCS Board Community Leads</h2>
+  </div>
+</div>
+
+<!--Board Members-->
+<div class="container">
+  <div class="row">
+          
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Jolene Wang</h4>
+        <p class="text-muted">Community Chair</p>
+        <p class="text-muted board-class">2027</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:jcw2239@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Amber Li</h4>
+        <p class="text-muted">Community Chair</p>
+        <p class="text-muted board-class">2027</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:al4580@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Julia Ding</h4>
+        <p class="text-muted">Community Chair</p>
+        <p class="text-muted board-class">2027</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:julia.ding@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Grace Li</h4>
+        <p class="text-muted">Community Chair</p>
+        <p class="text-muted board-class">2028</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:grace.li2@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br><br><br>
+<div class="row">
+  <div class="col-lg-12 text-center">
+    <h2 class="section-heading">WiCS Board Corporate Leads</h2>
+  </div>
+</div>
+
+<!--Board Members-->
+<div class="container">
+  <div class="row">
+          
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Ivanna Brigido Torres</h4>
+        <p class="text-muted">Corporate Chair</p>
+        <p class="text-muted board-class">2028</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:ib2555@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Alice Zhang</h4>
+        <p class="text-muted">Corporate Chair</p>
+        <p class="text-muted board-class">2028</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:az2880@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Ashley Seo</h4>
+        <p class="text-muted">Corporate Chair</p>
+        <p class="text-muted board-class">2027</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:ajs2459@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Intellect Chen</h4>
+        <p class="text-muted">Corporate Chair</p>
+        <p class="text-muted board-class">2026</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:ic2630@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<br><br><br>
+<div class="row">
+  <div class="col-lg-12 text-center">
+    <h2 class="section-heading">WiCS Board Diversity and Inclusion Leads</h2>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Daniella Cardenas</h4>
+        <p class="text-muted">Diversity and Inclusion Chair</p>
+        <p class="text-muted board-class">2026</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:dc3683@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Kristy Martinez</h4>
+        <p class="text-muted">Diversity and Inclusion Chair</p>
+        <p class="text-muted board-class">2026</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:kpm2155@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Michelle Rahman</h4>
+        <p class="text-muted">Diversity and Inclusion Chair</p>
+        <p class="text-muted board-class">2027</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:mr4421@barnard.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Minseul Kim</h4>
+        <p class="text-muted">Diversity and Inclusion Chair</p>
+        <p class="text-muted board-class">2027</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:mk4842@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Favour Atewologun</h4>
+        <p class="text-muted">Diversity and Inclusion Chair</p>
+        <p class="text-muted board-class">2028</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:favour.a@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<br><br><br>
+<div class="row">
+  <div class="col-lg-12 text-center">
+    <h2 class="section-heading">WiCS Board Divhacks Leads</h2>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Leah Kim</h4>
+        <p class="text-muted">Hacker Experience Chair</p>
+        <p class="text-muted board-class">2026</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:lk2935@barnard.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Lauren Song</h4>
+        <p class="text-muted">Logistics Chair</p>
+        <p class="text-muted board-class">2027</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:ljs2225@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Grace Xu</h4>
+        <p class="text-muted">Tech Chair</p>
+        <p class="text-muted board-class">2028</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:gx2168@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Isabella Lu</h4>
+        <p class="text-muted">Publicity Chair</p>
+        <p class="text-muted board-class">2028</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:iel2114@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Jadyn Park</h4>
+        <p class="text-muted">Sponsorship Chair</p>
+        <p class="text-muted board-class">2028</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:jsp2226@barnard.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Adneen Talib</h4>
+        <p class="text-muted">Logistics Chair</p>
+        <p class="text-muted board-class">2028</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:awt2133@barnard.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<br><br><br>
+<div class="row">
+  <div class="col-lg-12 text-center">
+    <h2 class="section-heading">WiCS Board Publicity Leads</h2>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>DLaura Avila</h4>
+        <p class="text-muted">Publicity Graphics Chair</p>
+        <p class="text-muted board-class">2028</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:lba2147@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Tiffany Tu</h4>
+        <p class="text-muted">Publicity Graphics Chair</p>
+        <p class="text-muted board-class">2028</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:tiffany.tu@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Ann Li</h4>
+        <p class="text-muted">Publicity Newsletter Chair</p>
+        <p class="text-muted board-class">2027</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:acl2246@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Hiba Altaf</h4>
+        <p class="text-muted">Publicity Webmaster Chair</p>
+        <p class="text-muted board-class">2027</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:ha2616@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="team-member">
+        <img src="img/team/default-pic.png" class="img-responsive img-circle" alt="">
+        <h4>Sara Lin</h4>
+        <p class="text-muted">Publicity Newsletter Chair</p>
+        <p class="text-muted board-class">2026</p>
+        <ul class="list-inline social-buttons">
+          <li><a href="mailto:sl5230@columbia.edu"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 
 <br><br><br>
@@ -672,37 +1229,37 @@
           </div> -->
 
 
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <span class="copyright">Copyright &copy; Columbia University's <b>WiCS</b></span>
-      </div>
-      <div class="col-md-4">
-        <ul class="list-inline social-buttons">
-          <li><a href="https://twitter.com/cu_wics" target="_blank"><i class="fa fa-twitter"></i></a>
-          </li>
-          <li><a href="https://www.facebook.com/CUWICS" target="_blank"><i class="fa fa-facebook"></i></a>
-          </li>
-          <li><a href="http://www.linkedin.com/groups?home=&gid=3819189" target="_blank"><i class="fa fa-linkedin"></i></a>
-          </li>
-          <li><a href="https://www.instagram.com/columbiawics" target="_blank"><i class="fa fa-instagram"></i></a>
-          </li>
-          <li><a href="mailto:cuwics@columbia.edu"><i class="fa fa-envelope"></i></a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-4">
-        <div class="text-center">
-          <a href="https://listserv.cuit.columbia.edu/scripts/wa.exe?SUBED1=WICS&A=1" target="_blank" style="color: #ff69b4; text-decoration: none; font-weight: 500;">
-            <i class="fa fa-envelope-o"></i> Subscribe to Newsletter
-          </a>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-</footer>
+          <footer>
+            <div class="container">
+              <div class="row">
+                <!-- Left: Copyright -->
+                <div class="col-md-4 text-left">
+                  <span class="copyright">Copyright <b>WiCS</b></span>
+                </div>
+          
+                <!-- Right: Icons + Newsletter -->
+                <div class="col-md-8 text-right">
+                  <ul class="list-inline social-buttons">
+                    <li><a href="https://twitter.com/cu_wics" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/CUWICS" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="http://www.linkedin.com/groups?home=&gid=3819189" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/columbiawics" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="mailto:cuwics@columbia.edu"><i class="fa fa-envelope"></i></a></li>
+          
+                    <!-- Newsletter now inline with icons -->
+                    <li>
+                      <a href="https://listserv.cuit.columbia.edu/scripts/wa.exe?SUBED1=WICS&A=1" 
+                         target="_blank" 
+                         style="color: #ff69b4; text-decoration: none; font-weight: 500;">
+                        <i class="fa fa-envelope-o"></i> Subscribe
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </footer>
+          
 
 <!-- Google Calendar Event Modal -->
 <div id="calendarModal" class="modal fade">

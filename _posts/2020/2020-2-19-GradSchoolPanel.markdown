@@ -2,7 +2,7 @@
 layout: post
 title: "Should I go to Graduate School?"
 date: 2020-2-19
-categories: news
+categories: academic
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2020/gradschool.png)

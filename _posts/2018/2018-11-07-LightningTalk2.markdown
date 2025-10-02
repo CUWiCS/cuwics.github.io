@@ -2,7 +2,7 @@
 layout: post
 title: "Lightning Talk #2"
 date: 2018-11-07
-categories: news
+categories: academic
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/Lightning Talk 2 Serina.jpg)

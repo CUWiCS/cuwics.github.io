@@ -2,7 +2,7 @@
 layout: post
 title: "WICS General Body Celebration"
 date: 2017-12-08
-categories: news
+categories: community
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2017/GBMWICS.jpg)

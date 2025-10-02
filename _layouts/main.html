@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>{% if page.title %}{{ page.title }} - {% endif %}CU WiCS: Women in Computer Science</title>
+  <link rel="shortcut icon" href="/img/logos/favicon2.ico" type="image/x-icon">
+  <link rel="icon" href="/img/logos/favicon2.ico" type="image/x-icon">
+
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href='/fullcalendar/fullcalendar.css' rel='stylesheet'>
+
+  <link href="/css/agency.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
+  <link href="/css/custom-styles.css" rel="stylesheet">
+
+  <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+  <style>
+    :root {
+      --primary-pink: #ff69b4;
+      --primary-black: #1a1a1a;
+      --primary-grey: #f5f5f5;
+      --text-white: #ffffff;
+    }
+    
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: var(--primary-black);
+      background-color: var(--text-white);
+    }
+    
+    .navbar {
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .navbar-brand {
+      font-weight: bold;
+      color: var(--primary-pink) !important;
+    }
+    
+    .nav-link {
+      color: var(--text-white) !important;
+      transition: color 0.3s ease;
+    }
+    
+    .nav-link:hover {
+      color: var(--primary-pink) !important;
+    }
+    
+    .dropdown-menu {
+      background-color: var(--primary-black);
+      border: 1px solid var(--primary-pink);
+    }
+    
+    .dropdown-item {
+      color: var(--primary-pink) !important;
+      transition: background-color 0.3s ease;
+    }
+    
+    .dropdown-item:hover {
+      background-color: var(--primary-pink);
+      color: var(--text-white) !important;
+    }
+    
+    .section-heading {
+      color: var(--primary-black);
+      font-weight: bold;
+    }
+    
+    .btn-primary {
+      background-color: var(--primary-pink);
+      border-color: var(--primary-pink);
+      color: var(--text-white);
+    }
+    
+    .btn-primary:hover {
+      background-color: #e55aa0;
+      border-color: #e55aa0;
+    }
+    
+    .bg-light-gray {
+      background-color: var(--primary-grey);
+    }
+    
+    .text-muted {
+      color: #6c757d !important;
+    }
+  </style>
+</head>
+
+<body id="page-top" class="index">
+  {% include navigation.html %}
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer style="background-color: var(--primary-black); color: var(--text-white); padding: 40px 0;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <span class="copyright">Copyright &copy; Columbia University's <b>WiCS</b></span>
+        </div>
+        <div class="col-md-4">
+          
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+            <li><a href="https://twitter.com/cu_wics" target="_blank" style="color: var(--primary-pink);"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/CUWICS" target="_blank" style="color: var(--primary-pink);"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="http://www.linkedin.com/groups?home=&gid=3819189" target="_blank" style="color: var(--primary-pink);"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/columbiawics" target="_blank" style="color: var(--primary-pink);"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="mailto:cuwics@columbia.edu" style="color: var(--primary-pink);"><i class="fa fa-envelope"></i></a></li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="/js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="/js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="/js/jquery.easing.min.js"></script>
+  <script src="/js/classie.js"></script>
+  <script src="/js/cbpAnimatedHeader.js"></script>
+
+  <!-- Moment Javascript -->
+  <script type='text/javascript' src='/moment/moment.min.js'></script>
+  <script text='text/javascript' src='/moment/moment-timezone-with-data.min.js'></script>
+
+  <!-- Google Calendar Javascript Plugin -->
+  <script type='text/javascript' src='/fullcalendar/fullcalendar.js'></script>
+  <script type='text/javascript' src='/fullcalendar/gcal.js'></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src="/js/agency.js"></script>
+  <script src="/js/custom.js"></script>
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-58916324-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</body>
+
+</html> 

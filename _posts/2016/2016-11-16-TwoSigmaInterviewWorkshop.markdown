@@ -2,7 +2,7 @@
 layout: post
 title:  "Interview Workshop with Two Sigma!"
 date:   2016-11-16 00:12:00
-categories: news
+categories: professional
 ---
 
 On November 16th, Two Sigma hosted an interview workshop in the CS Open Space. 

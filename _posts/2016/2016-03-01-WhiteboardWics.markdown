@@ -2,7 +2,7 @@
 layout: post
 title:  "Whiteboard With WiCS"
 date:   2016-03-01 00:12:00
-categories: news
+categories: professional
 ---
 
 ![Picture of Whiteboard]({{ site.url }}/assets/blog2016/WhiteboardWiCS.jpg)

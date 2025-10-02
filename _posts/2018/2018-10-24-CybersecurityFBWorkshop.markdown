@@ -2,7 +2,7 @@
 layout: post
 title: "Cybersecurity Workshop with Facebook"
 date: 2018-10-24
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/cybersecurityFB.jpg)

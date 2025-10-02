@@ -2,7 +2,7 @@
 layout: post
 title: "Google Women TechMakers Scholarship Info Session"
 date: 2018-11-12
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/techmakers.jpg)

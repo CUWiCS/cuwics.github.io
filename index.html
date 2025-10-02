@@ -1,26 +1,259 @@
 ---
-layout: home
+layout: main
+title: Home
 ---
-{% for post in site.posts limit:3 %}
-<div class="col-sm-4">
-    <div class="panel panel-info" style="border:0px;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a class="post-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}">
-                    {{ post.title }}
-                </a>
-                <p class="panel-date">{{ post.date | date: "%b %-d, %Y" }}</p>
-            </h3>
-        </div>
-        <div class="panel-body">
-        {{ post.content | truncatehtml | truncatewords: 50 }}
-        
-        </br></br>
-            <center><a class="post-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}">
-                &lt;read more&gt;
-            </a></center>
-    </div>
-    </div>
 
-</div>
-{% endfor %}
+<!-- Header -->
+<header style="background: linear-gradient(135deg, #ff69b4 0%, #1a1a1a 100%); color: #fff; padding: 15px 0; text-align: center; position: relative; overflow: hidden;">
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('/img/logos/wics_logo.png') center/contain no-repeat; opacity: 0.1;"></div>
+  <div class="container" style="position: relative; z-index: 2;">
+    <div class="intro-text">
+      <div class="intro-lead-in" style="font-size: 1.7rem; margin-bottom: 4px;">Welcome to</div>
+      <div class="intro-heading" style="font-size: 2.4rem; font-weight: bold; margin: 6px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">CUWICS</div>
+      <div class="intro-subheading" style="font-size: 1.7rem; margin-bottom: 12px;">Columbia University Women in Computer Science</div>
+      <!-- Newsletter Link -->
+      <a href="https://listserv.cuit.columbia.edu/scripts/wa.exe?SUBED1=WICS&A=1" target="_blank" role="button" class="btn btn-xl" style="background-color: #ff69b4; color: #fff; margin: 8px; padding: 8px 16px; font-size: 1.3rem; border-radius: 25px; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(255,105,180,0.3);">
+        Subscribe to our Newsletter
+      </a>
+      <!-- Social Media Links -->
+      <div class="social-links" style="margin-top: 12px;">
+        <a href="https://twitter.com/cu_wics" target="_blank" style="color: #fff; margin: 0 15px; font-size: 1.5rem; transition: all 0.3s ease;"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/columbiawics/" target="_blank" style="color: #fff; margin: 0 15px; font-size: 1.5rem; transition: all 0.3s ease;"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.facebook.com/CUWICS" target="_blank" style="color: #fff; margin: 0 15px; font-size: 1.5rem; transition: all 0.3s ease;"><i class="fa fa-facebook"></i></a>
+        <a href="mailto:cu.wics@gmail.com" style="color: #fff; margin: 0 15px; font-size: 1.5rem; transition: all 0.3s ease;"><i class="fa fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+<!-- Purpose  -->
+<section id="purpose" style="padding: 80px 0; background-color: #f5f5f5;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Our Purpose</h2>
+        <h3 class="section-subheading text-muted">Membership is open to all students of the Columbia University community.</h3>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x" style="color: #ff69b4;"></i>
+          <img class="circle-logo" src="img/header/talk.png" style="width: 60px; height: 60px; margin-top: 20px;">
+        </span>
+        <h4 class="service-heading">Gender Equality</h4>
+        <p class="text-muted">WiCS aims to foster an inclusive community that supports the advancement of women and gender diverse people in computer science.</p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x" style="color: #ff69b4;"></i>
+          <img class="circle-logo" src="img/header/ipad.png" style="width: 60px; height: 60px; margin-top: 20px;">
+        </span>
+        <h4 class="service-heading">Support for New Majors</h4>
+        <p class="text-muted">We support and encourage prospective computer science majors and provide direction and assistance to current computer science students.</p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x" style="color: #ff69b4;"></i>
+          <img class="circle-logo" src="img/header/heart.png" style="width: 60px; height: 60px; margin-top: 20px;">
+        </span>
+        <h4 class="service-heading">Community</h4>
+        <p class="text-muted">Our network connects female and gender diverse undergraduates, graduate students, postdocs, and faculty to opportunities in academia and industry, mentorship, and each other.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Removed legacy commented Upcoming Events block -->
+
+<!-- Event Categories Section -->
+<section id="events" style="padding: 80px 0; background: #fff;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Event Categories</h2>
+        <h3 class="section-subheading text-muted">Discover the different types of events we host throughout the year.</h3>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <div class="event-category-horizontal">
+          <div class="category-icon-left">
+            <i class="fa fa-graduation-cap"></i>
+          </div>
+          <div class="category-content">
+            <h4>Academic Events</h4>
+            <p class="text-muted">Study sessions, exam prep, and academic workshops to help you succeed in your CS courses.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6 col-md-6">
+        <div class="event-category-horizontal">
+          <div class="category-icon-left">
+            <i class="fa fa-users"></i>
+          </div>
+          <div class="category-content">
+            <h4>Community Events</h4>
+            <p class="text-muted">Social gatherings, networking events, and community building activities for women in CS.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6 col-md-6">
+        <div class="event-category-horizontal">
+          <div class="category-icon-left">
+            <i class="fa fa-briefcase"></i>
+          </div>
+          <div class="category-content">
+            <h4>Corporate Events</h4>
+            <p class="text-muted">Company visits, tech talks, and career development opportunities with industry partners.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6 col-md-6">
+        <div class="event-category-horizontal">
+          <div class="category-icon-left">
+            <i class="fa fa-code"></i>
+          </div>
+          <div class="category-content">
+            <h4>Technical Workshops</h4>
+            <p class="text-muted">Hands-on coding workshops, hackathons, and technical skill-building sessions.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6 col-md-6">
+        <div class="event-category-horizontal">
+          <div class="category-icon-left">
+            <i class="fa fa-heart"></i>
+          </div>
+          <div class="category-content">
+            <h4>Wellness Events</h4>
+            <p class="text-muted">Mental health workshops, stress relief activities, and wellness-focused community events.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6 col-md-6">
+        <div class="event-category-horizontal">
+          <div class="category-icon-left">
+            <i class="fa fa-star"></i>
+          </div>
+          <div class="category-content">
+            <h4>Special Events</h4>
+            <p class="text-muted">Annual celebrations, guest speaker series, and special milestone events for our community.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</section>
+
+<!--  Blog Posts Section -->
+<section id="news" style="padding: 80px 0; background-color: #f5f5f5;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Recent Blog Posts</h2>
+        <h3 class="section-subheading text-muted">Find out more about what we've been up to!</h3>
+      </div>
+    </div>
+    <div class="row">
+      {% for post in site.posts limit:3 %}
+      <div class="col-sm-4">
+        <div class="panel panel-info" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+          <div class="panel-heading" style="background-color: #ff69b4; color: #fff; border-radius: 8px 8px 0 0;">
+            <h3 class="panel-title">
+              <a class="post-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #fff;">
+                {{ post.title }}
+              </a>
+              <p class="panel-date" style="margin-top: 10px; font-size: 0.9rem; color: #fff;">{{ post.date | date: "%b %-d, %Y" }}</p>
+            </h3>
+          </div>
+          <div class="panel-body" style="padding: 10px;">
+            <div class="post-content">{{ post.content | truncatehtml | truncatewords: 50 }}</div>
+            <a class="post-link read-more-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">
+              &lt;read more&gt;
+            </a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <a href="blog" target="_blank" class="btn btn-lg" style="background-color: #ff69b4; color: #fff; margin-top: 30px;">Read More Posts Here!</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .event-category-horizontal {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    border-left: 4px solid #ff69b4;
+  }
+  
+  .event-category-horizontal:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+  }
+  
+  .category-icon-left {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #ff69b4 0%, #e55aa0 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    flex-shrink: 0;
+  }
+  
+  .category-icon-left i {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .category-content h4 {
+    color: #1a1a1a;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .category-content p {
+    margin-bottom: 0;
+    line-height: 1.6;
+  }
+  
+  .instagram-post-card {
+    transition: all 0.3s ease;
+  }
+  
+  .instagram-post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+  }
+  
+  .instagram-icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .instagram-post-card:hover .instagram-icon {
+    transform: scale(1.1);
+  }
+</style>

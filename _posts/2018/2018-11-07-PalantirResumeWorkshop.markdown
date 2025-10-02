@@ -2,7 +2,7 @@
 layout: post
 title: "Craft Your Best Resumé with Palantir!"
 date: 2018-11-07
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/palantir.jpeg)

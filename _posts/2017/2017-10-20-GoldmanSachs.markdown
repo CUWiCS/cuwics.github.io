@@ -2,7 +2,7 @@
 layout: post
 title: "Goldman Sachs Site Visit"
 date: 2017-10-20
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2017/Goldman.jpg)

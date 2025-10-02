@@ -2,7 +2,7 @@
 layout: post
 title: "How to Prep for WiCS’s Annual Hackathon, DivHacks"
 date: 2024-02-19
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2024/divhacks2023flyer.png)

@@ -2,7 +2,7 @@
 layout: post
 title: "WiCS Visits Tumblr HQ!"
 date: 2015-10-22
-categories: news
+categories: professional
 ---
 
 ![WiCS@CU at Tumblr]({{ site.url }}/assets/blog2015/tumblr_0.jpg)

@@ -2,7 +2,7 @@
 layout: post
 title: "Name Change Announcement"
 date: 2018-04-18
-categories: news
+categories: community
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/Announcement.jpg)

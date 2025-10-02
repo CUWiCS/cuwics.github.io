@@ -2,7 +2,7 @@
 layout: post
 title: "E-BOARD INSIGHTS 2023-24"
 date: 2023-12-18
-categories: news
+categories: community
 ---
 
 ##### By: Carla Mandiola (M.S. in Data Journalism '24)

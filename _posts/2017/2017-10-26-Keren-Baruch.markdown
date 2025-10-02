@@ -2,7 +2,7 @@
 layout: post
 title: "Talk with Keren Baruch: LinkedIn Senior Project Manager"
 date: 2017-10-26
-categories: news
+categories: professional
 ---
 ![Flyer]({{ site.url }}/assets/blog2017/KerenBaruch.jpg)
 

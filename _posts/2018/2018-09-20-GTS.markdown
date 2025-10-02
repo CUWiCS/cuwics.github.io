@@ -2,7 +2,7 @@
 layout: post
 title: "GTS Info Session"
 date: 2018-09-20
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/GTSInfoSession.jpg)

@@ -2,7 +2,7 @@
 layout: post
 title:  "Google WiCS Symposium!"
 date:   2015-04-20 00:12:00
-categories: news
+categories: professional
 ---
 
 ![Google WiCS Symposium]({{ site.url }}/assets/blog2015/WiCS_Symposium.jpg)

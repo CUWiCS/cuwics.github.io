@@ -204,10 +204,6 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    background-color: #75B2DD;
-}
 
 .navbar-default .nav li a {
     text-transform: uppercase;
@@ -217,23 +213,11 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
 }
 
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
-    outline: 0;
-    color: #75B2DD;
-}
-
-.navbar-default .navbar-nav>.active>a {
-    border-radius: 0;
-    color: #fff;
-    background-color: #75B2DD;
-}
-
-.navbar-default .navbar-nav>.active>a:hover,
+/* .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
     background-color: #fec503;
-}
+} */
 
 @media(min-width:768px) {
     .navbar-default {
@@ -738,6 +722,21 @@ footer {
     text-align: center;
 }
 
+.footer-flex {
+    display: flex;
+    justify-content: space-between; /* space out copyright, newsletter, and socials */
+    align-items: center;            /* vertically center everything */
+    flex-wrap: wrap;                /* keeps it responsive */
+    text-align: center;
+}
+
+.newsletter-link {
+    color: #ff69b4;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
@@ -772,11 +771,6 @@ ul.social-buttons li a {
     transition: all .3s;
 }
 
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
-    background-color: #75B2DD;
-}
 
 .btn:focus,
 .btn:active,

@@ -2,7 +2,7 @@
 layout: post
 title: "Emotion AI: a talk by Affectiva"
 date: 2017-12-06
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2017/affectiva.jpg)

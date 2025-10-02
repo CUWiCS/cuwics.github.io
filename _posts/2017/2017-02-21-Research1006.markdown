@@ -2,7 +2,7 @@
 layout: post
 title: "Research 1006"
 date: 2017-02-21
-categories: news
+categories: academic
 ---
 
 On February 21st, WICS held Reseach 1006: an event geared towards undergraduates that explored all the ins and outs of what research in CS looks like and how to get a research position in a lab here at Columbia or over the summer. We began with a quick introduction of some of the popular research programs that are available over the summer, especially programs that are specifically for women interested in pursuing research in CS. We then turned the floor over to our panelists, all of whom were either undergraduate researchers or PhD students here at Columbia. These students shared their stories, advice, and lessons learned as to how to how to obtain a research position, how to succeed in research, what were some of the obstacles they face, and what they wish they could have done differently. The panelists then answered questions from the audience.

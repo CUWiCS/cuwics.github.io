@@ -2,7 +2,7 @@
 layout: post
 title: "Cracking the First Interview"
 date: 2017-11-13
-categories: news
+categories: professional
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2017/CrackingInterview.jpg)

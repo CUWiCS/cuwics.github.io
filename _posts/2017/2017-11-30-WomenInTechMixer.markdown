@@ -2,7 +2,7 @@
 layout: post
 title: "Women in Tech Mixer"
 date: 2017-11-30
-categories: news
+categories: community
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2017/Women in tech mixer.jpg)

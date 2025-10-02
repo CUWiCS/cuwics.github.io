@@ -2,7 +2,7 @@
 layout: post
 title: "Lunch with Professor Bellovin"
 date: 2018-03-29
-categories: news
+categories: academic
 ---
 
 ![Flyer]({{ site.url }}/assets/blog2018/bellovinlunch.jpg)
