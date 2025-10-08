@@ -348,3 +348,60 @@ title: Blog
     box-shadow: 0 8px 25px rgba(0,0,0,0.15);
   }
 </style>
+
+<!-- Back to Top Button -->
+<button id="backToTop" class="back-to-top-btn" onclick="scrollToTop()" style="display: none;">
+  <i class="fa fa-arrow-up"></i>
+</button>
+
+<style>
+  .back-to-top-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 4px 12px rgba(255, 105, 180, 0.3);
+    transition: all 0.3s ease;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .back-to-top-btn:hover {
+    background-color: #e55aa0;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(255, 105, 180, 0.4);
+  }
+  
+  .back-to-top-btn:active {
+    transform: translateY(-1px);
+  }
+</style>
+
+<script>
+  // Show/hide back to top button based on scroll position
+  window.addEventListener('scroll', function() {
+    const backToTopBtn = document.getElementById('backToTop');
+    if (window.pageYOffset > 300) {
+      backToTopBtn.style.display = 'flex';
+    } else {
+      backToTopBtn.style.display = 'none';
+    }
+  });
+  
+  // Smooth scroll to top function
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+</script>
