@@ -4,6 +4,40 @@
 Made using a template from the [Agency](http://startbootstrap.com/template-overviews/agency/) template at [Start Bootstrap](http://startbootstrap.com/).
 It features a smooth scrolling one page theme, with an external blogging section run by Jekyll. For more information about the site, please contact WiCS using the form on our official website.
 
+### Getting started
+
+1. Clone the repo
+    ```
+    git clone https://github.com/CUWiCS/cuwics.github.io.git
+    ```
+
+2. [Download and install Ruby](https://www.ruby-lang.org/en/downloads/). We recommend using [rbenv](https://github.com/rbenv/rbenv).
+
+3. Confirm Ruby has been successfully installed by typing the following in terminal:
+
+		ruby --version
+
+4. Install [RubyGems](https://rubygems.org/), the Ruby package manager. Depending on how you installed Ruby, you might already have this installed. You can check if it has been installed by typing the following in terminal:
+
+		gem --version
+
+5. Make sure you are in the repo directory in terminal before doing the following. Install Jekyll by typing the following in terminal:
+
+		gem install bundler jekyll
+
+6. Install the necessary packages by typing the following in terminal:
+
+		bundle install
+
+7. You can now use jekyll to open the website on a local server. Type
+
+
+		bundle exec jekyll serve
+
+	in terminal and browse to `http://localhost:4000`. Any changes you make to the source files will be automatically updated on this server.
+
+If you need to update your packages according to the Gemfile, just run `bundle`.
+
 ***
 #### Updating team photos:
 1. Make sure that every profile photo is 225x225 pixels, otherwise the layout will break. Thanks!
