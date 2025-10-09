@@ -14,7 +14,6 @@ title: Blog
       <a href="#academic" class="btn btn-primary btn-sm" style="margin: 0 6px;">Academic</a>
       <a href="#professional" class="btn btn-primary btn-sm" style="margin: 0 6px;">Professional</a>
       <a href="#community" class="btn btn-primary btn-sm" style="margin: 0 6px;">Community</a>
-      <a href="#other" class="btn btn-primary btn-sm" style="margin: 0 6px;">Other</a>
     </div>
   </div>
 </header>
@@ -194,72 +193,6 @@ title: Blog
           {% endfor %}
           {% assign rem3 = community_count | modulo: 3 %}
           {% if rem3 != 0 %}
-            </div>
-          {% endif %}
-        </div>
-
-        <!-- Other Section -->
-        <div id="other" class="blog-section" style="margin-bottom: 80px;">
-          <div class="section-header" style="text-align: center; margin-bottom: 50px;">
-            <h3 style="color: #ff69b4; font-size: 2rem; font-weight: bold; margin-bottom: 15px;">
-              <i class="fa fa-asterisk" style="margin-right: 10px;"></i>Other
-            </h3>
-            <div style="width: 40px; height: 2px; background: #ff69b4; margin: 0 auto; border-radius: 1px;"></div>
-          </div>
-          
-          {% assign other_posts = site.posts %}
-          {% assign other_count = 0 %}
-          {% for post in other_posts %}
-            {% assign is_academic = false %}
-            {% assign is_professional = false %}
-            {% assign is_community = false %}
-            {% assign is_other = false %}
-            {% for category in post.categories %}
-              {% if category == "academic" %}
-                {% assign is_academic = true %}
-              {% elsif category == "professional" %}
-                {% assign is_professional = true %}
-              {% elsif category == "community" %}
-                {% assign is_community = true %}
-              {% elsif category == "other" %}
-                {% assign is_other = true %}
-              {% endif %}
-            {% endfor %}
-            {% if is_other %}
-            {% elsif is_academic == false and is_professional == false and is_community == false %}
-            {% unless post.title == "Computers, Assemble!" or post.title == "CME Group Tech Talk about Challenges in Low-Latency Trading" or post.title == "Grace Hopper Convention 2016" %}
-            {% assign modulo = other_count | modulo: 3 %}
-            {% if modulo == 0 %}
-              <div class="row">
-            {% endif %}
-            <div class="col-sm-4" style="margin-bottom: 30px;">
-              <div class="panel panel-info" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); height: 100%;">
-                <div class="panel-heading" style="background-color: #ff69b4; color: #fff; border-radius: 8px 8px 0 0;">
-                  <h3 class="panel-title">
-                    <a class="post-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #fff;">
-                      {{ post.title }}
-                    </a>
-                    <p class="panel-date" style="margin-top: 10px; font-size: 0.9rem; color: #fff;">{{ post.date | date: "%b %-d, %Y" }}</p>
-                  </h3>
-                </div>
-                <div class="panel-body" style="padding: 10px;">
-                  <div class="post-content">{{ post.content | truncatehtml | truncatewords: 50 }}</div>
-                  <a class="post-link read-more-link" target="_blank" href="{{ post.url | prepend: site.baseurl }}" style="color: #ff69b4;">
-                    &lt;read more&gt;
-                  </a>
-                </div>
-              </div>
-            </div>
-            {% assign other_count = other_count | plus: 1 %}
-            {% assign modulo = other_count | modulo: 3 %}
-            {% if modulo == 0 %}
-              </div>
-            {% endif %}
-            {% endunless %}
-            {% endif %}
-          {% endfor %}
-          {% assign rem4 = other_count | modulo: 3 %}
-          {% if rem4 != 0 %}
             </div>
           {% endif %}
         </div>
