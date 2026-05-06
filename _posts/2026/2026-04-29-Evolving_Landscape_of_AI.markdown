@@ -1,0 +1,48 @@
+---
+layout: post
+title: "What should I do as a STEM major to prepare for the evolving landscape of AI?"
+date: 2026-04-29
+categories: professional
+---
+
+![Flyer]({{ site.url }}/assets/blog2026/ai_artwork.png)
+*Illustration By: Ruiqi Wang (BC '29)*
+
+##### By: Audrey Riskey (BC '29)
+
+It’s no secret that the use of AI is becoming more and more present, and with it, the use of AI in professional settings. But with this evolution of AI arises questions of whether college students should embrace or reject this usage–and what they can do to secure their success in fields where they may be forced to compete with it. 
+
+Picture this: it’s 11:45pm on a Thursday night. You’ve had a long, grueling day of classes, club meetings, and extracurriculars and would love nothing more than a night out with friends or to finally fix your out-of-whack sleep schedule. But no, you have to push through, hop on codio, and submit a computer science assignment before midnight. But you are fatigued, exhausted, and frankly, just ready for the day to be over; so, instead, you plug the assignment into some large language model like ChatGPT or Claude. 
+
+While AI may seem like a time-saving–and in some cases, life-saving–tool that can only benefit students’ academic success, it also poses threats on the job market for students, especially in entry-level positions. 
+
+We interviewed Kyra Krishna, a recent graduate of Columbia University, and current software engineer at MongoDB, to understand the role of AI in professional settings–and how we, as students in the STEM field, can adapt and prepare for this changing field. 
+
+Kyra started her computer science career studying java in highschool, continuing through her first year at Columbia after taking Data Structures and Advanced Principles, which encouraged her to continue the major. Interning at MongoDB twice before graduation, Kyra found herself drawn to Mongo because of its uplifting community and because it’s a “software company meant for developers” or, in other words, a database provider whose customers are other engineers and developers themselves. 
+
+Through her internship experience, she felt she was given “autonomy to make… design decisions for [projects],” even if the internships were short term, and found herself feeling like part of the team. 
+
+While different teams may utilize AI to different extents and in varying ways, Mongo has also begun this process of AI integration. For example, Claude and other chat bots are available for engineers and developers to ask questions that are accessible through open source documentation. But depending on the team within Mongo, the AI usage looks different; but, *“any code that AI produces is still under the responsibility of a real engineer.”* 
+
+AI, evidently, is very limited in certain areas of its ability–and frequently it even produces information that’s just flat-out incorrect. But in terms of coding, especially in java, certain models seem very proficient–and they most likely will continue increasing in accuracy over time. So what threat does this pose to aspiring computer science majors? Could AI begin replacing jobs in the computer science field? 
+
+Kyra acknowledges that while the AI models seem to be really good at coding and she wouldn’t be surprised if “more and more responsibilities [are] given to AI agents,” there are three key principles computer science students can focus on to combat this risk. 
+
+**First: *trust.*** It’s not about how accurate the AI models become at coding. It’s about how quickly companies will begin to trust the AI models to finish a job from start to end. And because of this disconnect, there will inevitably have to always be a “human middle man” to ensure the working product is correctly produced. Additionally, there will always be a job for humans in allowing the facilitation between the businesses and the customers who end up using the products during the software cycle. Because of this, AI should not be something students fear will oversaturate the job market. Rather, students should actually familiarize themselves with the AI models, including learning and practicing the most efficient ways to utilize the models–without compromising their own learning. 
+
+But with this comes the danger of incorrectly using AI in coding. While it is an excellent tool in teaching and learning computer science, it becomes very easy to become too reliant on “vibe coding,” or having the model generate, refine, or debug code while you simultaneously do not develop the critical thinking and higher-level problem solving needed for complex computer science and engineering projects. Such skills can only be developed through attempting, struggling, and failing at the coding process without the use of a model walking you through every step of the way. 
+
+Kyra notes that while the nitty-gritty syntax of coding appears distasteful at first, “bash[ing] your head through some ugly debugging issues” may actually yield a “gruesome process [that] is a necessary evil to feeling like you really learned something deeply.” 
+
+This brings me to the **second key focus: *higher-level problem solving.*** In this evolving field it seems that AI ends up doing the dirty work of syntax; so, what students need to adapt to is becoming good at problem solving at a higher level rather than focusing too much on syntax (although it is still a good skill to maintain). While it’s certainly important to memorize the specific data structures, it is even more essential that students build skills in efficiency at addressing and approaching problems. This includes developing a muscle for, for instance, detecting when certain approaches should be utilized. 
+
+**Finally: *design and communication.*** Developing rounded skills like those in communication and design are actually fundamental to adjusting to the increase of AI as these disciplines are by nature just more intuitive for humans to understand. Having an opinion on when something is aesthetically pleasing is not something AI can really ever have an opinion on. Additionally, refining the ability to manipulate language more precisely and with distinct clarity allows for the more efficient spread of instruction and feedback both between members of engineering teams and the language models themselves. 
+
+Overall, while the development of AI prompts very exciting changes in productivity in engineering–it also evidently poses some scary threats for students hoping to enter that world one day. But students can facilitate these specific skills in mindful AI usage, higher-level problem solving, and development of design and communication skills to ensure they are neatly situated within the career field. 
+
+
+<p>&nbsp;</p>
+Be sure to [**sign up**][mailinglist] for our mailing list and like us on [**instagram**][instagram] to find out more about interesting events and opportunities at WiCS! 
+
+[mailinglist]: https://listserv.cuit.columbia.edu/scripts/wa.exe?SUBED1=WICS&A=1
+[instagram]:https://www.instagram.com/columbiawics/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==
