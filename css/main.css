@@ -55,20 +55,20 @@ a:hover{
 
 .btn-lg {
 	padding: 10px 20px;
-	border-color: #75B2DD;
+	border-color: #e55aa0;
 	border-radius: 3px;
 	text-transform: uppercase;
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	color: #fff;
-	background-color: #75B2DD;
+	background-color: #ff69b4;
 }
 
 .btn-lg:hover, .btn-lg:active {
 	color: #fff !important;
-	background-color: #559AE8;
-	border-color: #559AE8;
+	background-color: #e55aa0 !important;
+	border-color: #e55aa0;
 }
 
 .btn-primary, {
@@ -83,7 +83,7 @@ a:hover{
 .btn-xl:hover, .btn-xl:active {
 	color: #fff !important;
 	background-color: #559AE8 !important;
-	border-color: #559AE8 !important;
+	border-color: #ff69b4 !important;
 }
 
 .calendar-margin {
