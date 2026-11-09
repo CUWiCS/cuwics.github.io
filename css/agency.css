@@ -651,6 +651,25 @@ aside.clients img {
     margin: 50px auto;
 }
 
+/* Center sponsor logos within each tier */
+aside.clients .sponsor-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+aside.clients .sponsor-row:before,
+aside.clients .sponsor-row:after {
+    display: none;
+}
+
+/* explicit width so SVGs without intrinsic size don't collapse */
+aside.clients .sponsor-row img {
+    width: 100%;
+    max-width: 260px;
+}
+
 section#contact {
     background-color: #222;
     background-image: url(../img/map-image.png);
