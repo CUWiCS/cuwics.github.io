@@ -32,7 +32,7 @@ $(document).ready(function() {
     });
 
     // Smooth hover effects for cards
-    $('.sponsor-card, .subscription-card').hover(
+    $('.subscription-card').hover(
         function() {
             $(this).addClass('hovered');
         },
